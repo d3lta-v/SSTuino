@@ -1,4 +1,4 @@
-![SSTuino](Image Assets/SSTuino.png)
+![SSTuino](https://github.com/sammy0025/SSTuino/raw/master/Image%20Assets/SSTuino.png)
 
 Designed by MakerFoundry LLP | Designed, assembled and tested in Singapore
 
