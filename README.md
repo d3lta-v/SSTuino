@@ -16,10 +16,10 @@ Related project: [ESPblaster](https://github.com/sammy0025/ESPblaster)
 * **Image Assets**: Image assets for websites related to the SSTuino and markdown pages.
 
 ### Startup states table
-This table controls the 
+This table controls the various startup states of the ESP8266-01 Wi-Fi module, which allows it to operate, or be reprogrammed with your custom firmware, or even be electrically isolated from the rest of the SSTuino entirely.
 
 |  | GPIO0 (1) | GPIO2 (2) | ESP-RX connect to D4 (3) | ESP-TX connect to D2 (4) | ESP-RESET Button |
-|---------|:---------:|:---------:|:---------|:|:---------|:|:---------|:|
+|---------|:---------:|:---------:|:---------:|:---------:|:---------:|
 | Wi-Fi Enable | ⬆️ | ⬆️ | ⬆️ | ⬆️ | Leave open |
 | Disconnect ESP-01 | ❎ | ❎ | ⬇️ | ⬇️ | Leave open |
 | Reset ESP-01 | ❎ | ❎ | ❎ | ❎ | Press down |
