@@ -15,6 +15,9 @@ Here are a list of things you require to start using the SSTuino. **Installation
 * USB to serial converter. The ones included in the **SST kit** is the CP2102.
 
 ## Installation of the Arduino IDE
+
+![Arduino.cc Download Page](/Image%20Assets/Guide%20Image%20Assets/Arduino_Download.png)
+
 *  Go to the the downloads page [here](http://https://www.arduino.cc/en/Main/Software)
 *  Download the version of the application you require.
    * For MacOS users download the Mac OS X version (10.7) and newer.
@@ -23,3 +26,23 @@ Here are a list of things you require to start using the SSTuino. **Installation
       * Alternatively, for Windows 8.1 and 10, you can go to the Microsoft Store and download it.
 
 ### Installation for MacOS
+After download of the zip file from the Arduino website, simply copy the .app file into your *Applications* folder. 
+
+![MacOS prompt](/Image%20Assets/Guide%20Image%20Assets/MacOS_Prompt_Arduino.png)
+
+In any event the system asks you whether to open the app, just click open
+
+## Installation of the CP2102 Driver
+We are using the CP2102 USB to serial converter for our SSTuino.
+
+### Installation for MacOS
+For MacOS users, the Silicon Labs driver has to be manually downloaded and installed. The driver can be downloaded [here.](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)
+After the page has loaded click the link circled in the picture. *Note - this procedure is not finalised. This method will be used for the time being due to incompatability with the new Macbooks.*
+![Silabs_Download_Main](/Image%20Assets/Guide%20Image%20Assets/Silabs_DownloadPage_Main.png)
+
+Navigate to this area and download the driver.
+
+![Silabs_Download_Mac_legacy](/Image%20Assets/Guide%20Image%20Assets/Silabs_DownloadPage_Legacy_Mac.png)
+
+After the driver has been downloaded, *unzip* the file and launch the **disk image.** You will now see three files, as pictured below. Run the package (.pkg) file. **This requires elevated admin rights (devices with parental controls will not be able to install unless an admin allows the installation.)**
+
