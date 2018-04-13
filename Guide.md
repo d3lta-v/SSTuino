@@ -63,3 +63,13 @@ While the installer is running, go to System Preferences -> Security and Privacy
 ![Restart Mac](/Image%20Assets/Guide%20Image%20Assets/Restart_Mac.png)
 
 After the installation has finished, simply restart your mac.
+
+To check if the USB to serial converter can be detected, go to Terminal and type in this line
+
+`ls /dev/tty.*`
+
+and press *enter/return.*
+
+![Terminal detect CP2102](/Image%20Assets/Guide%20Image%20Assets/Terminal_Detect_CP2102.png)
+
+You should see the device called `/dev/tty.SLAB_USBtoUART` appear.
