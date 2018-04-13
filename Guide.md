@@ -54,3 +54,6 @@ After the driver has been downloaded, *unzip* the file and launch the **disk ima
 
 Install the drivers.  **This requires elevated admin rights (devices with parental controls will not be able to install unless an admin allows the installation.)**
 
+![Restart Mac](/Image%20Assets/Guide%20Image%20Assets/Restart_Mac.png)
+
+Restart your mac.
