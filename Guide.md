@@ -36,13 +36,21 @@ In any event the system asks you whether to open the app, just click open
 We are using the CP2102 USB to serial converter for our SSTuino.
 
 ### Installation for MacOS
-For MacOS users, the Silicon Labs driver has to be manually downloaded and installed. The driver can be downloaded [here.](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)
-After the page has loaded click the link circled in the picture. *Note - this procedure is not finalised. This method will be used for the time being due to incompatability with the new Macbooks.*
+
 ![Silabs_Download_Main](/Image%20Assets/Guide%20Image%20Assets/Silabs_DownloadPage_Main.png)
 
-Navigate to this area and download the driver.
+For MacOS users, the Silicon Labs driver has to be manually downloaded and installed. The driver can be downloaded [here.](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)
+After the page has loaded click the link circled in the picture. *Note - this procedure is not finalised. This method will be used for the time being due to incompatability with the new Macbooks.*
 
 ![Silabs_Download_Mac_legacy](/Image%20Assets/Guide%20Image%20Assets/Silabs_DownloadPage_Legacy_Mac.png)
 
-After the driver has been downloaded, *unzip* the file and launch the **disk image.** You will now see three files, as pictured below. Run the package (.pkg) file. **This requires elevated admin rights (devices with parental controls will not be able to install unless an admin allows the installation.)**
+Navigate to this area and download the driver.
+
+![Silabs_Download_Folder](/Image%20Assets/Guide%20Image%20Assets/Silabs_Download_folder.png)
+
+After the driver has been downloaded, *unzip* the file and launch the **disk image.** You will now see three files, as pictured below. Run the package (.pkg) file.
+
+![Silabs_Installation_App](/Image%20Assets/Guide%20Image%20Assets/Silabs_Install.png)
+
+Install the drivers.  **This requires elevated admin rights (devices with parental controls will not be able to install unless an admin allows the installation.)**
 
