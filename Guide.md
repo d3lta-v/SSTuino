@@ -54,6 +54,12 @@ After the driver has been downloaded, *unzip* the file and launch the **disk ima
 
 Install the drivers.  **This requires elevated admin rights (devices with parental controls will not be able to install unless an admin allows the installation.)**
 
+During installation, you may encounter a pop-up which would ask you to go to your system preferences. Click ok first. *This is still undergoing tests as we have issues with this part.* 
+
+![SiLabs Prompt](/Image%20Assets/Guide%20Image%20Assets/MacOS_SysPref_Prompt.png)
+
+While the installer is running, go to System Preferences -> Security and Privacy and allow the Silicon Labs prompt. 
+
 ![Restart Mac](/Image%20Assets/Guide%20Image%20Assets/Restart_Mac.png)
 
-Restart your mac.
+After the installation has finished, simply restart your mac.
