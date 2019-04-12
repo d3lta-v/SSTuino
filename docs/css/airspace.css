@@ -266,6 +266,11 @@ font header .navbar-default .navbar-nav li a:hover {
   color: #fff;
   padding: 10px 20px;
 }
+#feature .btn-view-works2 {
+  background: #655E7A;
+  color: #fff;
+  padding: 10px 20px;
+}
 /*--
 	content Start
 --*/
