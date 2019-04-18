@@ -1,8 +1,8 @@
 ---
-layout: page
-title: About
+layout: post
+title: Lesson 1 - Blink
 permalink: /lesson1/
 ---
-# About page
+# Lesson 1 - Blink
 
-This page tells you a little bit about me.
+Today we are going to make our SSTuino blink lmao
