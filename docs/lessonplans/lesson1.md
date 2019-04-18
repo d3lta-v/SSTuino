@@ -24,12 +24,12 @@ Here are a list of things you require to start using the SSTuino. **Installation
 
 ![Arduino.cc Download Page](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Guide%20Image%20Assets/Arduino_Download.png)
 
-- Go to the the downloads page [here](http://https://www.arduino.cc/en/Main/Software)
-- Download the version of the application you require.
-   - For MacOS users download the Mac OS X version (10.7) and newer.
-   - For Windows users, there are quite a few options:
-      - For all devices, you can download either the installer or the zip file. I personally prefer the zip file (as it can be done as a non-admin install, and it is convinent.) However, it is your personal preference for the installation method.
-      - Alternatively, for Windows 8.1 and 10, you can go to the Microsoft Store and download it.
+ - Go to the the downloads page [here](http://https://www.arduino.cc/en/Main/Software)
+ - Download the version of the application you require.
+    - For MacOS users download the Mac OS X version (10.7) and newer.
+    - For Windows users, there are quite a few options:
+       - For all devices, you can download either the installer or the zip file. I personally prefer the zip file (as it can be done as a non-admin install, and it is convinent.) However, it is your personal preference for the installation method.
+       - Alternatively, for Windows 8.1 and 10, you can go to the Microsoft Store and download it.
 
 ### Installation for MacOS
 After download of the zip file from the Arduino website, simply copy the .app file into your *Applications* folder. 
