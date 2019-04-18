@@ -38,6 +38,12 @@ The list
 - item 1
 - item 2
 
+
+* A bulletted list
+- alternative syntax 1
++ alternative syntax 2
+  - an indented list item
+
 ### Installation for MacOS
 After download of the zip file from the Arduino website, simply copy the .app file into your *Applications* folder. 
 
