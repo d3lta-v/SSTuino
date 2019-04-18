@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Setup
 date: 2019-04-18
 permalink: /lesson1/
