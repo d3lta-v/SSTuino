@@ -26,6 +26,7 @@ Here are a list of things you require to start using the SSTuino. **Installation
 
 
 * Go to the the downloads page [here](http://https://www.arduino.cc/en/Main/Software)
+
 - Download the version of the application you require.
    - For MacOS users download the Mac OS X version (10.7) and newer.
    - For Windows users, there are quite a few options:
