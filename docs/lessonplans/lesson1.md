@@ -33,6 +33,11 @@ Here are a list of things you require to start using the SSTuino. **Installation
       - For all devices, you can download either the installer or the zip file. I personally prefer the zip file (as it can be done as a non-admin install, and it is convinent.) However, it is your personal preference for the installation method.
       - Alternatively, for Windows 8.1 and 10, you can go to the Microsoft Store and download it.
 
+The list
+
+- item 1
+- item 2
+
 ### Installation for MacOS
 After download of the zip file from the Arduino website, simply copy the .app file into your *Applications* folder. 
 
