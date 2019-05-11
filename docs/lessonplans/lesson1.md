@@ -2,20 +2,22 @@
 layout: post
 title: Setup
 date: 2019-04-18
+author: Goh Qian Zhe
 permalink: /lesson1/
 ---
 # Getting started with the SSTuino
 
-*This section has unconfirmed steps/the steps require further testing. However, just follow though this guide, as it currently works with most of the Macs for SST.*
+*This guide has been updated as of 11th May 2019. Do note that testing on newer Mac hardware has not been executed yet.*
 
 SSTuino is an easy to use Wi-Fi enabled microcontroller, designed and fabricated by SST Alumni. Users can write programs to connect or control things over the Internet. It is derived from the SPEEEduino 1.1 with some improvements.
 
-This tutorial is a simple guide on how to get started with the SSTuino. Further guides will be posted and linked to this page in the future.
+This tutorial is a simple guide on how to get started with the SSTuino.
 
 ## Setting up...
 
-Here are a list of things you require to start using the SSTuino. **Installation of the Arduino IDE and Silicon Labs driver for the CP2102 provided in the SST kit will be covered in the later sections**
-1. A computer loaded with the Arduino IDE, available [here](http://https://www.arduino.cc/en/Main/Software)
+Here are a list of things you require to start using the SSTuino. 
+**Installation of the Arduino IDE and Silicon Labs driver for the CP2102 provided in the SST kit will be covered in the later sections**
+1. A computer loaded with the Arduino IDE. **(Note that Arduino 1.8.5 is the tested stable IDE, so please download this version as there are issues with the newer IDEs.)**
 2. For MacOS users (and Windows users who have to manually install the driver), please download the Sillicon Labs driver from [this website](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)
 3. The ESP01 Module (WiFi Chip)
 4. USB to serial converter. The ones included in the **SST kit** is the CP2102.
@@ -24,7 +26,9 @@ Here are a list of things you require to start using the SSTuino. **Installation
 
 ![Arduino.cc Download Page](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Guide%20Image%20Assets/Arduino_Download.png)
 
- - Go to the the downloads page [here](http://https://www.arduino.cc/en/Main/Software)
+**Please download version 1.8.5 as it is the validatated IDE version for our kit.**
+
+ - Go to the the downloads page [here](https://www.arduino.cc/en/Main/OldSoftwareReleases#previous)
  - Download the version of the application you require.
     - For MacOS users download the Mac OS X version (10.7) and newer.
     - For Windows users, there are quite a few options:
@@ -43,12 +47,11 @@ We are using the CP2102 USB to serial converter for our SSTuino.
 
 ### Installation for MacOS
 
-![Silabs_Download_Main](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Guide%20Image%20Assets/Silabs_DownloadPage_Main.png)
+![Silabs_DownloadPage_Updated](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Guide%20Image%20Assets/Silabs_DownloadPage_Updated.png)
 
 For MacOS users, the Silicon Labs driver has to be manually downloaded and installed. The driver can be downloaded [here.](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)
-After the page has loaded click the link circled in the picture. *Note - this procedure is not finalised. This method will be used for the time being due to incompatability with the new Macbooks.*
 
-![Silabs_Download_Mac_legacy](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Guide%20Image%20Assets/Silabs_DownloadPage_Legacy_Mac.png)
+![Silabs_MacDownloadUpdated](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Guide%20Image%20Assets/Silabs_MacDownloadUpdated.png)
 
 Navigate to this area and download the driver.
 
@@ -60,7 +63,7 @@ After the driver has been downloaded, *unzip* the file and launch the **disk ima
 
 Install the drivers.  **This requires elevated admin rights (devices with parental controls will not be able to install unless an admin allows the installation.)**
 
-During installation, you may encounter a pop-up which would ask you to go to your system preferences. Click ok first. *This is still undergoing tests as we have issues with this part.* 
+During installation, you may encounter a pop-up which would ask you to go to your system preferences. Click ok first.
 
 ![SiLabs Prompt](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Guide%20Image%20Assets/MacOS_SysPref_Prompt.png)
 
