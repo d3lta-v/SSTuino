@@ -22,11 +22,11 @@ For tutorials regarding SST lessons, please refer to the tutorials here:
 
 ![OSHW](https://www.oshwa.org/wp-content/uploads/2014/03/oshw-logo-100-px.png)
 
+Open Source Hardware (OSHW)
+
 ![Group Picture](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/IMG_3112.jpg)
 
 *Pan Ziyue (Left) and Goh Qian Zhe*
-
-Open Source Hardware (OSHW)
 
 ### Support or Contact
 
