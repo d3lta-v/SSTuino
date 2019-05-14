@@ -6,8 +6,6 @@ permalink: /gettingStarted/
 ---
 # Getting started with the SSTuino
 
-*This guide has been updated as of 11th May 2019. Do note that testing on newer Mac hardware has not been executed yet.*
-
 SSTuino is an easy to use Wi-Fi enabled microcontroller, designed and fabricated by SST Alumni. Users can write programs to connect or control things over the Internet. It is derived from the SPEEEduino 1.1 with some improvements.
 
 This tutorial is a simple guide on how to get started with the SSTuino.
@@ -16,7 +14,7 @@ This tutorial is a simple guide on how to get started with the SSTuino.
 
 Here are a list of things you require to start using the SSTuino. 
 **Installation of the Arduino IDE and Silicon Labs driver for the CP2102 provided in the SST kit will be covered in the later sections**
-1. A computer loaded with the Arduino IDE. **(Note that Arduino 1.8.5 is the tested stable IDE, so please download this version as there are issues with the newer IDEs.)**
+1. A computer loaded with the Arduino IDE. 
 2. For MacOS users (and Windows users who have to manually install the driver), please download the Sillicon Labs driver from [this website](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)
 3. The ESP01 Module (WiFi Chip)
 4. USB to serial converter. The ones included in the **SST kit** is the CP2102.
@@ -25,9 +23,7 @@ Here are a list of things you require to start using the SSTuino.
 
 ![Arduino.cc Download Page](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Guide%20Image%20Assets/Arduino_Download.png)
 
-**Please download version 1.8.5 as it is the validatated IDE version for our kit.**
-
- - Go to the the downloads page [here](https://www.arduino.cc/en/Main/OldSoftwareReleases#previous)
+ - Go to the the downloads page here: [https://www.arduino.cc/en/Main/Software](https://www.arduino.cc/en/Main/Software)
  - Download the version of the application you require.
     - For MacOS users download the Mac OS X version (10.7) and newer.
     - For Windows users, there are quite a few options:
@@ -71,6 +67,10 @@ While the installer is running, go to System Preferences -> Security and Privacy
 ![Restart Mac](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Guide%20Image%20Assets/Restart_Mac.png)
 
 After the installation has finished, simply restart your mac.
+
+## Setting up your SSTuino with your Mac
+
+Your teacher will guide you through this process. You will need your SSTuino Kit with you.
 
 To check if the USB to serial converter can be detected, go to Terminal and type in this line
 
