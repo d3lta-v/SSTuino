@@ -15,7 +15,7 @@ For documentation on this project, please refer to our [Github Wiki](https://git
 
 For tutorials regarding SST lessons, please refer to the tutorials here:
 
-* [Tutorials] (https://d3lta-v.github.io/SSTuino/tutorial/)
+* [https://d3lta-v.github.io/SSTuino/tutorial/](https://d3lta-v.github.io/SSTuino/tutorial/)
 * https://sites.google.com/sst.edu.sg/sstuino/home
 
 ### Our team
