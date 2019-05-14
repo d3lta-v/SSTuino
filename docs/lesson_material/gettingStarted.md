@@ -86,7 +86,7 @@ and press *enter/return.*
 
 You should see the device called `/dev/tty.SLAB_USBtoUART` appear.
 
-![SPEEEduino_Blink](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Guide%20Image%20Assets/SPEEEduino_Blink.jpg)
+![SPEEEduino_Blink](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Guide%20Image%20Assets/SPEEEduino_Blink.jpg)
 
 After you see the device appear, now we can start doing something basic! Launch your Arduino IDE, go to
 `File -> Examples -> 01. Basics -> Blink`
