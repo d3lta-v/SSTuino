@@ -14,6 +14,8 @@ This tutorial is a simple guide on how to get started with the SSTuino.
 
 **Please take your time and carefully go through this tutorial as it is the most crucial step to get your product working.**
 
+**For Learning Devices with parental control, not to worry, you can do this tutorial out of class with your parents.**
+
 Here are a list of things you require to go through this tutorial.
 
 1. Firstly, and most importantly, yourself.
