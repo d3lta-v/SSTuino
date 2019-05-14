@@ -46,7 +46,7 @@ We are using the CP2102 USB to serial converter for our SSTuino.
 
 ![Silabs_DownloadPage_Updated](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Guide%20Image%20Assets/Silabs_DownloadPage_Updated.png)
 
-For MacOS users, the Silicon Labs driver has to be manually downloaded and installed. The driver can be downloaded [here.](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)
+For MacOS users, the Silicon Labs driver has to be manually downloaded and installed. The driver can be downloaded here: [https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)
 
 ![Silabs_MacDownloadUpdated](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Guide%20Image%20Assets/Silabs_MacDownloadUpdated.png)
 
