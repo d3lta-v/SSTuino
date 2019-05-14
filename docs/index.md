@@ -14,8 +14,8 @@ Official reference website (Original SPEEEduino): [https://d3lta-v.github.io/SPE
 For documentation on this project, please refer to our [Github Wiki](https://github.com/sammy0025/SPEEEduino/wiki) for more information.
 
 For tutorials regarding SST lessons, please refer to the tutorials here: 
--
-- [https://sites.google.com/sst.edu.sg/sstuino/home] (https://sites.google.com/sst.edu.sg/sstuino/home)
+*
+* [https://sites.google.com/sst.edu.sg/sstuino/home] (https://sites.google.com/sst.edu.sg/sstuino/home)
 
 ### Our team
 
