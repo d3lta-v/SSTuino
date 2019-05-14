@@ -25,7 +25,7 @@ Open Source Hardware (OSHW)
 ### Our team
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/IMG_3112.jpg" width="66%" \>
+![The Team](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/IMG_3112.jpg)
 </p>
 
 *Pan Ziyue (Left) and Goh Qian Zhe*
