@@ -12,12 +12,14 @@ This tutorial is a simple guide on how to get started with the SSTuino.
 
 ## Setting up...
 
-Here are a list of things you require to start using the SSTuino. 
 **Installation of the Arduino IDE and Silicon Labs driver for the CP2102 provided in the SST kit will be covered in the later sections**
-1. A computer loaded with the Arduino IDE. 
-2. For MacOS users (and Windows users who have to manually install the driver), please download the Sillicon Labs driver from [this website](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)
-3. The ESP01 Module (WiFi Chip)
-4. USB to serial converter. The ones included in the **SST kit** is the CP2102.
+
+Here are a list of things you require to go through this tutorial.
+
+1. Firstly, and most importantly, yourself.
+2. Your learning device or computer.
+3. An active internet connection.
+4. The SSTuino kits.
 
 ## Installation of the Arduino IDE
 
