@@ -12,7 +12,7 @@ This tutorial is a simple guide on how to get started with the SSTuino.
 
 ## Setting up...
 
-**Installation of the Arduino IDE and Silicon Labs driver for the CP2102 provided in the SST kit will be covered in the later sections**
+**Please take your time and carefully go through this tutorial as it is the most crucial step to get your product working.**
 
 Here are a list of things you require to go through this tutorial.
 
