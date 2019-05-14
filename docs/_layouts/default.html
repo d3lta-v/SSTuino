@@ -13,16 +13,15 @@
     <section class="page-header">
       <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+      <a href="{{ site.baseurl }}" class="btn">Home</a>
       {% if site.github.is_project_page %}
         <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
       {% endif %}
         <a href="{{ site.baseurl }}/tutorial" class="btn">View Tutorial</a>
-        <a href="https://sammy0025.github.io/SPEEEduino/librarydoc/SPEEEduino_LowLevel_Library_cpp/" class="btn">View Low Level Library Docs</a>
-        <a href="{{ site.baseurl }}" class="btn">Home</a>
     </section>
 
     <section class="main-content">
-      {{ content }}
+      {{ content }}1
 
       <footer class="site-footer">
         {% if site.github.is_project_page %}
