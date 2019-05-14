@@ -15,14 +15,17 @@ For documentation on this project, please refer to our [Github Wiki](https://git
 
 For tutorials regarding SST lessons, please refer to the tutorials here:
 
-*
+* [Tutorials] (https://d3lta-v.github.io/SSTuino/tutorial/)
 * https://sites.google.com/sst.edu.sg/sstuino/home
 
 ### Our team
 
 ![OSHW](https://www.oshwa.org/wp-content/uploads/2014/03/oshw-logo-100-px.png)
 
+![Group Picture] (https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/IMG_3112.jpg)
+
 Open Source Hardware (OSHW)
 
 ### Support or Contact
 
+Do contact us via email or if you need something to be replaced, do check out this form.
