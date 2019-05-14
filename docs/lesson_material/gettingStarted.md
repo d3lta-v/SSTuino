@@ -2,7 +2,7 @@
 title: Setup
 date: 2019-04-18
 author: Goh Qian Zhe
-permalink: /lesson1/
+permalink: /gettingStarted/
 ---
 # Getting started with the SSTuino
 
