@@ -3,6 +3,7 @@ title: Setup
 date: 2019-04-18
 author: Goh Qian Zhe
 ---
+
 # Getting started with the SSTuino
 
 SSTuino is an easy to use Wi-Fi enabled microcontroller, designed and fabricated by SST Alumni. Users can write programs to connect or control things over the Internet. It is derived from the SPEEEduino 1.1 with some improvements.
@@ -26,14 +27,15 @@ Here are a list of things you require to go through this tutorial.
 
 ![Arduino.cc Download Page](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Guide%20Image%20Assets/Arduino_Download.png)
 
- - Go to the the downloads page here: [https://www.arduino.cc/en/Main/Software](https://www.arduino.cc/en/Main/Software)
- - Download the version of the application you require.
+- Go to the the downloads page here: [https://www.arduino.cc/en/Main/Software](https://www.arduino.cc/en/Main/Software)
+- Download the version of the application you require.
     - For MacOS users download the Mac OS X version (10.7) and newer.
     - For Windows users, there are quite a few options:
-       - For all devices, you can download either the installer or the zip file. I personally prefer the zip file (as it can be done as a non-admin install, and it is convinent.) However, it is your personal preference for the installation method.
-       - Alternatively, for Windows 8.1 and 10, you can go to the Microsoft Store and download it.
+        - For all devices, you can download either the installer or the zip file. I personally prefer the zip file (as it can be done as a non-admin install, and it is convinent.) However, it is your personal preference for the installation method.
+        - Alternatively, for Windows 8.1 and 10, you can go to the Microsoft Store and download it.
 
 ### Installation for MacOS
+
 After download of the zip file from the Arduino website, simply copy the .app file into your *Applications* folder. 
 
 ![MacOS prompt](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Guide%20Image%20Assets/MacOS_Prompt_Arduino.png)
@@ -41,6 +43,7 @@ After download of the zip file from the Arduino website, simply copy the .app fi
 In any event the system asks you whether to open the app, just click open
 
 ## Installation of the CP2102 Driver
+
 We are using the CP2102 USB to serial converter for our SSTuino.
 
 ### Installation for MacOS
@@ -59,7 +62,7 @@ After the driver has been downloaded, *unzip* the file and launch the **disk ima
 
 ![Silabs_Installation_App](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Guide%20Image%20Assets/Silabs_Install.png)
 
-Install the drivers.  **This requires elevated admin rights (devices with parental controls will not be able to install unless an admin allows the installation.)**
+Install the drivers. **This requires elevated admin rights (devices with parental controls will not be able to install unless an admin allows the installation.)**
 
 During installation, you may encounter a pop-up which would ask you to go to your system preferences. Click ok first.
 
@@ -74,6 +77,8 @@ After the installation has finished, simply restart your mac.
 ## Setting up your SSTuino with your Mac
 
 Your teacher will guide you through this process. You will need your SSTuino Kit with you.
+
+Do not plug anything wrongly or [expensive failures](https://youtu.be/WFZwI10HEsw?t=591) may happen...
 
 To check if the USB to serial converter can be detected, go to Terminal and type in this line
 
