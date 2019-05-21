@@ -6,7 +6,7 @@ author: Goh Qian Zhe
 
 # Parts List for the SSTuino Innovator Kit
 
-![Parts List](/Image%20Assets/Tutorial%20Image%20Assets/PartsList/Slide1.PNG)
+![Parts List](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/PartsList/Slide1.PNG)
 
 
 | No.           | Component Name          | Quantity  |
