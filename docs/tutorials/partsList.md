@@ -28,6 +28,8 @@ author: Goh Qian Zhe
 
 The section below describes the component in more detail and some details to look out for.
 
+**WORKS IN PROGRESS**
+
 
 ## SSTuino Board
 
