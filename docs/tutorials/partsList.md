@@ -8,6 +8,7 @@ author: Goh Qian Zhe
 
 ![Parts List](/Image%20Assets/Tutorial%20Image%20Assets/PartsList/Slide1.PNG)
 
+
 | No.           | Component Name          | Quantity  |
 | ------------- |:-----------------------:| ---------:|
 | col 3 is      | right-aligned           |     $1600 |
