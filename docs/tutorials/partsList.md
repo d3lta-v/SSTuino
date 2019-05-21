@@ -9,8 +9,20 @@ author: Goh Qian Zhe
 ![Parts List](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/PartsList/Slide1.PNG)
 
 
-| No.           | Component Name          | Quantity  |
-| ------------- |:-----------------------:| ---------:|
-| col 3 is      | right-aligned           |     $1600 |
-| col 2 is      | centered                |       $12 |
-| zebra stripes | are neat                |        $1 |
+| No.    | Component Name                       | Quantity  |
+|------- |:------------------------------------:| ---------:|
+| 1      | SSTuino Board                        |         1 |
+| 2      | Breadboard                           |         1 |
+| 3      | USB C to MicroUSB Cable              |         1 |
+| 4      | CP2102 MicroUSB Serial Converter     |         1 |
+| 5      | ESP01S WiFi Chip                     |         1 |
+| 6      | Assortment of LEDs                   |         1 |
+| 7      | Buzzer                               |     1 bag |
+| 8      | Touch Button                         |         2 |
+| 9      | Potentiometer (10K Ohm)              |         1 |
+| 10     | Light Dependent Resistor             |         1 |
+| 11     | TMP36 Temperature Sensor             |         1 |
+| 12     | Ultrasonic Sensor                    |         1 |
+| 13     | 330Ohm and 10KOhm resistor reel      | approx 25 |
+| 14     | Dupont cables (wires)                |         1 |
+
