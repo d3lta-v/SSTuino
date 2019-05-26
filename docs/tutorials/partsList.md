@@ -101,7 +101,6 @@ Beep Beep! You would pretty much know what a buzzer is. It is just a sound emitt
 
 This push button is a very simple example of a switch. But before you connect this push button into your house's mains, please do not do so :). The push button is meant for the breadboard instead.
 
-
 ## Potentiometer
 
 ![10K pot](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/PartsList/10KPot.jpg){: .small-image-left }
@@ -109,7 +108,6 @@ This push button is a very simple example of a switch. But before you connect th
 ![Pot Sch](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/PartsList/resistor-pot3.gif)
 
 The potentiometer is a variable resistor, with a adjustable knob. As the knob is turned from one side to another, the resistance changes. Potentiometers are used for controlling devices, such as the brightness of the LED, and with the appropriate circuit, the speed of a motor.
-
 
 ## Light Dependant Resistor
 
@@ -130,17 +128,15 @@ You may notice that this package may resemble that of other components such as t
 
 This shape and pinouts is called the TO-92 Package and is a very cheap and easy to manufacture method for transistors.
 
-
 ## Ultrasonic Sensor
 
 ![Ultrasonic](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/PartsList/Ultrasonic.jpg){: .small-image-left }
 
 The ultrasonic sensor is a device that measures distance by emitting ultrasonic waves, waits for the wave the bounce back and then measure the time taken.
 
-
 ## Resistors
 
-Resistors are essential in every circuit. The measurement of resistance is in Ohm. They limit the electron flow in your circuit so *hopefully* there are no burnt components. The values of resistors provided is 330 Ohm and 10K Ohm.
+Resistors are essential in every circuit. The measurement of resistance is in Ohm. They limit the electron flow in your circuit so *hopefully* there are no burnt components. The values of resistors provided is 330 Ohm and 10K Ohm. You can read the values of the resistor from the colour band on the component.
 
 ![330Ohm](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/PartsList/330-ohm.jpg){: .small-image-left }
 
@@ -155,8 +151,9 @@ If you are wondering how to read the values of resistors, refer to the infograpi
 ![resistorChart](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/PartsList/Resistors.png)
 
 
-
 ## Wires
 
-Insert text here
+![Wires](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/PartsList/Dupont%20Wires.jpg){: .small-image-left }
+
+Wires are the most important part of your circuit. Without them, you would not be able to have electricity flowing through your circuit as there is simply nothing connecting them together! The wires provided in the kit are Male - Male Dupont wires (*I dont think I have to explain why the ends of the wire is male, right?* *wink), and are the right size for you to be able to connect from your SSTuino to the breadboard or the component.
 
