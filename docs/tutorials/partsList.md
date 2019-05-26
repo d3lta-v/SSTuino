@@ -104,17 +104,31 @@ This push button is a very simple example of a switch. But before you connect th
 
 ## Potentiometer
 
-Insert text here
+![10K pot](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/PartsList/10KPot.jpg){: .small-image-left }
+
+![Pot Sch](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/PartsList/resistor-pot3.gif)
+
+The potentiometer is a variable resistor, with a adjustable knob. As the knob is turned from one side to another, the resistance changes. Potentiometers are used for controlling devices, such as the brightness of the LED, and with the appropriate circuit, the speed of a motor.
 
 
 ## Light Dependant Resistor
 
-Insert text here
+![LDR](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/PartsList/LDR.jpeg)
 
+As the name suggests, the Light Depedant Resistor is a component that changes resistance when the light intensity changes. For the LDR that is provided in the kit, the resistance of the LDR **decreases** when the light intensity **increases**
 
 ## TMP36 Temperature Sensor
 
-Insert text here
+![TMP36Pinout](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/PartsList/TMP36GZ_PinOut.png){: .small-image-left }
+
+The TMP36 temperature sensor is a rather accurate sensor despite is low price. For more information, visit the [Adafruit Website](https://learn.adafruit.com/tmp36-temperature-sensor/overview).
+
+**Note**
+You may notice that this package may resemble that of other components such as transistors. *Please do not mix them up and read the respective manuals carefully.* The component model would be marked out on the flat side of the component for this package. Use the model number to search for the pinouts for you to make sure you are connecting the component the right way.
+
+![TransistorPinout](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/PartsList/TO92%20Pinout%20Transistor.jpeg)
+
+This shape and pinouts is called the TO-92 Package and is a very cheap and easy to manufacture method for transistors.
 
 
 ## Ultrasonic Sensor
