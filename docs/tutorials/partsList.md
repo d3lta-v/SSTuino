@@ -115,7 +115,7 @@ The potentiometer is a variable resistor, with a adjustable knob. As the knob is
 
 ![LDR](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/PartsList/LDR.jpeg)
 
-As the name suggests, the Light Depedant Resistor is a component that changes resistance when the light intensity changes. For the LDR that is provided in the kit, the resistance of the LDR **decreases** when the light intensity **increases**
+As the name suggests, the Light Depedant Resistor is a component that changes resistance when the light intensity changes. For the LDR that is provided in the kit, the resistance of the LDR **decreases** when the light intensity **increases**.
 
 ## TMP36 Temperature Sensor
 
@@ -133,12 +133,27 @@ This shape and pinouts is called the TO-92 Package and is a very cheap and easy 
 
 ## Ultrasonic Sensor
 
-Insert text here
+![Ultrasonic](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/PartsList/Ultrasonic.jpg){: .small-image-left }
+
+The ultrasonic sensor is a device that measures distance by emitting ultrasonic waves, waits for the wave the bounce back and then measure the time taken.
 
 
 ## Resistors
 
-Insert text here
+Resistors are essential in every circuit. The measurement of resistance is in Ohm. They limit the electron flow in your circuit so *hopefully* there are no burnt components. The values of resistors provided is 330 Ohm and 10K Ohm.
+
+![330Ohm](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/PartsList/330-ohm.jpg){: .small-image-left }
+
+This is a **330 Ohm** resistor.
+
+![10KOhm](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/PartsList/10KOhm.jpg){: .small-image-left }
+
+This is a **10K Ohm** resistor. 
+
+If you are wondering how to read the values of resistors, refer to the infograpic below:
+
+![resistorChart](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/PartsList/Resistors.png)
+
 
 
 ## Wires
