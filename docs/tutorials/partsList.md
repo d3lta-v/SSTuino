@@ -33,6 +33,10 @@ The section below describes the component in more detail and some details to loo
 
 ## SSTuino Board
 
+![Arduino UNO Rev. 3](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/PartsList/a000066_front_1_1_1.jpg) ![SSTuino](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/SSTuino.png)
+
+*Notice any difference?*
+
 For students who are familliar with the Arduino UNO, you would realise that it looks pretty simillar to the SSTuino. This is because that the SSTuino is an adapted design from the Arduino UNO. This device shares a lot of similarities as the UNO such as:
 
 - Coding compatability
