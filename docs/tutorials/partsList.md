@@ -16,8 +16,8 @@ author: Goh Qian Zhe
 | 3      | USB C to MicroUSB Cable              |         1 |
 | 4      | CP2102 MicroUSB Serial Converter     |         1 |
 | 5      | ESP01S WiFi Chip                     |         1 |
-| 6      | Assortment of LEDs                   |         1 |
-| 7      | Buzzer                               |     1 bag |
+| 6      | Assortment of LEDs                   |     1 bag |
+| 7      | Buzzer                               |         1 |
 | 8      | Push Button                          |         2 |
 | 9      | Potentiometer (10K Ohm)              |         1 |
 | 10     | Light Dependent Resistor             |         1 |
