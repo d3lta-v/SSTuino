@@ -8,6 +8,9 @@ author: Goh Qian Zhe
 
 So, you have just completed the setup of your computer and familarised yourself with the SSTuino Kit. What would be the next step?
 
+**Before you begin**
+Do not plug anything wrongly or [expensive failures](https://youtu.be/WFZwI10HEsw?t=591) may happen...
+
 ## Connecting up your SSTuino
 
 1. Insert the CP2102 and WiFi Chip as shown.
