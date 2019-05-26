@@ -33,7 +33,13 @@ The section below describes the component in more detail and some details to loo
 
 ## SSTuino Board
 
-Insert text here
+For students who are familliar with the Arduino UNO, you would realise that it looks pretty simillar to the SSTuino. This is because that the SSTuino is an adapted design from the Arduino UNO. This device shares a lot of similarities as the UNO such as:
+
+- Coding compatability
+- Shield compatability due to its simillar pinouts
+- Sharing the same components
+
+The major design difference with this board is that it has a extended board footprint to accept a WiFi chip, resulting the SSTuino to be an Internet-Of-Things (IoT) enabled product. This means that the SSTuino can connect to the internet to send/recieve data!
 
 
 ## Breadboard
