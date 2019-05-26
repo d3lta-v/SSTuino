@@ -97,7 +97,9 @@ Beep Beep! You would pretty much know what a buzzer is. It is just a sound emitt
 
 ## Push Button
 
-Insert text here
+![Push Buton](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/PartsList/PushButton.jpg){: .small-image-left }
+
+This push button is a very simple example of a switch. But before you connect this push button into your house's mains, please do not do so :). The push button is meant for the breadboard instead.
 
 
 ## Potentiometer
