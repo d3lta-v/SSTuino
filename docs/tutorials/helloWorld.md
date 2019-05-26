@@ -4,7 +4,7 @@ date: 2019-05-26
 author: Goh Qian Zhe
 ---
 
-# Hello World!
+# Hello, World!
 
 So, you have just completed the setup of your computer and familarised yourself with the SSTuino Kit. What would be the next step?
 
@@ -52,3 +52,23 @@ Also, please make sure that you have the correct port as shown above. Since this
 
 Now you can upload your code and you should see your onboard LED blinking! Have fun!
 
+## But wait, there's more!
+
+How about I change how the LED blinks?
+
+![blinkEdit](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/HelloWorld/blinkEdit.png)
+
+In the circled section you can see a few lines of code.
+
+```C++
+void loop() {
+  digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
+  delay(1000);                       // wait for a second
+  digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
+  delay(1000);                       // wait for a second
+}
+```
+
+The `delay(1000);` refers to the LED turning on for a second and off for a second. The `1000` is in miliseconds, and you can change that value, before uploading the code again! Bear in mind that if you have too small or too large of a number, you would either not see the LED not doing anything, or takes ages to do something.
+
+*So, have fun and enjoy the tutorials that lie ahead!*
