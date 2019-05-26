@@ -51,8 +51,13 @@ The major design difference with this board is that it has a extended board foot
 
 ## Breadboard
 
-Insert text here
+![Breadboard](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/PartsList/21025-dscn3816.jpeg)
 
+So you happened to see a retangular shaped block with holes in it and wondered what it was? This block is called a **breadboard** or **prototyping board**. The breadboard is a very important part of your prototype when you develop new things!
+
+![Breadboard with circuit](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/PartsList/Breadboard-Circuit-Example.jpg)
+
+In your ICT lessons, your teacher would go through with you on how to connect up your circuit. Moreover, you would be using TinkerCAD to simulate and view your *virtual* circuit before actually building it, preventing any (touch wood) *magic smoke*.
 
 ## USB C to Micro USB Cable
 
