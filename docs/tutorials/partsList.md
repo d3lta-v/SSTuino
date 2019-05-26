@@ -33,7 +33,10 @@ The section below describes the component in more detail and some details to loo
 
 ## SSTuino Board
 
-![Arduino UNO Rev. 3](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/PartsList/a000066_front_1_1_1.jpg) ![SSTuino](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/SSTuino.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/PartsList/a000066_front_1_1_1.jpg" width="100" />
+  <img src="https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/SSTuino.png" width="100" /> 
+</p>
 
 *Notice any difference?*
 
