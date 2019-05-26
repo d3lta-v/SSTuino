@@ -83,16 +83,17 @@ The ESP01S WiFi Chip is what sets the SSTuino different from the Arduino UNO. It
 
 Our team is developing more content to help you get started in developing IoT products, so do watch this space for more details.
 
-
 ## Light Emitting Diodes (LEDs)
 
-Insert text here
+![RGB LED](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/PartsList/LED.jpeg)
 
+LEDs are so commonly used around us, so it is a must have in the kit! But before you create amazing LED sculptures, why not take a look at this [SparkFun Page](https://learn.sparkfun.com/tutorials/light-emitting-diodes-leds/all)?
 
 ## Buzzer
 
-Insert text here
+![Buzzer](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/PartsList/146-2.jpg){: .small-image-left }
 
+Beep Beep! You would pretty much know what a buzzer is. It is just a sound emitting device and you can use the SSTuino to control it!
 
 ## Push Button
 
