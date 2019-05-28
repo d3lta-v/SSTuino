@@ -8,7 +8,6 @@ author: Goh Qian Zhe
 
 ![Parts List](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/PartsList/Slide1.PNG)
 
-
 | No.    | Component Name                       | Quantity  |
 |------- |:------------------------------------:| ---------:|
 | 1      | SSTuino Board                        |         1 |
@@ -44,7 +43,6 @@ For students who are familliar with the Arduino UNO, you would realise that it l
 - Sharing the same components
 
 The major design difference with this board is that it has a extended board footprint to accept a WiFi chip, resulting the SSTuino to be an Internet-Of-Things (IoT) enabled product. This means that the SSTuino can connect to the internet to send/recieve data!
-
 
 ## Breadboard
 
@@ -141,16 +139,14 @@ This is a **330 Ohm** resistor.
 
 ![10KOhm](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/PartsList/10KOhm.jpg){: .small-image-left }
 
-This is a **10K Ohm** resistor. 
+This is a **10K Ohm** resistor.
 
 If you are wondering how to read the values of resistors, refer to the infograpic below:
 
 ![resistorChart](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/PartsList/Resistors.png)
-
 
 ## Wires
 
 ![Wires](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/PartsList/Dupont%20Wires.jpg){: .medium-image-left }
 
 Wires are the most important part of your circuit. Without them, you would not be able to have electricity flowing through your circuit as there is simply nothing connecting them together! The wires provided in the kit are Male - Male Dupont wires (*I dont think I have to explain why the ends of the wire is male, right?* *wink), and are the right size for you to be able to connect from your SSTuino to the breadboard or the component.
-
