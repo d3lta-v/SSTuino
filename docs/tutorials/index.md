@@ -16,3 +16,31 @@ Before you begin playing around with the SSTuino kit here are some things to do:
 * [Click here to make your SSTuino come to life!](https://d3lta-v.github.io/SSTuino/tutorials/helloWorld.html)
 
 ## Sec 1 Tutorials
+
+### 1. LED & Resistor
+
+desc
+
+### 2. Add button
+
+desc
+
+### 3. pinMode & digitalWrite
+
+desc
+
+### 4. delay()
+
+desc
+
+### 5. digitalRead
+
+desc
+
+### 6. Potentiometer
+
+desc
+
+### 7. Piezo Speaker
+
+desc
