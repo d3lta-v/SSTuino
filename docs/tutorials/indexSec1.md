@@ -12,26 +12,26 @@ The below section is a list of tutorials for Secondary 1 students.
 
 description
 
-## 2. Add button
+## [2. Add button](https://d3lta-v.github.io/SSTuino/tutorials/Sec1/2_addButton.html)
 
 desc
 
-## 3. pinMode & digitalWrite
+## [3. pinMode & digitalWrite](https://d3lta-v.github.io/SSTuino/tutorials/Sec1/3_pinMode.html)
 
 desc
 
-## 4. delay()
+## [4. delay()](https://d3lta-v.github.io/SSTuino/tutorials/Sec1/4_delay.html)
 
 desc
 
-## 5. digitalRead
+## [5. digitalRead](https://d3lta-v.github.io/SSTuino/tutorials/Sec1/5_digitalRead.html)
 
 desc
 
-## 6. Potentiometer
+## [6. Potentiometer](https://d3lta-v.github.io/SSTuino/tutorials/Sec1/6_Pot.html)
 
 desc
 
-## 7. Piezo Speaker
+## [7. Piezo Speaker](https://d3lta-v.github.io/SSTuino/tutorials/Sec1/7_speaker.html)
 
 desc
