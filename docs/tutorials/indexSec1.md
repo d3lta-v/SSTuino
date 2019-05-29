@@ -8,9 +8,9 @@ author: Goh Qian Zhe
 
 The below section is a list of tutorials for Secondary 1 students.
 
-## 1. LED & Resistor
+## [1. LED & Resistor](https://d3lta-v.github.io/SSTuino/tutorials/Sec1/1_LEDResistor.html)
 
-desc
+description
 
 ## 2. Add button
 
