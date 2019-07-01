@@ -3,3 +3,5 @@ kramdown:
    auto_ids: true
    parse_block_html: true
 # theme: jekyll-theme-cayman
+# Google Analytics
+google_analytics: UA-41542768-4
