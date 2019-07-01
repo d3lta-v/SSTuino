@@ -30,9 +30,9 @@ Open Source Hardware (OSHW)
 
 ### Support or Contact
 
-Pan Ziyue: [random.rrr3@gmail.com](random.rrr3@gmail.com)
+Pan Ziyue: [random.rrr3@gmail.com](mailto:random.rrr3@gmail.com)
 
-Goh Qian Zhe: [goh_qian_zhe@s2012.sst.edu.sg](goh_qian_zhe@s2012.sst.edu.sg)
+Goh Qian Zhe: [goh_qian_zhe@s2012.sst.edu.sg](mailto:goh_qian_zhe@s2012.sst.edu.sg)
 
 If you need anything to be replaced, do check out this form or email us.
 
