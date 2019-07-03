@@ -4,7 +4,7 @@ date: 2019-07-03
 author: Goh Qian Zhe
 ---
 
-# Create amazing projects with tinkercad!
+# Create amazing projects with TinkerCAD!
 
 Say you have an amazing idea at hand and would like to realise it, to which you are thinking: "Hmm, how can I evolve my idea into a real product?"
 
