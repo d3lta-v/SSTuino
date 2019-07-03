@@ -20,6 +20,12 @@ Do not plug anything wrongly or [expensive failures](https://youtu.be/WFZwI10HEs
 
 ## Preflight Checks...
 
+We first check if the USB to serial converter is detected by System Information. If it is detected, it would look something like this:
+
+Nice name right?
+
+![System Info](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/HelloWorld/systemInfo.png)
+
 We first check if the USB to serial converter can be detected. To do so, launch the Terminal app from your mac and type in this line:
 
 `ls /dev/tty.*`
