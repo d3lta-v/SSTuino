@@ -24,7 +24,7 @@ Signing in to TinkerCAD is easy.
 
 ![signIn](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/tinkercad/signIn.png){: .small-image }
 
-* Select sign in using social provider, and select your Google Account.
+* Select sign in using social provider, and select your Google Account. 
 
 ![socialProvider](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/tinkercad/signInSocialProvider.png){: .small-image }
 
@@ -33,6 +33,8 @@ Signing in to TinkerCAD is easy.
 ![mainLanding](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/tinkercad/mainLanding.png)
 
 ## Our first project!
+
+To get started, click new design.
 
 ## Our first circuit!
 
