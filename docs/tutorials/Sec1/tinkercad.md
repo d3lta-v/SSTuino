@@ -16,13 +16,21 @@ In this tutorial, we will go through the setting up process of TinkerCAD and hav
 
 Signing in to TinkerCAD is easy.
 
-1. Go to the login screen
+1. Go to [tinkercad.com](https://www.tinkercad.com/) and then click on Sign In
 
-2. Select sign in using social manager
+![tinkerCAD](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/tinkercad/tinkerCAD.png)
 
-3. Select Google and click your gmail account
+2. Go to the login screen
+
+![signIn](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/tinkercad/signIn.png)
+
+3. Select sign in using social provider, and select your Google Account.
+
+![socialProvider](https://github.com/d3lta-v/SSTuino/blob/master/Image%20Assets/Tutorial%20Image%20Assets/tinkercad/signInSocialProvider.png)
 
 4. You are signed in! Your projects will appear here in the future!
+
+![mainLanding](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/tinkercad/mainLanding.png)
 
 ## Our first project!
 
