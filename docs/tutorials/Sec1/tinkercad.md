@@ -28,7 +28,7 @@ Signing in to TinkerCAD is easy.
 
 ![socialProvider](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/tinkercad/signInSocialProvider.png){: .small-image }
 
-*s You are signed in! Your projects will appear here in the future!
+* You are signed in! Your projects will appear here in the future!
 
 ![mainLanding](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/tinkercad/mainLanding.png)
 
