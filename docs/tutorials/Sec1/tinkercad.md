@@ -22,11 +22,11 @@ Signing in to TinkerCAD is easy.
 
 * Go to the login screen
 
-![signIn](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/tinkercad/signIn.png)
+![signIn](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/tinkercad/signIn.png){: .small-image }
 
 * Select sign in using social provider, and select your Google Account.
 
-![socialProvider](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/tinkercad/signInSocialProvider.png)
+![socialProvider](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/tinkercad/signInSocialProvider.png){: .small-image }
 
 *s You are signed in! Your projects will appear here in the future!
 
