@@ -1,5 +1,5 @@
 ---
-title: Thunkable
+title: Getting Started with Thunkable
 date: 2019-07-03
 author: Goh Qian Zhe
 ---
@@ -23,3 +23,17 @@ Have a simple tutorial for the students to try out first.
 ## Planning your application
 
 Assuming you already have your ideas generated and you (and your team) has confirmed on the idea, it is time to plan the layout of your application. Before you begin programming your app, it is important to visualise and plan what you would want your application users to experience!
+
+## Integrating a Web API into your application
+
+What is an API? API stands for **Application Programming Interface** and it basically allows applications to communicate with one another.
+
+For this tutorial, we will be interfacing with a Web API to retrive data and then display in our app.
+
+## App Layout
+
+--- Insert Content ---
+
+## Programming
+
+--- Insert Content ---
