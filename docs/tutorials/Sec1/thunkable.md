@@ -10,15 +10,16 @@ If your intended product/solution includes a mobile application, there are a var
 
 ## Registering for the service
 
----Insert Content Here--- (Sign up, etc then download mobile app from the app store or play store.)
+Signing up for Thunkable is very simple. Click the Sign up button on the top right hand corner and sign up either with your Google account or email
 
-## Demo 1 
+After you are done, go to your App Store or Play store to download the Thunkable app as this app is used to visualise the app that you have built in Thunkable.
+
+After you have downloaded the mobile app, simply sign in to the same account as the one you registered to Thunkable with.
+
+## My First App!
 
 Have a simple tutorial for the students to try out first.
 
-
-But before you begin programming your app, it is important to visualise and plan what you would want your application users to experience!
-
 ## Planning your application
 
-Assuming you already have your ideas generated and you (and your team) has confirmed on the idea, it is time to plan the layout of your application. 
+Assuming you already have your ideas generated and you (and your team) has confirmed on the idea, it is time to plan the layout of your application. Before you begin programming your app, it is important to visualise and plan what you would want your application users to experience!
