@@ -116,8 +116,7 @@ As the name suggests, the Light Depedant Resistor is a component that changes re
 
 The TMP36 temperature sensor is a rather accurate sensor despite is low price. For more information, visit the [Adafruit Website](https://learn.adafruit.com/tmp36-temperature-sensor/overview).
 
-**Note**
-You may notice that this package may resemble that of other components such as transistors. *Please do not mix them up and read the respective manuals carefully.* The component model would be marked out on the flat side of the component for this package. Use the model number to search for the pinouts for you to make sure you are connecting the component the right way.
+**Note:** You may notice that this package may resemble that of other components such as transistors. **Please do not mix them up and read the respective manuals carefully.** The component model would be marked out on the **flat** side of the component for this package. Use the model number to search for the pinouts for you to make sure you are connecting the component the right way.
 
 ![TransistorPinout](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/PartsList/TO92%20Pinout%20Transistor.jpeg)
 
