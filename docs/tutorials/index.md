@@ -17,4 +17,21 @@ Before you begin playing around with the SSTuino kit here are some things to do:
 
 ## [Sec 1 Tutorials](https://d3lta-v.github.io/SSTuino/tutorials/indexSec1.html)
 
+* Welcome to a world of technology!
+* A brief history...and the future!
+* What is design & innovation?
+
+* My first mobile app!
+* Spicing it up...
+* Look ma, my own weather app!
+
+* How to not *burn* your LEDs!
+* My first circuit!
+* Introduction to Arduino Programming
+
+* My SSTuino can read!
+* Data at my fingertips!
+* Actions at my fingertips!
+
+
 Tutorials used in Sec 1 ICT lessons.
