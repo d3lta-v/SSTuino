@@ -22,9 +22,9 @@ Do not plug anything wrongly or [expensive failures](https://youtu.be/WFZwI10HEs
 
 We first check if the USB to serial converter is detected by System Information. If it is detected, it would look something like this:
 
-Nice name right?
-
 ![System Info](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/HelloWorld/systemInfo.png)
+
+Nice name right?
 
 We first check if the USB to serial converter can be detected. To do so, launch the Terminal app from your mac and type in this line:
 
@@ -74,7 +74,10 @@ void loop() {
   delay(1000);                       // wait for a second
 }
 ```
+So what did the `high` and `low` mean? Digital electronics only have 2 states. Think of it as a switch. When it is `HIGH` it means that it is turned **on**. When it is `LOW`, it is turned **off**.
 
-The `delay(1000);` refers to the LED turning on for a second and off for a second. The `1000` is in miliseconds, and you can change that value, before uploading the code again! Bear in mind that if you have too small or too large of a number, you would either not see the LED not doing anything, or takes ages to do something.
+The `delay(1000);` tells the microcontroller to wait for a second. This means that this entire section of code tells the LED to turn on for 1 second and then turn off for 1 second!
+
+ The `1000` is in miliseconds, and you can change that value, before uploading the code again! Bear in mind that if you have too small or too large of a number, you would either not see the LED not doing anything, or takes ages to do something.
 
 *So, have fun and enjoy the tutorials that lie ahead!*
