@@ -74,7 +74,7 @@ void loop() {
   delay(1000);                       // wait for a second
 }
 ```
-So what did the `high` and `low` mean? Digital electronics only have 2 states. Think of it as a switch. When it is `HIGH` it means that it is turned **on**. When it is `LOW`, it is turned **off**.
+So what did the `HIGH` and `LOW` mean? Digital electronics only have 2 states. Think of it as a switch. When it is `HIGH` it means that it is turned **on**. When it is `LOW`, it is turned **off**.
 
 The `delay(1000);` tells the microcontroller to wait for a second. This means that this entire section of code tells the LED to turn on for 1 second and then turn off for 1 second!
 
