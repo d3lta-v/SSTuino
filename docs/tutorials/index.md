@@ -21,7 +21,7 @@ Before you begin playing around with the SSTuino kit here are some things to do:
 * [A brief history...and the future!](https://d3lta-v.github.io/SSTuino/tutorials/Sec1/briefHistory.html)
 * What is design & innovation?
 
-* My first mobile app!
+* [My first mobile app!](https://d3lta-v.github.io/SSTuino/tutorials/Sec1/thunkableIntro.html)
 * Spicing it up...
 * Look ma, my own weather app!
 
