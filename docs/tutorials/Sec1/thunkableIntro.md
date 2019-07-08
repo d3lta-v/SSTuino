@@ -19,8 +19,9 @@ Signing up for Thunkable is very simple. Click the Sign up button on the top rig
 
 After you are done, go to your App Store or Play store to download the Thunkable app as this app is used to visualise the app that you have built in Thunkable.
 
-![thunkableDownload](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/thunkableIntro/thunkableDownload.PNG)
+![thunkableDownload](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/thunkableIntro/thunkableDownload.PNG){: .small-image }
 
 After you have downloaded the mobile app, simply sign in to the same account as the one you registered to Thunkable with.
 
-![thunkableApp](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/thunkableIntro/thunkableApp.jpg)
+![thunkableApp](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/thunkableIntro/thunkableApp.jpg){: .small-image }
+
