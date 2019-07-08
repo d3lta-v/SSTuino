@@ -2,6 +2,7 @@
 title: Button
 date: 2019-05-29
 author: Goh Qian Zhe
+layout: page
 ---
 
 # Adding a button to your circuit
