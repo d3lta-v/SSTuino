@@ -41,4 +41,10 @@ In your project page, you will see that there is a mobile screen and some items 
 
 Let us start off with something simple. We are going to add a text to our app! In the **Add Components** menu, drag and drop the item called **label** onto the screen. Rename the label to `text` and set the font size to `24`.
 
-On the top left hand corner of the page, navigate to the tab called **blocks**
+After you have configured the label, on the top left hand corner of the page, navigate to the tab called **blocks**. 
+
+![ThunkableInsert](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/thunkableIntro/thunkableInsert.png)
+
+This is the place where you would do your programming!
+
+Programming in Thunkable is very simple as it is also drag and drop. Simply navigate to the function that you would like to insert and place it inside the code section.
