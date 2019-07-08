@@ -35,3 +35,10 @@ Once you have logged in to Thunkable, click on **create new app**. Input your ap
 
 ![thunkableProject](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/thunkableIntro/thunkableProject.png)
 
+## Hello World!
+
+In your project page, you will see that there is a mobile screen and some items to the left hand side of the page. The awesome thing about Thunkable is that you can drag and drop functions that you want in your mobile app!
+
+Let us start off with something simple. We are going to add a text to our app! In the **Add Components** menu, drag and drop the item called **label** onto the screen. Rename the label to `text` and set the font size to `24`.
+
+On the top left hand corner of the page, navigate to the tab called **blocks**
