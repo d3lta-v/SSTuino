@@ -59,3 +59,13 @@ This is to tell the label we had just created to display a certain text. In the 
 
 Next, click on **Live Test** located on the top of the page. Open your thunkable app and you should be able to see your app appearing in the screen!
 
+## Let's add a button!
+
+It would be great to interact with the app that you create, so let us create a button. Go to the design tab and then drag out the **button** object onto the screen. Rename the button to `Click to activate text`.
+
+Go back to the **Blocks** tab and delete the Screen1 function. Instead replace it with this from `Button1`.
+
+This function means that whenever I press the button in the app, the text would change to `Hello World`.
+
+Last but not least, go to your app to try it out!
+
