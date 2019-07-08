@@ -47,4 +47,15 @@ After you have configured the label, on the top left hand corner of the page, na
 
 This is the place where you would do your programming!
 
-Programming in Thunkable is very simple as it is also drag and drop. Simply navigate to the function that you would like to insert and place it inside the code section.
+![thunkableBlock](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/thunkableIntro/thunkableBlock.png)
+
+Programming in Thunkable is very simple as it is also drag and drop. Simply navigate to the function that you would like to insert and place it inside the code section. On the sidebar, click on `Screen1` and drag out this component:
+
+
+
+What this does is to tell the app that when this screen opens in the app, do something *(that you will define)*. Next, click on `Label1` and drag out this component:
+
+This is to tell the label we had just created to display a certain text. In the text box, type in `Hello World`.
+
+Next, click on **Live Test** located on the top of the page. Open your thunkable app and you should be able to see your app appearing in the screen!
+
