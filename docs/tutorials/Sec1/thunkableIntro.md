@@ -59,7 +59,7 @@ This is to tell the label we had just created to display a certain text. In the 
 
 Next, click on **Live Test** located on the top of the page. Open your thunkable app and you should be able to see your app appearing in the screen!
 
-## Let's add a button!
+## Let's add some interaction!
 
 It would be great to interact with the app that you create, so let us create a button. Go to the design tab and then drag out the **button** object onto the screen. Rename the button to `Click to activate text`.
 
@@ -67,5 +67,20 @@ Go back to the **Blocks** tab and delete the Screen1 function. Instead replace i
 
 This function means that whenever I press the button in the app, the text would change to `Hello World`.
 
-Last but not least, go to your app to try it out!
+Try it out in your Thunkable app!
+
+Next, we would want to add a slider into the app. Go to the design tab and then drag out the **Slider** object onto the screen.
+
+Go back to the **Blocks** tab and drag this block of code into the coding area. After which drag the `from label set text to` function into the block. Replace the text box with the `value` block.
+
+Now you can try it out in your Thunkable app!
+
+## Moving your app objects
+
+At this stage, you may want your slider, button and label to be slightly further apart as they seem too close, don't they? Unfortunately it would not be as simple as dragging and rearranging the objects. 
+
+we will need to adjust the position properties in the **Design** tab. On the right hand side, there would be the area for you to adjust the object properties.
+
+There is the position adjustment in that area and adjust the margin of the object. You would realise that the object would move as you edit the margin. Adjust the margins till the application objects are futher away from each other.
+
 
