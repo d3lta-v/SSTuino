@@ -1,10 +1,14 @@
 ---
-title: Tinkercad
+title: My first circuit!
 date: 2019-07-03
 author: Goh Qian Zhe
 ---
 
-# Create amazing projects with TinkerCAD!
+# My first circuit!
+
+
+
+## Hello TinkerCAD!
 
 Say you have an amazing idea at hand and would like to realise it, to which you are thinking: "Hmm, how can I evolve my idea into a real product?"
 
@@ -32,9 +36,12 @@ Signing in to TinkerCAD is easy.
 
 ![mainLanding](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/tinkercad/mainLanding.png)
 
-## Our first project!
-
-To get started, click new design.
-
 ## Our first circuit!
 
+Back to the topic of burning LEDs, here is one huge benefit of using TinkerCAD. As TinkerCAD can simulate circuits, we can test whether we use the correct components and connected it correctly before actually building it.
+
+Let us bring out a 9V battery then connect it as follows.
+
+Once it lights up, this happens.
+
+The reason this happens is due to the incorrect resistor being used. Remember Ohm's Law?
