@@ -29,10 +29,9 @@ After you have downloaded the mobile app, simply sign in to the same account as 
 
 Once you have logged in to Thunkable, click on **create new app**. Input your app name and click create. You would then see the project page.
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/thunkableIntro/thunkableProjects.png" width="400" />
-  <img src="https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/thunkableIntro/thunkableName.png" width="400" /> 
-</p>
+![thunkableCreateproject](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/thunkableIntro/thunkableProjects.png)
+
+![thunkableProjectName](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/thunkableIntro/thunkableName.png)
 
 ![thunkableProject](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/thunkableIntro/thunkableProject.png)
 
