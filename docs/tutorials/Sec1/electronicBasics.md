@@ -25,4 +25,6 @@ The movement of the electric charge is **current**, expressed in Amperes (A).
 
 The force that enables the electric charge to move, or the potential energy is **voltage**, expressed in volts (v). 
 
-In the circuit, there is bound to be some "friction" that resists the movement of electric charge, and that is **resistance**, expressed in Ohms (uhhh what is the symbol lmao).
+In the circuit, there is bound to be some "friction" that resists the movement of electric charge, and that is **resistance**, expressed in Ohms (Ω). 
+
+![ohmLawTable](https://www.allaboutcircuits.com/uploads/articles/units-measurement-electrical-current.png){: .small-image }
