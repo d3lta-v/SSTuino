@@ -18,7 +18,7 @@ Before you begin playing around with the SSTuino kit here are some things to do:
 ## [Sec 1 Tutorials](https://d3lta-v.github.io/SSTuino/tutorials/indexSec1.html)
 
 * [Welcome to a world of technology!](https://d3lta-v.github.io/SSTuino/tutorials/Sec1/lessonIntro.html)
-* A brief history...and the future!
+* [A brief history...and the future!](https://d3lta-v.github.io/SSTuino/tutorials/Sec1/briefHistory.html)
 * What is design & innovation?
 
 * My first mobile app!
