@@ -34,5 +34,5 @@ Once you have logged in to Thunkable, click on **create new app**. Input your ap
   <img src="https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/thunkableIntro/thunkableName.png" width="400" /> 
 </p>
 
-![thunkableProject](ttps://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/thunkableIntro/thunkableProject.png)
+![thunkableProject](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/thunkableIntro/thunkableProject.png)
 
