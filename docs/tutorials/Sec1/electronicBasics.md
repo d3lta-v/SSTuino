@@ -6,9 +6,9 @@ author: Goh Qian Zhe
 
 # How to not *burn* your LEDs!
 
----Insert funny gif here lmao---
-
 Before we go into electronics, here is what will happen when if you do not handle them well.
+
+![sparkfunGIF](https://cdn.sparkfun.com/assets/b/9/b/8/5/51f1e90dce395fba20000002.gif)
 
 ## Some essentials...
 
