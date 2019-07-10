@@ -26,7 +26,7 @@ Before you begin playing around with the SSTuino kit here are some things to do:
 * Look ma, my own weather app!
 
 * [How to not *burn* your LEDs!](https://d3lta-v.github.io/SSTuino/tutorials/Sec1/electronicBasics.html)
-* My first circuit!
+* [My first circuit!](https://d3lta-v.github.io/SSTuino/tutorials/Sec1/tinkercad.html)
 * Introduction to Arduino Programming
 
 * My SSTuino can read!
