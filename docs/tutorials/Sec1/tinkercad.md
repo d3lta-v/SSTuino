@@ -6,7 +6,7 @@ author: Goh Qian Zhe
 
 # My first circuit!
 
-
+In this tutorial, we will attempt a few simple circuits with a simple to use online simulator, TinkerCAD. After which, we will apply the circuits that we have created into real circuits with components in our SSTuino Kit.
 
 ## Hello TinkerCAD!
 
