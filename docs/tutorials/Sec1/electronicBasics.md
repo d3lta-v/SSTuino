@@ -14,6 +14,16 @@ Before we go into electronics, here is what will happen when if you do not handl
 
 In your SSTunino kit, we have provided some components for you to use, and is listed inside the [parts list page](https://d3lta-v.github.io/SSTuino/tutorials/partsList.html). It provides some basic information about the components too but here is a more detailed explanation about some of the components inside, along with some theoretical electronics knowledge.
 
+## Wait a minute...
+
+So you have opened up the SSTuino Innovator's Kit, checked out the components and read the parts lists page. What to do after that?
+
+In every project involving electronics, it is recommended that you understand the component before using it. For example you can check out:
+
+* Component manual/datasheets
+* Examples/tutorials on the internet
+* Instructables for examples
+
 ## The resistor
 ### Ohms Law
 
