@@ -67,3 +67,25 @@ As with most electronics, there is always a limit to everything. Once an LED dra
 
 So to prevent tragic things like this from happening, we introduce resistors into the circuit to limit the amount of current the LED can draw. But what resistor would be most suitable?
 
+## Some simple circuit theory...
+
+Let us assume that we have some LEDs, resistors and a power source. Without any knowledge about datasheets and calculation, how should we go about connecting them together?
+
+![connection](https://cdn.sparkfun.com/assets/6/e/8/3/c/51f93d85757b7f2049270817.png){: .medium-image }
+
+It is that simple.
+
+Moreover, a good resistor value for LEDs is 330Ohms (can be more or less), so we can simply use this resistor. *Easy, right?*
+
+## Last but not least
+
+You may be thinking:"Is this tutorial only meant for LEDs and resistors?" Well definitely not! This tutorial is meant for you to know that with every component that you use, you will need to decide for yourself wether it fits the circuit or not; be it simple components like LEDs and buzzers to more advanced (*and more expensive*) components like LCD displays and sensors!
+
+One thing that is great when you explore the Arduino ecosystem is the immense amount of community support. When in doubt, always ask. As an individual learning 21st century digital skills, there are lots of platforms where your queries can be answered. It is just a matter of wether you would want to go and find the correct resources or not.
+
+Therefore, before giving up on your design, maybe consider:
+
+* Refering to your component manual. They will include essential infomation about the properties of the component
+* Google the issue. Usually people would have posted this issue online in places like forums (StackOverflow, Arduino forum etc.)
+* Ask around about that issue. You can also post your questions in the appropriate channels, and if the question is good, others can learn from the issues that you faced!
+
