@@ -81,5 +81,5 @@ Therefore, before giving up on your design, maybe consider:
 
 If you would like to know more about:
 
-* Ohm's Law : [(Link)] (https://learn.sparkfun.com/tutorials/voltage-current-resistance-and-ohms-law/all)
+* Ohm's Law : [(Link)](https://learn.sparkfun.com/tutorials/voltage-current-resistance-and-ohms-law/all)
 * LEDs : [(Link)](https://learn.sparkfun.com/tutorials/light-emitting-diodes-leds/all#introduction)
