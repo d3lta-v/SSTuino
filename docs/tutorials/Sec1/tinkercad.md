@@ -44,4 +44,4 @@ Let us bring out a 9V battery then connect it as follows.
 
 Once it lights up, this happens.
 
-The reason this happens is due to the incorrect resistor being used. Remember Ohm's Law?
+The reason this happens is due to the incorrect resistor being used. Remember Ohm's Law? When the resistance is too low the current would be too high.
