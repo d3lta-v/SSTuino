@@ -57,7 +57,13 @@ In the circuit, there is bound to be some "friction" that resists the movement o
 
 ![ohmLawTable](https://www.allaboutcircuits.com/uploads/articles/units-measurement-electrical-current.png){: .medium-image }
 
-Resistors are essential in every circuit. They limit the flow of current in your circuit so *hopefully* there are no burnt components. The values of resistors provided is 330 Ohm and 10K Ohm. You can read the values of the resistor from the colour band on the component.
+Resistors are essential in every circuit. They limit the flow of current in your circuit so *hopefully* there are no burnt components. 
+
+### Types of resistors
+
+For generic resistors, there is generally two types of resistors: Carbon Composite Resistor or Film Type Resistor. Carbon resistors are popular due to their extremely low cost and good accurancy with low enough tolerance (usually about +- 5%). Flim Type Resistor, while being slightly costlier, provide closer tolerances (up to +-1%) from the rated resistance.
+
+The resistors provided in the kit is metal oxide resistors and have values of 330 Ohm and 10K Ohm. You can read the values of the resistor from the colour band on the component.
 
 ![330Ohm](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/PartsList/330-ohm.jpg){: .small-image-left }
 
