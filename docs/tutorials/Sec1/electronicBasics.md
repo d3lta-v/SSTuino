@@ -14,7 +14,28 @@ Before we go into electronics, here is what will happen when if you do not handl
 
 ## Some essentials...
 
-In your SSTunino kit, we have provided some components for you to use, and is listed inside the [parts list page](https://d3lta-v.github.io/SSTuino/tutorials/partsList.html). It provides some basic information about the components too but here is a more detailed explanation about some of the components inside, along with some theoretical electronics knowledge.
+In your SSTunino kit, we have provided some components for you to use, and is listed inside the [parts list page](https://d3lta-v.github.io/SSTuino/tutorials/partsList.html). **Note:** If there are any components missing from the kit when you first recieve it, please approach your ICT teachers.
+
+This tutorial will cover the details of the components that are included in the SSTuino Kit, along with some theory behind electronics to help you to build your first circuit in the meantime. This tutorial page is very useful as you can reference to the components in the event you forget what it is.
+
+* [SSTuino Board](#sstuino-board)
+
+## SSTuino Board
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/PartsList/a000066_front_1_1_1.jpg" width="300" />
+  <img src="https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/SSTuino.png" width="300" /> 
+</p>
+
+*Notice any difference?*
+
+For students who are familliar with the Arduino UNO, you would realise that it looks pretty simillar to the SSTuino. This is because that the SSTuino is an adapted design from the Arduino UNO. This device shares a lot of similarities as the UNO such as:
+
+- Coding compatability
+- Shield compatability due to its simillar pinouts
+- Sharing the same components
+
+The major design difference with this board is that it has a extended board footprint to accept a WiFi chip, resulting the SSTuino to be an Internet-Of-Things (IoT) enabled product. This means that the SSTuino can connect to the internet to send/recieve data!
 
 ## The resistor
 ### Ohms Law
@@ -88,25 +109,6 @@ If you would like to know more about:
 
 
 **This section is still in construction and will be updated asap.**
-
-
-
-## SSTuino Board
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/PartsList/a000066_front_1_1_1.jpg" width="300" />
-  <img src="https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/SSTuino.png" width="300" /> 
-</p>
-
-*Notice any difference?*
-
-For students who are familliar with the Arduino UNO, you would realise that it looks pretty simillar to the SSTuino. This is because that the SSTuino is an adapted design from the Arduino UNO. This device shares a lot of similarities as the UNO such as:
-
-- Coding compatability
-- Shield compatability due to its simillar pinouts
-- Sharing the same components
-
-The major design difference with this board is that it has a extended board footprint to accept a WiFi chip, resulting the SSTuino to be an Internet-Of-Things (IoT) enabled product. This means that the SSTuino can connect to the internet to send/recieve data!
 
 ## Breadboard
 
