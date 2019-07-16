@@ -31,7 +31,7 @@ As this tutorial is rather long, a table of contents is included for you to easi
 * [Breadboard](#breadboard)
 * [Wires](#wires)
 * [Push Button](#push-button)
-* [Light Dependant Resistor](#light-rependant-resistor)
+* [Light Dependant Resistor](#light-dependant-resistor)
 * [Buzzer](#buzzer)
 * [Potentiometer](#potentiometer)
 * [Ultrasonic Sensor](#ultrasonic-sensor)
