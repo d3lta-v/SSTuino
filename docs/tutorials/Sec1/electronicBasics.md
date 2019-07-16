@@ -24,6 +24,8 @@ As this tutorial is rather long, a table of contents is included for you to easi
 
 * [SSTuino Board](#sstuino-board)
 * [The Resistor](#the-resistor)
+* [Light Emitting Diode (LED)](#light-emitting-diode-(led))
+* [Breadboard](#breadboard)
 
 ## SSTuino Board
 
@@ -115,6 +117,16 @@ It is that simple.
 
 Moreover, a good resistor value for LEDs is 330Ohms (can be more or less), so we can simply use this resistor. *Easy, right?*
 
+## Breadboard
+
+![Breadboard](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/PartsList/21025-dscn3816.jpeg){: .medium-image-left }
+
+So you happened to see a retangular shaped block with holes in it and wondered what it was? This block is called a **breadboard** or **prototyping board**. The breadboard is a very important part of your prototype when you develop new things!
+
+![Breadboard with circuit](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/PartsList/Breadboard-Circuit-Example.jpg)
+
+In your ICT lessons, your teacher would go through with you on how to connect up your circuit. Moreover, you would be using TinkerCAD to simulate and view your *virtual* circuit before actually building it, preventing any (touch wood) *magic smoke*.
+
 ## Last but not least
 
 You may be thinking:"Is this tutorial only meant for LEDs and resistors?" Well definitely not! This tutorial is meant for you to know that with every component that you use, you will need to decide for yourself wether it fits the circuit or not; be it simple components like LEDs and buzzers to more advanced (*and more expensive*) components like LCD displays and sensors!
@@ -134,16 +146,6 @@ If you would like to know more about:
 
 
 **This section is still in construction and will be updated asap.**
-
-## Breadboard
-
-![Breadboard](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/PartsList/21025-dscn3816.jpeg){: .medium-image-left }
-
-So you happened to see a retangular shaped block with holes in it and wondered what it was? This block is called a **breadboard** or **prototyping board**. The breadboard is a very important part of your prototype when you develop new things!
-
-![Breadboard with circuit](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/PartsList/Breadboard-Circuit-Example.jpg)
-
-In your ICT lessons, your teacher would go through with you on how to connect up your circuit. Moreover, you would be using TinkerCAD to simulate and view your *virtual* circuit before actually building it, preventing any (touch wood) *magic smoke*.
 
 ## USB C to Micro USB Cable
 
