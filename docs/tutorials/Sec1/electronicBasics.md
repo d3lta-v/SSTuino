@@ -18,7 +18,12 @@ In your SSTunino kit, we have provided some components for you to use, and is li
 
 This tutorial will cover the details of the components that are included in the SSTuino Kit, along with some theory behind electronics to help you to build your first circuit in the meantime. This tutorial page is very useful as you can reference to the components in the event you forget what it is.
 
+## Table of Contents
+
+As this tutorial is rather long, a table of contents is included for you to easily find the section that you need.
+
 * [SSTuino Board](#sstuino-board)
+* [The Resistor](#the-resistor)
 
 ## SSTuino Board
 
@@ -51,6 +56,20 @@ The force that enables the electric charge to move, or the potential energy is *
 In the circuit, there is bound to be some "friction" that resists the movement of electric charge, and that is **resistance**, expressed in Ohms (Ω). 
 
 ![ohmLawTable](https://www.allaboutcircuits.com/uploads/articles/units-measurement-electrical-current.png){: .medium-image }
+
+Resistors are essential in every circuit. They limit the flow of current in your circuit so *hopefully* there are no burnt components. The values of resistors provided is 330 Ohm and 10K Ohm. You can read the values of the resistor from the colour band on the component.
+
+![330Ohm](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/PartsList/330-ohm.jpg){: .small-image-left }
+
+This is a **330 Ohm** resistor.
+
+![10KOhm](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/PartsList/10KOhm.jpg){: .small-image-left }
+
+This is a **10K Ohm** resistor.
+
+If you are wondering how to read the values of resistors, refer to the infograpic below:
+
+![resistorChart](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/PartsList/Resistors.png)
 
 ## Light Emitting Diode (LED)
 
@@ -193,22 +212,6 @@ This shape and pinouts is called the TO-92 Package and is a very cheap and easy 
 ![Ultrasonic](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/PartsList/Ultrasonic.jpg){: .small-image-left }
 
 The ultrasonic sensor is a device that measures distance by emitting ultrasonic waves, waits for the wave the bounce back and then measure the time taken.
-
-## Resistors
-
-Resistors are essential in every circuit. The measurement of resistance is in Ohm. They limit the electron flow in your circuit so *hopefully* there are no burnt components. The values of resistors provided is 330 Ohm and 10K Ohm. You can read the values of the resistor from the colour band on the component.
-
-![330Ohm](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/PartsList/330-ohm.jpg){: .small-image-left }
-
-This is a **330 Ohm** resistor.
-
-![10KOhm](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/PartsList/10KOhm.jpg){: .small-image-left }
-
-This is a **10K Ohm** resistor.
-
-If you are wondering how to read the values of resistors, refer to the infograpic below:
-
-![resistorChart](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/PartsList/Resistors.png)
 
 ## Wires
 
