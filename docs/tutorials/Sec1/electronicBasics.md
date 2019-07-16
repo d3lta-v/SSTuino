@@ -24,7 +24,7 @@ As this tutorial is rather long, a table of contents is included for you to easi
 
 * [SSTuino Board](#sstuino-board)
 * [The Resistor](#the-resistor)
-* [Light Emitting Diode (LED)](#light-emitting-diode)
+* [Light Emitting Diode (LED)](#light-emitting-diode-led)
 * [Breadboard](#breadboard)
 
 ## SSTuino Board
