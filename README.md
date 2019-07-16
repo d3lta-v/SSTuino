@@ -31,10 +31,8 @@ Contributing to the SSTuino Git Repository requires you to have EAGLE 8.4 or new
 SSTuino primarily uses EAGLE's Managed Libraries made by Sparkfun, but also contain our own custom footprints and SMD component footprints from Cytron.
 
 ## Our team
-* Project Supervisor: [Teo Shin Jen](https://www.youracclaim.com/user/sjteo)
 * Chief Designer: Pan Ziyue ([@sammy0025](https://twitter.com/sammy0025))
-* Assistants/Advisers: Julian Kang ([@Julian_KBK](https://twitter.com/Julian_KBK)), Goh Qian Zhe ([@QianZheGoh](https://twitter.com/QianZheGoh))
-* Videographer: [@QianZheGoh](https://twitter.com/QianZheGoh)
+* Assistants/Advisers: Goh Qian Zhe ([@QianZheGoh](https://twitter.com/QianZheGoh))
 * The awesome folks at Arduino, Sparkfun and Adafruit for technical reference and ECAD models.
 
 ![OSHW](https://www.oshwa.org/wp-content/uploads/2014/03/oshw-logo-100-px.png)
