@@ -38,6 +38,4 @@ Pan Ziyue: [random.rrr3@gmail.com](mailto:random.rrr3@gmail.com)
 
 Goh Qian Zhe: [goh_qian_zhe@s2012.sst.edu.sg](mailto:goh_qian_zhe@s2012.sst.edu.sg)
 
-If you need anything to be replaced, do check out this form or email us.
-
-If you would like to contribute to the SSTuino project and is currently studying in SST, feel free to email us!
+If you need anything to be replaced, please email us!
