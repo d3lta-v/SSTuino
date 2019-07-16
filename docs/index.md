@@ -22,6 +22,10 @@ For tutorials regarding SST lessons, please refer to the tutorials here:
 
 Open Source Hardware (OSHW)
 
+### Interested to make a difference?
+
+Students who are interested to deveop our product further can express their interest in [this form](https://forms.gle/ntMWiXFDy3Ya1Pq5A).
+
 ### Our team
 
 ![The Team](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/IMG_3112.jpg){: .medium-image }
