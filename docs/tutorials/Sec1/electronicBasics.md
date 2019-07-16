@@ -23,9 +23,20 @@ This tutorial will cover the details of the components that are included in the 
 As this tutorial is rather long, a table of contents is included for you to easily find the section that you need.
 
 * [SSTuino Board](#sstuino-board)
+* [USB C to Micro USB Cable](#usb-c-to-micro-usb-cable)
+* [CP2102 MicroUSB Serial Converter](#cp2102-microusb-serial-converter)
+* [ESP01S WiFi Chip](#esp01s-wifi-chip)
 * [The Resistor](#the-resistor)
 * [Light Emitting Diode (LED)](#light-emitting-diode-led)
 * [Breadboard](#breadboard)
+* [Wires](#wires)
+* [Push Button](#push-button)
+* [Light Dependant Resistor](#light-rependant-resistor)
+* [Buzzer](#buzzer)
+* [Potentiometer](#potentiometer)
+* [Ultrasonic Sensor](#ultrasonic-sensor)
+* [TMP36 Temperature Sensor](#tmp36-temperature-sensor)
+* [Last but not least](#last-but-not-least)
 
 ## SSTuino Board
 
