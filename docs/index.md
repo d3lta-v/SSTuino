@@ -24,7 +24,7 @@ Open Source Hardware (OSHW)
 
 ### Interested to make a difference?
 
-Students who are interested to deveop our product further can express their interest in [this form](https://forms.gle/ntMWiXFDy3Ya1Pq5A).
+Students who are interested to deveop our product further can express their interest in **[this form](https://forms.gle/ntMWiXFDy3Ya1Pq5A)**.
 
 ### Our team
 
