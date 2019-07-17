@@ -136,7 +136,7 @@ The longer leg of the LED is the **positive** leg and is called the **anode**. T
 
 *But what if you just nice happen to connect it the wrong way? Would it explode?* 
 
-It would'nt. You can just simply reverse the polarity of the LED (i.e flip the thing around) and it will work again!
+The LED would not light up, so not to worry. You can just simply reverse the polarity of the LED (i.e flip the thing around) and it will work again!
 
 ### More current = More light!
 
@@ -167,6 +167,13 @@ So you happened to see a retangular shaped block with holes in it and wondered w
 ![Breadboard with circuit](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/PartsList/Breadboard-Circuit-Example.jpg)
 
 In your ICT lessons, your teacher would go through with you on how to connect up your circuit. Moreover, you would be using TinkerCAD to simulate and view your *virtual* circuit before actually building it, preventing any (touch wood) *magic smoke*.
+
+The layout of the breadboard is done such that you can assemble your circuits easily.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/PartsList/horizontal-rows.png" width="300" />
+  <img src="https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/PartsList/verticalpower.png" width="300" /> 
+</p>
 
 ## Wires
 
