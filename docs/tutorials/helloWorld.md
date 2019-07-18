@@ -15,6 +15,7 @@ Do not plug anything wrongly or [expensive failures](https://youtu.be/WFZwI10HEs
 ## Connecting up your SSTuino
 
 1. Insert the CP2102 and WiFi Chip as shown.
+![plugIn](https://github.com/d3lta-v/SSTuino/blob/master/Image%20Assets/Tutorial%20Image%20Assets/HelloWorld/plugIn.jpg?raw=true)
 2. Plug in the cable to the CP2102 and your computer (mac).
 3. Watch it light up!
 
