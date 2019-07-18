@@ -14,3 +14,6 @@ author: Goh Qian Zhe
 * Sparkfun Website - [https://www.sparkfun.com/](https://www.sparkfun.com/)
 * Adafruit Website - [https://www.adafruit.com/](https://www.adafruit.com/)
 * SG Botic (Local arduino store) - [https://www.sgbotic.com/](https://www.sgbotic.com/)
+* RS Online Singapore - [https://sg.rs-online.com/web/](https://sg.rs-online.com/web/)
+* Element 14 Singapore - [https://sg.element14.com/](https://sg.element14.com/)
+* Continental Electronics (Physical Store, located at Basement 1, Sim Lim Tower (near Bugis/Rochor/Jalan Besar MRT)) - [http://www.continental.sg/](http://www.continental.sg/)
