@@ -42,6 +42,19 @@ Back to the topic of burning LEDs, here is one huge benefit of using TinkerCAD. 
 
 Let us bring out a 9V battery then connect it as follows.
 
+[!9V_Test](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/tinkercad/9V_Test.png)
+
+After you have connected the circuit, click on **Start Simulation** on the top right hand corner of the website.
+
 Once it lights up, this happens.
 
-The reason this happens is due to the incorrect resistor being used. Remember Ohm's Law? When the resistance is too low the current would be too high.
+[!9V_Test2][https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/tinkercad/9V_Test2.png]
+
+The reason this happens is due to the incorrect resistor being used. Remember **[Ohm's Law?](https://d3lta-v.github.io/SSTuino/tutorials/Sec1/electronicBasics.html#the-resistor)** When the resistance is too low the current would be too high.
+
+Instead, connect a resistor like this:
+
+[!9V_Test3](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/tinkercad/9V_Test3.png)
+
+With the resistor attached, the LED lights up without burning up. :) Now you try this with different resistor values. What kind of changes happen?
+
