@@ -58,3 +58,12 @@ Instead, connect a resistor like this:
 
 With the resistor attached, the LED lights up without burning up. :) Now you try this with different resistor values. What kind of changes happen?
 
+Now, let us try this out using different types of batteries.TinkerCAD mainly provides 3 types of batteries: 9V, 3V and 1.5V. Connect your circuit up as shown.
+
+[!9V_Test5](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/tinkercad/9V_Test5.png)
+
+After you connect up the circuit, this happens:
+
+[!9V_Test4](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/tinkercad/9V_Test4.png)
+
+Why would this happen?
