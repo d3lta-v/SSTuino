@@ -121,11 +121,15 @@ Now stop the simulation and place the LED this way instead. What would happen an
 
 Now time for you to "control" your circuit. Set up your circuit like this:
 
+![arduino4](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/tinkercad/arduino4.png)
+
 What this circuit allows you to do is to turn on and off your LED. This push button works something like this: When you press the button, the circuit is closed and current can flow to the LED, which makes the LED light up. When the button is not pressed, the circuit is considered open and current will not flow to the LED, which makes the LED not light up.
 
 Copy this circuit over to your SSTuino board setup.
 
 >**NOTE:** To prevent damage to your computer or the components, please **disconnect all power from the SSTuino board** when you are wiring up your circuit!
+
+![arduino3](https://github.com/d3lta-v/SSTuino/blob/master/Image%20Assets/Tutorial%20Image%20Assets/tinkercad/Arduino3.gif?raw=true)
 
 To futher spice up your circuit, you can consider adding more LEDs to the circuit. How would you add the LEDs to the circuit? What kind of reaction does your circuit have?
 
