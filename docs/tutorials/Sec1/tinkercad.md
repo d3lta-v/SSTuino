@@ -139,7 +139,11 @@ The photoresistor is a resistor that reacts to light. It changes resistance when
 
 Create a new circuit and set up your circuit like this:
 
+![arduino5](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/tinkercad/arduino5.png)
+
 What this circuit allows you to see is the difference in LED brightness as you cover the photoresistor or shine a torch on it. 
+
+![arduino6](https://github.com/d3lta-v/SSTuino/blob/master/Image%20Assets/Tutorial%20Image%20Assets/tinkercad/arduino6.gif?raw=true)
 
 Copy this circuit over to your SSTuino board setup.
 
