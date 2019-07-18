@@ -40,6 +40,18 @@ Signing in to TinkerCAD is easy.
 
 Back to the topic of burning LEDs, here is one huge benefit of using TinkerCAD. As TinkerCAD can simulate circuits, we can test whether we use the correct components and connected it correctly before actually building it.
 
+To start building our circuit, after you have logged in to your TinkerCAD account, navigate to 
+
+`Circuits -> Create new Circuit` 
+
+It is a very good habit to create a new circuit after you have finished your previous tutorial. This is to help you to be able to remember previous tutorials done when you would like to use it next time. After you have created the new circuit, it should look like this:
+
+[!createCircuit](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/tinkercad/createCircuit.png)
+
+Here are the essential buttons of building electronic circuits with TinkerCAD.
+
+[!TinkerCAD_legend](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/tinkercad/tinkerCAD_legend.png)
+
 Let us bring out a 9V battery then connect it as follows.
 
 [!9V_Test](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/tinkercad/9V_Test.png)
@@ -66,4 +78,10 @@ After you connect up the circuit, this happens:
 
 [!9V_Test4](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/tinkercad/9V_Test4.png)
 
-Why would this happen?
+Why would this happen? This is because that LEDs have a minimum voltage to light up. If you look at the spec sheet located here:
+
+[https://www.sparkfun.com/datasheets/Components/LED/COM-09590-YSL-R531R3D-D2.pdf](https://www.sparkfun.com/datasheets/Components/LED/COM-09590-YSL-R531R3D-D2.pdf)
+
+` Forward Voltage: Min 1.8V, Max 2.2V. Suggested current:16 - 18mA `
+
+This means that the 1.5V battery would be barely able to light up the circuit, and only the 2 other battery types will be able to light up.
