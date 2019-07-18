@@ -93,4 +93,52 @@ This means that the 1.5V battery would be barely able to light up the circuit, a
 
 # Your first circuit with the SSTuino Kit!
 
-So you have built yourself some very simple circuits. Now let us move into our SSTuino board!
+So you have built yourself some very simple circuits. Now let us build circuits, but with an Arduino!
+
+In TinkerCAD, create a new circuit. In this new circuit, drag out an Arduino Uno, a breadboard, one resistor and a LED. Connect it in this manner, with the **Positive(+)** connect to **5V** and the **Negative(-)** connect to **GND**. 
+
+If you had read [this tutorial](https://d3lta-v.github.io/SSTuino/tutorials/Sec1/electronicBasics.html), you should have known how the breadboard works.
+
+Press **Start Simulation** and see your circuit light up!
+
+Now, copy your circuit from TinkerCAD onto your SSTuino Innovator's Kit. 
+
+>**NOTE:** To prevent damage to your computer or the components, please **disconnect all power from the SSTuino board** when you are wiring up your circuit!
+
+It should look something like this:
+
+
+
+Now stop the simulation and place the LED this way instead. What would happen and why?
+
+
+
+## Add a button!
+
+Now time for you to "control" your circuit. Set up your circuit like this:
+
+What this circuit allows you to do is to turn on and off your LED. This push button works something like this: When you press the button, the circuit is closed and current can flow to the LED, which makes the LED light up. When the button is not pressed, the circuit is considered open and current will not flow to the LED, which makes the LED not light up.
+
+Copy this circuit over to your SSTuino board setup.
+
+>**NOTE:** To prevent damage to your computer or the components, please **disconnect all power from the SSTuino board** when you are wiring up your circuit!
+
+To futher spice up your circuit, you can consider adding more LEDs to the circuit. How would you add the LEDs to the circuit? What kind of reaction does your circuit have?
+
+## The photoresistor
+
+The photoresistor is a resistor that reacts to light. It changes resistance when the amount of light it detects changes.
+
+Create a new circuit and set up your circuit like this:
+
+What this circuit allows you to see is the difference in LED brightness as you cover the photoresistor or shine a torch on it. 
+
+Copy this circuit over to your SSTuino board setup.
+
+>**NOTE:** To prevent damage to your computer or the components, please **disconnect all power from the SSTuino board** when you are wiring up your circuit!
+
+What happens to the LED brightness as you play with the photoresistor? Record and post a video onto Instagram and place a hashtag `#sstuino`! 
+
+## Time to turn it up!
+
+We are going to move into the programming stage of the SSTuino Innovator's Kit, so please move to the **[next tutorial](https://d3lta-v.github.io/SSTuino/tutorials/Sec1/sstuinoProgram.html)**
