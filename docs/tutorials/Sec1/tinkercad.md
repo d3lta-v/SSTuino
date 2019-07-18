@@ -141,4 +141,4 @@ What happens to the LED brightness as you play with the photoresistor? Record an
 
 ## Time to turn it up!
 
-We are going to move into the programming stage of the SSTuino Innovator's Kit, so please move to the **[next tutorial](https://d3lta-v.github.io/SSTuino/tutorials/Sec1/sstuinoProgram.htm)**
+We are going to move into the programming stage of the SSTuino Innovator's Kit, so please move to the **[next tutorial](https://d3lta-v.github.io/SSTuino/tutorials/Sec1/sstuinoProgram.html)**
