@@ -97,9 +97,13 @@ So you have built yourself some very simple circuits. Now let us build circuits,
 
 In TinkerCAD, create a new circuit. In this new circuit, drag out an Arduino Uno, a breadboard, one resistor and a LED. Connect it in this manner, with the **Positive(+)** connect to **5V** and the **Negative(-)** connect to **GND**. 
 
+![arduino1](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/tinkercad/arduino1.png)
+
 If you had read [this tutorial](https://d3lta-v.github.io/SSTuino/tutorials/Sec1/electronicBasics.html), you should have known how the breadboard works.
 
 Press **Start Simulation** and see your circuit light up!
+
+![arduino2](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/tinkercad/arduino2.png)
 
 Now, copy your circuit from TinkerCAD onto your SSTuino Innovator's Kit. 
 
