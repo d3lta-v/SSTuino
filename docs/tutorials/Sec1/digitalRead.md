@@ -10,4 +10,15 @@ author: Goh Qian Zhe
 
 ## Buttons!
 
-We are going to read very simple data from a push button, to know wether it has been pressed or not.
+We are going to read very simple data from a push button, to know wether it has been pressed or not. Set up your circuit as shown:
+
+![arduinoButton1](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/5_digitalRead/arduinoButton1.png)
+
+Next, go to the coding section and then program it like this:
+
+![arduinoButton2](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/5_digitalRead/arduinoButton2.png)
+
+What this code does is that the Arduino would wait for the button to be pressed. If the button is not pressed, it would output "Not pressed!" in the serial monitor. If the button is pressed, it would output "pressed!" in the serial monitor.
+
+Now start simulation and then press the serial monitor:
+
