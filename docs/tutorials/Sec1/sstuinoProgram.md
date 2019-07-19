@@ -114,7 +114,7 @@ void setup() //This is only run once when the device first powers up
     
 }
 
-void loop() //loop = runs forever 
+void loop() //loop = runs forever till the end of time (or until you turn off the power)
 {
   digitalWrite(13, HIGH);// Turn on pin 13
   delay(1000); // Wait for 1000 millisecond(s)
