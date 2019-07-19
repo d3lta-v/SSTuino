@@ -75,9 +75,15 @@ You would probably have noticed that this code looks rather different than the b
 
 For example, I use another IDE called Visual Studio Code to modify this website for you! (in Markdown)
 
+![arduinoProg9](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/sstuinoProg/arduinoProg9.png)
 
 If you would like to program with text in TinkerCAD, you can also do so like this:
 
-
+![arduinoProg10](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/sstuinoProg/arduinoProg10.png)
 
 They also have another format called Blocks + Code. The text code changes according to the blocks that you place.
+
+![arduinoProg11](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/sstuinoProg/arduinoProg11.png)
+
+> **Note:** In TinkerCAD, when you program in blocks, the text that you coded will be deleted, and when you program in text, the blocks that you placed will be deleted when you change the programming mode. This is to prevent any internal application error with the website.![arduinoProg12](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/sstuinoProg/arduinoProg12.png)
+
