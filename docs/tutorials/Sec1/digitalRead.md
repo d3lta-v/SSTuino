@@ -28,3 +28,21 @@ Copy this circuit over to your SSTuino board setup.
 
 >**NOTE:** To prevent damage to your computer or the components, please **disconnect all power from the SSTuino board** when you are wiring up your circuit!
 
+## Control your lights!
+
+*This time with coding...* With the data we have read from the push button, we can use it to trigger a reaction! Set up your circuit as shown:
+
+![arduinoButton4](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/5_digitalRead/arduinoButton4.png)
+
+Next, we will need to edit the code such that the LED will light up when the button is pressed:
+
+![arduinoButton5](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/5_digitalRead/arduinoButton5.png)
+
+This will happen after you start simulation:
+
+
+Copy this circuit over to your SSTuino board setup.
+
+>**NOTE:** To prevent damage to your computer or the components, please **disconnect all power from the SSTuino board** when you are wiring up your circuit!
+
+ Record and post a video onto Instagram and place a hashtag `#sstuino`! 
