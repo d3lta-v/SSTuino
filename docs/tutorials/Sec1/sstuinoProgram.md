@@ -97,7 +97,9 @@ Here is an explanation on how most basic Arduino code works:
 
 ``` c++
 // These two slashes indicate a comment
-/* This also indicates a comment */
+/* This also indicates a comment 
+The brackets () indicate a function e.g. int main()
+*/
 void setup() //This is only run once when the device first powers up
 { //<- The curly brackets are very important. Place them carefully to avoid confusion.
     pinMode(13,OUTPUT); 
@@ -112,7 +114,7 @@ void setup() //This is only run once when the device first powers up
     
 }
 
-void loop()
+void loop() //loop = runs forever 
 {
   digitalWrite(13, HIGH);// Turn on pin 13
   delay(1000); // Wait for 1000 millisecond(s)
@@ -126,6 +128,9 @@ void loop()
 ```
 
 Learn more about camelCase here: [https://en.wikipedia.org/wiki/Camel_case](https://en.wikipedia.org/wiki/Camel_case)
+Learn more about the "()" :[http://www.cplusplus.com/reference/functional/function/operator_func/](http://www.cplusplus.com/reference/functional/function/operator_func/)
+If you want to read up about C++: [http://www.cplusplus.com/](http://www.cplusplus.com/)
+Arduino language reference: [https://www.arduino.cc/reference/en/](https://www.arduino.cc/reference/en/)
 
 ## It WORKS!!!
 
