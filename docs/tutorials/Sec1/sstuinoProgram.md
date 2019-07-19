@@ -38,3 +38,46 @@ So what does this block of code do? It tells the Arduino to:
 and it repeats all over until you turn off the circuit by unplugging the Arduino from the power source.
 
 In programming, **HIGH** means to turn something on or give it power, while **LOW** means to turn something off or to not give it power. For this code, there are only **2 STATES, HIGH or LOW**. This means that it is either on or off and there is no value in between (either 1 or 0).
+
+Now change the value of the `wait ___ seconds` to something that you like. What happens then?
+
+## Pin 13
+
+Now, let us connect up the circuit:
+
+![arduinoProg4](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/sstuinoProg/arduinoProg4.png)
+
+After you start simulation, it should look something like this:
+
+![arduinoProg5](https://github.com/d3lta-v/SSTuino/blob/master/Image%20Assets/Tutorial%20Image%20Assets/sstuinoProg/arduinoProg5.gif?raw=true)
+
+*Wait a minute...* How come the LED attached turns on and off even though I did not program it? Well the reason behind it is that the `built-in` LED pin is also connected to pin 13. This means in the program, `LED_BUILTIN` is also pin 13.
+
+## Blink!
+
+In TinkerCAD, another awesome feature is the ability to download the program that you have coded just now! You just have to press the download button as shown here:
+
+> Go to code, and press the download button
+
+A `.ino` file will be downloaded on your mac and can be used on the Arduino IDE. Open the file and you would see this:
+
+![arduinoProg7](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/sstuinoProg/arduinoProg7.png)
+
+Click **OK**.
+
+A folder will then be created and you will be able to see this code appear.
+
+![arduinoProg8](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/sstuinoProg/arduinoProg8.png)
+
+## How does the code work?
+
+You would probably have noticed that this code looks rather different than the blocks you see in TinkerCAD. The Arduino app that you are using right now is called an Integrated Development Environment or IDE for short and is one of the places that you can program your SSTuino in.
+
+For example, I use another IDE called Visual Studio Code to modify this website for you! (in Markdown)
+
+
+If you would like to program with text in TinkerCAD, you can also do so like this:
+
+
+
+They also have another format called Blocks + Code. The text code changes according to the blocks that you place.
