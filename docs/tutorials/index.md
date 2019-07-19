@@ -15,7 +15,7 @@ Before you begin playing around with the SSTuino kit here are some things to do:
 * [Click here to setup your laptop and SSTuino kit ready for use.](https://d3lta-v.github.io/SSTuino/tutorials/gettingStarted.html)
 * [Click here to make your SSTuino come to life!](https://d3lta-v.github.io/SSTuino/tutorials/helloWorld.html)
 
-## [Sec 1 Tutorials](https://d3lta-v.github.io/SSTuino/tutorials/indexSec1.html)
+## Sec 1 Tutorials
 
 * [Welcome to a world of technology!](https://d3lta-v.github.io/SSTuino/tutorials/Sec1/lessonIntro.html)
 * [A brief history...and the future!](https://d3lta-v.github.io/SSTuino/tutorials/Sec1/briefHistory.html)
