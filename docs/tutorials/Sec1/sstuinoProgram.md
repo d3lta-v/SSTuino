@@ -69,6 +69,8 @@ In TinkerCAD, another awesome feature is the ability to download the program tha
 
 > Go to code, and press the download button
 
+![arduinoProg6](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/sstuinoProg/arduinoProg6.png)
+
 A `.ino` file will be downloaded on your mac and can be used on the Arduino IDE. Open the file and you would see this:
 
 ![arduinoProg7](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/sstuinoProg/arduinoProg7.png)
