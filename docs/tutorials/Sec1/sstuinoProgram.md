@@ -16,4 +16,25 @@ The Arduino programming language is very simillar to the [C/C++ Language](https:
 
 Create a new circuit on TinkerCAD, and set it up like this:
 
-Now let us go into the coding portion. TinkerCAD is a very simple yet powerful platform to understand Ardunio programming.
+![arduinoProg1](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/sstuinoProg/arduinoProg1.png)
+
+Once you set it up and press start simulation, notice the LED on the Arduino blinking? Why does this happen?
+
+![arduinoProg2](https://github.com/d3lta-v/SSTuino/blob/master/Image%20Assets/Tutorial%20Image%20Assets/sstuinoProg/arduinoProg2.gif?raw=true)
+
+The reason this happens is that TinkerCAD places in a sample code when you insert the Arduino into the circuit.
+
+> Stop the simulation and press the **CODE** button. You should see something like this:
+
+![arduinoProg3](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/sstuinoProg/arduinoProg3.png)
+
+TinkerCAD is very simple to use as you can use block coding to program the Arduino. You would have had experience in block coding with Scratch, Thunkable and Blockly Games. The programming environment would be very simillar to those you had used before.
+
+So what does this block of code do? It tells the Arduino to:
+
+* Turn on the `built-in` LED for one second
+* Turn off the `built-in` LED for one second
+
+and it repeats all over until you turn off the circuit by unplugging the Arduino from the power source.
+
+In programming, **HIGH** means to turn something on or give it power, while **LOW** means to turn something off or to not give it power. For this code, there are only **2 STATES, HIGH or LOW**. This means that it is either on or off and there is no value in between (either 1 or 0).
