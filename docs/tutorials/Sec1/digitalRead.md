@@ -22,3 +22,9 @@ What this code does is that the Arduino would wait for the button to be pressed.
 
 Now start simulation and then press the serial monitor:
 
+![arduinoButton3](https://github.com/d3lta-v/SSTuino/blob/master/Image%20Assets/Tutorial%20Image%20Assets/5_digitalRead/arduinoButton3.gif?raw=true)
+
+Copy this circuit over to your SSTuino board setup.
+
+>**NOTE:** To prevent damage to your computer or the components, please **disconnect all power from the SSTuino board** when you are wiring up your circuit!
+
