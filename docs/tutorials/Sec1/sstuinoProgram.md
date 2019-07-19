@@ -83,7 +83,7 @@ A folder will then be created and you will be able to see this code appear.
 
 You would probably have noticed that this code looks rather different than the blocks you see in TinkerCAD. The Arduino app that you are using right now is called an **Integrated Development Environment** or **IDE** for short and is one of the places that you can program your SSTuino in.
 
-For example, I use another IDE called Visual Studio Code to modify this website for you! (in Markdown)
+For example, I use another IDE called Visual Studio Code to modify this website for you! (in [Markdown](https://en.wikipedia.org/wiki/Markdown))
 
 ![arduinoProg9](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/sstuinoProg/arduinoProg9.png)
 
@@ -93,7 +93,7 @@ Let us analyse the code we see here
 
 Here is an explanation on how most basic Arduino code works:
 
-``` C++
+``` c++
 // These two slashes indicate a comment
 /* This also indicates a comment */
 void setup() //This is only run once when the device first powers up
@@ -121,7 +121,34 @@ void loop()
   The section above will turn on and off the LED. Note the CAPITAL LETTERS on the "HIGH" and "LOW"
   */
 }
-
 ```
 
 Learn more about camelCase here: [https://en.wikipedia.org/wiki/Camel_case](https://en.wikipedia.org/wiki/Camel_case)
+
+## It WORKS!!!
+
+Now, let us connect our SSTuino like this:
+
+>**NOTE:** To prevent damage to your computer or the components, please **disconnect all power from the SSTuino board** when you are wiring up your circuit!
+
+
+
+Connect the SSTuino to your mac after you have finished assembling the circuit.
+
+In your Arduino IDE, go to
+
+> Tools -> Port -> /dev/tty.SLAB_USBtoUART
+
+![port](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Guide%20Image%20Assets/SPEEEduino_Blink3.jpg)
+
+Make sure to select the correct board:
+
+![board](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Guide%20Image%20Assets/SPEEEduino_Blink2.jpg)
+
+And now you can upload with this button:
+
+![arduinoProg13](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/sstuinoProg/arduinoProg13.png)
+
+You should see your circuit light up like this:
+
+
