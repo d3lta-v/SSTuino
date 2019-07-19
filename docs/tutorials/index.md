@@ -29,7 +29,7 @@ Before you begin playing around with the SSTuino kit here are some things to do:
 * [My first circuit!](https://d3lta-v.github.io/SSTuino/tutorials/Sec1/tinkercad.html)
 * [Introduction to Arduino Programming](https://d3lta-v.github.io/SSTuino/tutorials/Sec1/sstuinoProgram.html)
 
-* My SSTuino can read!
+* [My SSTuino can read!](https://d3lta-v.github.io/SSTuino/tutorials/Sec1/digitalRead.html)
 * Data at my fingertips!
 * Actions at my fingertips!
 

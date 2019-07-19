@@ -1,16 +1,13 @@
 ---
-title: digitalRead
-date: 2019-05-29
+title: My SSTuino can read!
+date: 2019-07-19
 author: Goh Qian Zhe
 ---
 
-# digitalRead
+# My SSTuino can read?!
 
-## Board connections and required resistor
-![Connections](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/5_digitalRead/boardConnections.png)
+*Well, not literally reading English...* Microcontrollers like the SSTuino and the Arduino can read data from a large variety of channels, such as sensor data, internet data, and so on.
 
-We will be using the 330 Ohm resistor and the 10K Ohm resistor for this tutorial.
+## Buttons!
 
-![330Ohm](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/PartsList/330-ohm.jpg){: .small-image-left }
-
-![10KOhm](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/PartsList/10KOhm.jpg){: .small-image-left }
+We are going to read very simple data from a push button, to know wether it has been pressed or not.
