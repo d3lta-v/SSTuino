@@ -111,11 +111,13 @@ Now, copy your circuit from TinkerCAD onto your SSTuino Innovator's Kit.
 
 It should look something like this:
 
+![arduino8](https://github.com/d3lta-v/SSTuino/blob/master/Image%20Assets/Tutorial%20Image%20Assets/tinkercad/arduino8.jpg?raw=true)
 
+Let us go back to the simulation and change the circuit like this:
 
-Now stop the simulation and place the LED this way instead. What would happen and why?
+![arduino7](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/tinkercad/arduino7.png)
 
-
+What would happen and why?
 
 ## Add a button!
 
