@@ -69,7 +69,24 @@ Copy this circuit over to your SSTuino board setup.
 
 >**NOTE:** To prevent damage to your computer or the components, please **disconnect all power from the SSTuino board** when you are wiring up your circuit!
 
-Now, we are going to improve this circuit by adding a button. This allows the user to turn on the flashing lights only when he/she needs to use it.
+Now, we are going to improve this circuit by adding a button. This allows the user to turn on the flashing lights only when he/she needs to use it. When the button is pressed, the lights will start flashing?
 
 Set up your circuit as shown:
 
+![arduinoButton9](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/5_digitalRead/arduinoButton9.png)
+
+How would you edit the code to make it flash when the button is pressed, and to stop flashing once the button is not pressed?
+
+![arduinoButton11](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/5_digitalRead/arduinoButton11.gif)
+
+How would you edit the code for the lights to flash faster?
+
+Copy this circuit over to your SSTuino board setup.
+
+>**NOTE:** To prevent damage to your computer or the components, please **disconnect all power from the SSTuino board** when you are wiring up your circuit!
+
+ Record and post a video onto Instagram and place a hashtag `#sstuino`! 
+
+ ## How about 2 buttons?!
+
+ We are going to introduce the AND OR operators into the program.
