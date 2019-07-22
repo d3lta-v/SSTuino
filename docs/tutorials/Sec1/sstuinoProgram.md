@@ -161,4 +161,5 @@ And now you can upload with this button:
 
 You should see your circuit light up like this:
 
-<div style='position:relative; padding-bottom:calc(56.43% + 44px)'><iframe src='https://gfycat.com/ifr/ExhaustedDecimalEkaltadeta' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
+![arduinoProg14](https://github.com/d3lta-v/SSTuino/blob/master/Image%20Assets/Tutorial%20Image%20Assets/sstuinoProg/arduinoProg14.gif?raw=true)
+
