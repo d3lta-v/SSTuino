@@ -163,3 +163,10 @@ You should see your circuit light up like this:
 
 ![arduinoProg14](https://github.com/d3lta-v/SSTuino/blob/master/Image%20Assets/Tutorial%20Image%20Assets/sstuinoProg/arduinoProg14.gif?raw=true)
 
+## The SSTuino can read?!
+
+In the next tutorial series, we will be looking at how to make the SSTuino recieve inputs from your components, and then have a reaction from that.
+
+**[Click here to access the next tutorial](https://d3lta-v.github.io/SSTuino/tutorials/Sec1/digitalRead.html)
+
+Have fun!
