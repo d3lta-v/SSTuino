@@ -49,7 +49,7 @@ Copy this circuit over to your SSTuino board setup.
 
  ## Flashing Lights!
 
- - Insert Gif here - 
+ Insert Gif here
 
  We are going to alternate the flashing of 2 different LED lights to mimick that of an emergency vehicle (e.g. Ambluance, Police Car, Fire Brigade etc.)
 
