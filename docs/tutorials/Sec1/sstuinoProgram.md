@@ -167,6 +167,6 @@ You should see your circuit light up like this:
 
 In the next tutorial series, we will be looking at how to make the SSTuino recieve inputs from your components, and then have a reaction from that.
 
-**[Click here to access the next tutorial](https://d3lta-v.github.io/SSTuino/tutorials/Sec1/digitalRead.html)
+**[Click here to access the next tutorial](https://d3lta-v.github.io/SSTuino/tutorials/Sec1/digitalRead.html)**
 
 Have fun!
