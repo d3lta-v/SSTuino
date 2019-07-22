@@ -63,5 +63,13 @@ Copy this circuit over to your SSTuino board setup.
 
 After you are done with the assembly and programming, this is how it should look like:
 
+![arduinoButton8](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/5_digitalRead/arduinoButton8.gif)
 
+Copy this circuit over to your SSTuino board setup.
+
+>**NOTE:** To prevent damage to your computer or the components, please **disconnect all power from the SSTuino board** when you are wiring up your circuit!
+
+Now, we are going to improve this circuit by adding a button. This allows the user to turn on the flashing lights only when he/she needs to use it.
+
+Set up your circuit as shown:
 
