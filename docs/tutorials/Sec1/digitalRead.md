@@ -46,3 +46,22 @@ Copy this circuit over to your SSTuino board setup.
 >**NOTE:** To prevent damage to your computer or the components, please **disconnect all power from the SSTuino board** when you are wiring up your circuit!
 
  Record and post a video onto Instagram and place a hashtag `#sstuino`! 
+
+ ## Flashing Lights!
+
+ - Insert Gif here - 
+
+ We are going to alternate the flashing of 2 different LED lights to mimick that of an emergency vehicle (e.g. Ambluance, Police Car, Fire Brigade etc.)
+
+ Set up your circuit as shown:
+
+![arduinoButton6](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/5_digitalRead/arduinoButton6.png)
+
+ This is one of the ways to program it. What other ways can you program it?
+
+![arduinoButton7](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/5_digitalRead/arduinoButton7.png)
+
+After you are done with the assembly and programming, this is how it should look like:
+
+
+
