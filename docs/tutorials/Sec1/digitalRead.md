@@ -47,7 +47,7 @@ Copy this circuit over to your SSTuino board setup.
 
  Record and post a video onto Instagram and place a hashtag `#sstuino`! 
 
- ## Flashing Lights!
+## Flashing Lights!
 
  Insert Gif here
 
@@ -87,6 +87,6 @@ Copy this circuit over to your SSTuino board setup.
 
  Record and post a video onto Instagram and place a hashtag `#sstuino`! 
 
- ## How about 2 buttons?!
+## How about 2 buttons?!
 
  We are going to introduce the AND OR operators into the program.
