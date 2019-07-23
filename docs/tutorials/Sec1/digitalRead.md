@@ -87,6 +87,32 @@ Copy this circuit over to your SSTuino board setup.
 
  Record and post a video onto Instagram and place a hashtag `#sstuino`! 
 
+## Naming your variables
+
+After some tinkering with your coding, you may realise that it may be an hassle to change for example a pin, like this example code:
+
+```C++
+
+void setup()
+{
+  pinMode(13, OUTPUT);
+}
+
+void loop()
+{
+  digitalWrite(13, HIGH);
+  delay(1000); // Wait for 1000 millisecond(s)
+  digitalWrite(13, LOW);
+  delay(1000); // Wait for 1000 millisecond(s)
+}
+
+```
+
+Imagine that you would have to change all the `pin 13` to another pin, and would have to scan through the entire code just to change all these values! Although Arduino Programs may be rather short, but still... *changing all of the numbers like that is kind of a hassle right?*
+
+*Introducing... Variable names* 
+
+
 ## How about 2 buttons?!
 
  We are going to introduce the AND OR operators into the program.
