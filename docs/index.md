@@ -7,8 +7,6 @@
 
 SSTuino is an easy to use Wi-Fi enabled microcontroller, designed and fabricated by SST Alumni. Users can write programs to connect or control things over the Internet. It is derived from the SPEEEduino v1.1 with some improvements.
 
-Official reference website (Original SPEEEduino): [https://d3lta-v.github.io/SPEEEduino/](https://d3lta-v.github.io/SPEEEduino/)
-
 ### Documentation
 
 For documentation on this project, please refer to our [Github Wiki](https://github.com/sammy0025/SSTuino/wiki) (currently WIP) for more information.
