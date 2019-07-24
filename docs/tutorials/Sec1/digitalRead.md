@@ -101,7 +101,7 @@ Copy this circuit over to your SSTuino board setup.
 
 ![arduinoButton14](https://github.com/d3lta-v/SSTuino/blob/master/Image%20Assets/Tutorial%20Image%20Assets/5_digitalRead/arduinoButton14.gif?raw=true)
 
->Record and post a video onto Instagram and place a hashtag `#sstuino`! 
+Record and post a video onto Instagram and place a hashtag `#sstuino`! 
 
 ## Naming your variables
 
