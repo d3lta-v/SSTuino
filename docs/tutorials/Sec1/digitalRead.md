@@ -183,4 +183,6 @@ How it works is that if either Input 1 **OR** Input 2 are `high`, it will give a
 |0|1|1|
 |1|1|1|
 
-As technology has advanced leaps and bounds, these basic operators evolved from actual hardware gates to just a line of code in your program. A modern microprocessor can do so much more than those of the older era.
+As technology has advanced leaps and bounds, these basic operators evolved from actual hardware gates to just a line of code in your program. A modern microprocessor can do so much more than what these chips used to do.
+
+If you are interested to learn about logic gates:[https://www.electronics-tutorials.ws/logic/logic_10.html](https://www.electronics-tutorials.ws/logic/logic_10.html)
