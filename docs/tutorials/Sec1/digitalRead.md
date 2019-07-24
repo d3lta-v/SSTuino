@@ -153,3 +153,34 @@ void loop()
 ## How about 2 buttons?!
 
  We are going to introduce the AND OR operators into the program.
+
+### Some History...
+
+Back when technology was not this advanced, the various operators were actual hardware logic gates that were placed into the circuit. The chips looked something like this:
+
+![arduinoButton15](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/5_digitalRead/arduinoButton15.jpg)
+
+In this section, we are going to cover two types of operators
+
+**AND Operator**
+
+How it works is that if both Input 1 and Input 2 are `high`, it will give a `high` output, as illustrated in this table:
+
+|Input 1|Input 2|Output|
+|0|0|0|
+|1|0|0|
+|0|1|0|
+|1|1|1|
+
+
+**OR Operator**
+
+How it works is that if either Input 1 **OR** Input 2 are `high`, it will give a `high` output. If both Inputs are `high`, it will also give a `high` output, as illustrated in this table:
+
+|Input 1|Input 2|Output|
+|0|0|0|
+|1|0|1|
+|0|1|1|
+|1|1|1|
+
+As technology has advanced leaps and bounds, these basic operators evolved from actual hardware gates to just a line of code in your program. A modern microprocessor can do so much more than those of the older era.
