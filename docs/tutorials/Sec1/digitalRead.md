@@ -129,7 +129,6 @@ Imagine that you would have to change all the `pin 13` to another pin, and would
 Here is a modified version of the code you saw above just now.
 
 ```C++
-
 int LED = 13;
 int wait = 1000;
 
