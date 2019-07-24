@@ -124,8 +124,32 @@ void loop()
 
 Imagine that you would have to change all the `pin 13` to another pin, and would have to scan through the entire code just to change all these values! Although Arduino Programs may be rather short, but still... *changing all of the numbers like that is kind of a hassle right?*
 
-*Introducing... Variable names* 
+*Introducing... Variable names.* 
 
+Here is a modified version of the code you saw above just now.
+
+```C++
+
+int LED = 13;
+int wait = 1000;
+
+void setup()
+{
+  pinMode(LED, OUTPUT);
+}
+
+void loop()
+{
+  digitalWrite(LED, HIGH);
+  delay(wait); // Wait for 1000 millisecond(s)
+  digitalWrite(13, LOW);
+  delay(wait); // Wait for 1000 millisecond(s)
+}
+```
+
+**SEE?** I have managed to change all the numbers to variable names. For example, in the event I want to adjust the `delay()` function in the code, I just have to change the `1000` at the `int wait=1000;` into a different number! Isn't that way more straightforward?
+
+*How about you try it out?*
 
 ## How about 2 buttons?!
 
