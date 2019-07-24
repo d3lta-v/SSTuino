@@ -8,6 +8,18 @@ author: Goh Qian Zhe
 
 *Well, not literally reading English...* Microcontrollers like the SSTuino and the Arduino can read data from a large variety of channels, such as sensor data, internet data, and so on.
 
+## Pull-up Resistors
+
+Pull-up resistors are found in digital logic devices and microcontrollers. When a pin in say, the SSTuino is connected as an input and tries to read the state of the pin, it is very difficult to determine wether the pin is actually high or low, due to a lot of factors such as noise in the circuit. This phenomena is referred to as floating (more detailed explanation [here](https://learn.adafruit.com/circuit-playground-digital-input/floating-inputs)).
+
+To eliminate this, we will place a pull-up resistor to ensure that the pin is either in its `high` or `low` state, while using a litle bit of current. Pull-up resistors are usually used on buttons and switches where there is a possibility of signal noise.
+
+![pullUp](https://cdn.sparkfun.com/assets/6/f/b/c/7/511568b6ce395f1b40000000.jpg)
+
+If you would like to read more about this, visit this sparkfun guide here: 
+
+[https://learn.sparkfun.com/tutorials/pull-up-resistors/all](https://learn.sparkfun.com/tutorials/pull-up-resistors/all)
+
 ## Buttons!
 
 We are going to read very simple data from a push button, to know wether it has been pressed or not. Set up your circuit as shown:
@@ -49,7 +61,7 @@ Copy this circuit over to your SSTuino board setup.
 
 ## Flashing Lights!
 
- Insert Gif here
+ ![arduinoButton12](https://github.com/d3lta-v/SSTuino/blob/master/Image%20Assets/Tutorial%20Image%20Assets/5_digitalRead/arduinoButton12.gif?raw=true)
 
  We are going to alternate the flashing of 2 different LED lights to mimick that of an emergency vehicle (e.g. Ambluance, Police Car, Fire Brigade etc.)
 
@@ -69,6 +81,8 @@ Copy this circuit over to your SSTuino board setup.
 
 >**NOTE:** To prevent damage to your computer or the components, please **disconnect all power from the SSTuino board** when you are wiring up your circuit!
 
+![arduinoButton13](https://github.com/d3lta-v/SSTuino/blob/master/Image%20Assets/Tutorial%20Image%20Assets/5_digitalRead/arduinoButton13.gif?raw=true)
+
 Now, we are going to improve this circuit by adding a button. This allows the user to turn on the flashing lights only when he/she needs to use it. When the button is pressed, the lights will start flashing?
 
 Set up your circuit as shown:
@@ -85,7 +99,9 @@ Copy this circuit over to your SSTuino board setup.
 
 >**NOTE:** To prevent damage to your computer or the components, please **disconnect all power from the SSTuino board** when you are wiring up your circuit!
 
- Record and post a video onto Instagram and place a hashtag `#sstuino`! 
+![arduinoButton14](https://github.com/d3lta-v/SSTuino/blob/master/Image%20Assets/Tutorial%20Image%20Assets/5_digitalRead/arduinoButton14.gif?raw=true)
+
+>Record and post a video onto Instagram and place a hashtag `#sstuino`! 
 
 ## Naming your variables
 
