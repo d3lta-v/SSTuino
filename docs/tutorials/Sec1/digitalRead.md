@@ -186,3 +186,17 @@ How it works is that if either Input 1 **OR** Input 2 are `high`, it will give a
 As technology has advanced leaps and bounds, these basic operators evolved from actual hardware gates to just a line of code in your program. A modern microprocessor can do so much more than what these chips used to do.
 
 If you are interested to learn about logic gates:[https://www.electronics-tutorials.ws/logic/logic_10.html](https://www.electronics-tutorials.ws/logic/logic_10.html)
+
+## OR Operator example:
+
+Let us create a new circuit in TinkerCAD like this:
+
+![arduinoButton16](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/5_digitalRead/arduinoButton16.png)
+
+Next, we will need to edit the code such that the LED would light up once **one** of the buttons is pressed:
+
+![arduinoButton17](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/5_digitalRead/arduinoButton16.png)
+
+
+## Taking it further...
+
