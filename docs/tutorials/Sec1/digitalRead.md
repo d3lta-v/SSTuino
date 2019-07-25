@@ -195,7 +195,7 @@ Let us create a new circuit in TinkerCAD like this:
 
 Next, we will need to edit the code such that the LED would light up once **one** of the buttons is pressed:
 
-![arduinoButton17](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/5_digitalRead/arduinoButton16.png)
+![arduinoButton17](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/5_digitalRead/arduinoButton17.png)
 
 
 ## Taking it further...
