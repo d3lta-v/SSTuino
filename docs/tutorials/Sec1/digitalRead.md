@@ -198,9 +198,11 @@ Next, we will need to edit the code such that the LED would light up once **one*
 ![arduinoButton17](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/5_digitalRead/arduinoButton17.png)
 
 
-## AND Operatro example:
+## AND Operator example:
 
 For this, we just have to change the code to this:
+
+>To activate the two buttons, you would have to press and hold **SHIFT** on your keyboard while clicking the buttons to activate both buttons.
 
 
 
