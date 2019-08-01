@@ -103,6 +103,14 @@ Copy this circuit over to your SSTuino board setup.
 
 Record and post a video onto Instagram and place a hashtag `#sstuino`! 
 
+## Emergency vehicle coming through!
+
+With your lights and the push button, let us attempt to insert some sound! For this section, we are going to use the included buzzer to make some sound!
+
+Duplicate the previous circuit and set it up as follows:
+
+Along with the flashing lights, we would need to program the buzzer such that it sounds correctly! This is one way to program it:
+
 ## Naming your variables
 
 After some tinkering with your coding, you may realise that it may be an hassle to change for example a pin, like this example code:
