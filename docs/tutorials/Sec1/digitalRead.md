@@ -228,6 +228,8 @@ Now start the simulation.
 
 Let us duplicate the circuit we have just created in the previous section.
 
+![arduinoButton22](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/5_digitalRead/arduinoButton22.png)
+
 We will need to have 3 LEDs this time, to show that:
 
 |**Button 1**|**Button 2**|**Output**|
@@ -236,5 +238,22 @@ We will need to have 3 LEDs this time, to show that:
 |Not Pressed|Pressed|YELLOW LED|
 |Pressed|Pressed|GREEN LED|
 
+The circuit is built as shown:
+
+![arduinoButton23](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/5_digitalRead/arduinoButton23.png)
+
+How would you program it?
+
+This is one of the ways it would work:
+
+![arduinoButton24](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/5_digitalRead/arduinoButton24.png)
+
+I would ask:
+1. Are any of the buttons pressed? If yes go to 2, if not, Red LED.
+2. Are both of the buttons pressed? If yes, Green LED, if not, Yellow LED.
+
+So would there be other ways to do it? *Certainly!* This is just one of the ways you can do it! There are many ways to make it work the same way also!
+
+## Toggle switch
 
 
