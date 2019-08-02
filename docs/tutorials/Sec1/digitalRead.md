@@ -230,7 +230,7 @@ Let us duplicate the circuit we have just created in the previous section.
 
 We will need to have 3 LEDs this time, to show that:
 
-|Button 1|Button 2|Output|
+|**Button 1**|**Button 2**|**Output**|
 |Not Pressed|Not Pressed|RED LED|
 |Pressed|Not Pressed|YELLOW LED|
 |Not Pressed|Pressed|YELLOW LED|
