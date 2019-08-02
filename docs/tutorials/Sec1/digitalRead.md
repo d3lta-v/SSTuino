@@ -107,9 +107,17 @@ Record and post a video onto Instagram and place a hashtag `#sstuino`!
 
 With your lights and the push button, let us attempt to insert some sound! For this section, we are going to use the included buzzer to make some sound!
 
-Duplicate the previous circuit and set it up as follows:
+Duplicate the previous circuit:
+
+![arduinoButton18](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/5_digitalRead/arduinoButton18.png)
+
+and set it up as follows:
+
+![arduinoButton19](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/5_digitalRead/arduinoButton19.png)
 
 Along with the flashing lights, we would need to program the buzzer such that it sounds correctly! This is one way to program it:
+
+![arduinoButton20](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/5_digitalRead/arduinoButton20.png)
 
 ## Naming your variables
 
