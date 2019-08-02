@@ -218,7 +218,23 @@ Next, we will need to edit the code such that the LED would light up once **one*
 
 For this, we just have to change the code to this:
 
+![arduinoButton21](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/5_digitalRead/arduinoButton21.png)
+
+Now start the simulation.
+
 >To activate the two buttons, you would have to press and hold **SHIFT** on your keyboard while clicking the buttons to activate both buttons.
+
+## Putting them together
+
+Let us duplicate the circuit we have just created in the previous section.
+
+We will need to have 3 LEDs this time, to show that:
+
+|Button 1|Button 2|Output|
+|Not Pressed|Not Pressed|RED LED|
+|Pressed|Not Pressed|YELLOW LED|
+|Not Pressed|Pressed|YELLOW LED|
+|Pressed|Pressed|GREEN LED|
 
 
 
