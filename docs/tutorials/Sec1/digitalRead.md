@@ -258,7 +258,7 @@ So would there be other ways to do it? *Certainly!* This is just one of the ways
 
 Let us assume that we only have a button to control our lighting. Based on previous examples, if you were want to light up the LED, you would have to press and hold the LED right? What if I was to use the washroom and want the lights to be on? I would then have to press and hold the button for the lights to remain on! To prevent this from happening, we can make our button into a toggle switch with some coding...
 
-Duplicate this circuit from the this **[tutorial](#control-your-lights)
+Duplicate this circuit from the this **[tutorial](#control-your-lights)**
 
 ![arduinoButton25](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/5_digitalRead/arduinoButton25.png)
 
