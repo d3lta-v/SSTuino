@@ -256,4 +256,24 @@ So would there be other ways to do it? *Certainly!* This is just one of the ways
 
 ## Toggle switch
 
+Let us assume that we only have a button to control our lighting. Based on previous examples, if you were want to light up the LED, you would have to press and hold the LED right? What if I was to use the washroom and want the lights to be on? I would then have to press and hold the button for the lights to remain on! To prevent this from happening, we can make our button into a toggle switch with some coding...
 
+Duplicate this circuit from the this **[tutorial](#control-your-lights)
+
+![arduinoButton25](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/5_digitalRead/arduinoButton25.png)
+
+The circuit should look something like this:
+
+![arduinoButton26](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/5_digitalRead/arduinoButton26.png)
+
+For the program, we would have to introduce variables. To create variables, navigate here:
+
+![arduinoButton27](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/5_digitalRead/arduinoButton27.png)
+
+Create the variables `btn` and `led`. We are going to use these variables to store the state of the button and LED. What this means is that if the button is pressed, I change the state of the variable and it will remember the state, which also means that if I press and hold it, it does not spam the ON command. It will just activate once. Same with the LED.
+
+Here is how the program can be coded:
+
+![arduinoButton28](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/5_digitalRead/arduinoButton27.png)
+
+Did you manage to do it?
