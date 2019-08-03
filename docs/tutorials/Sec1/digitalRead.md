@@ -274,6 +274,6 @@ Create the variables `btn` and `led`. We are going to use these variables to sto
 
 Here is how the program can be coded:
 
-![arduinoButton28](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/5_digitalRead/arduinoButton27.png)
+![arduinoButton28](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/5_digitalRead/arduinoButton28.png)
 
 Did you manage to do it?
