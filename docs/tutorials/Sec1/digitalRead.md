@@ -277,3 +277,9 @@ Here is how the program can be coded:
 ![arduinoButton28](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/5_digitalRead/arduinoButton28.png)
 
 Did you manage to do it?
+
+## Next up...
+
+We will be reading analog inputs into our SSTuino! 
+
+**[Click here for the tutorial](https://d3lta-v.github.io/SSTuino/tutorials/Sec1/dataInput.html)**
