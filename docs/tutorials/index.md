@@ -30,7 +30,7 @@ Before you begin playing around with the SSTuino kit here are some things to do:
 * [Introduction to Arduino Programming](https://d3lta-v.github.io/SSTuino/tutorials/Sec1/sstuinoProgram.html)
 
 * [My SSTuino can read!](https://d3lta-v.github.io/SSTuino/tutorials/Sec1/digitalRead.html)
-* [Data at my fingertips!]((https://d3lta-v.github.io/SSTuino/tutorials/Sec1/dataInput.html))
+* [Data at my fingertips!](https://d3lta-v.github.io/SSTuino/tutorials/Sec1/dataInput.html)
 * Actions at my fingertips!
 
 
