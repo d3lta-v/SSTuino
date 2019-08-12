@@ -43,3 +43,39 @@ In your Arduino IDE, once you have uploaded the code, apart from opening the ser
 ## Speed Control
 
 Since we have managed to get a reading from a analog pin from the SSTuino, we are going to make use of the reading to alter the blinking speed of an LED. We are going to first fire up TinkerCAD and edit the circuit to something like this: 
+
+![arduinoPot4](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/6_Potentiometer/arduinoPot4.png)
+
+For the code, we are going to use the blink code and edit the `delay()` function. What we are trying to achieve is that when I turn the knob of the potentiometer, the speed of the blinking of the LED changes.
+
+![arduinoPot5](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/6_Potentiometer/arduinoPot5.png)
+
+This is the result I should get:
+
+Copy this circuit over to your SSTuino board setup.
+
+>**NOTE:** To prevent damage to your computer or the components, please **disconnect all power from the SSTuino board** when you are wiring up your circuit!
+
+In your Arduino IDE, once you have uploaded the code, apart from opening the serial monitor, you can also open the serial plotter. It outputs the results to graphs.
+
+## SSTuino controlled dimmer
+
+Next, we will use the SSTuino's PWM output function to control the brightness of the LED. On other pins, you can only turn the LED on or off. There are some pins with the wavy `~` sign, which means that it can output PWM signals. With digital electronics, it requires a bit of a trick to control something with analog means. 
+
+PWM stands for Pulse Width Modulation. The pin would output a series of square waves, and depending on the duty cycle, adjusts the width of the square wave. What it essentially does is that it turns on and off the component very quickly, such that our eyes cannot see the difference. In the diagram below, you can see how the duty cycle is adjusted by changing the width of the square wave. When the duty cycle is 0, it turns off the component. From 0 to 100, it gradually increases the intensity, and is a full power when at 100% duty cycle.
+
+![arduinoPot7](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/6_Potentiometer/arduinoPot7.gif)
+
+For this exercise, we will use the same circuit and just edit the code:
+
+![arduinoPot6](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/6_Potentiometer/arduinoPot6.png)
+
+I divide the input by 4 as the range of the PWM output is only from 0-255, which means that it is 8-bit.
+
+This is the result I should get:
+
+Copy this circuit over to your SSTuino board setup.
+
+>**NOTE:** To prevent damage to your computer or the components, please **disconnect all power from the SSTuino board** when you are wiring up your circuit!
+
+In your Arduino IDE, once you have uploaded the code, apart from opening the serial monitor, you can also open the serial plotter. It outputs the results to graphs.
