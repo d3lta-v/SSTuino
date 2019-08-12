@@ -81,3 +81,7 @@ Copy this circuit over to your SSTuino board setup.
 >**NOTE:** To prevent damage to your computer or the components, please **disconnect all power from the SSTuino board** when you are wiring up your circuit!
 
 In your Arduino IDE, once you have uploaded the code, apart from opening the serial monitor, you can also open the serial plotter. It outputs the results to graphs.
+
+## Beep Beep!
+
+We are now going to insert a piezo element into our circuit. Configure your circuit like this:
