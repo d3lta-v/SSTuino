@@ -20,7 +20,7 @@ Potentiometers are used frequently and comonnly on electronic devices. A simple 
 
 This is the potentiometer that we will be using in this tutorial:
 
-![arduinoPot1](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/6_Potentiometer/arduinoPot1.jpeg)
+![arduinoPot1](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/6_Potentiometer/arduinoPot1.jpg)
 
 It is the Bourns 3386F Potentiometer that can be found **[here](https://www.digikey.sg/product-detail/en/bourns-inc/3386F-1-103TLF/3386F-103TLF-ND/1232544)**
 
