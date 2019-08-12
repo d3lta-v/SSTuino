@@ -66,6 +66,8 @@ PWM stands for Pulse Width Modulation. The pin would output a series of square w
 
 ![arduinoPot7](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/6_Potentiometer/arduinoPot7.gif)
 
+To read up more about Pulse Width Modulation on Arduino, check out this link **[here](https://www.arduino.cc/en/Tutorial/PWM)**
+
 For this exercise, we will use the same circuit and just edit the code:
 
 ![arduinoPot6](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/6_Potentiometer/arduinoPot6.png)
