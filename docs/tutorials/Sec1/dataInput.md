@@ -84,4 +84,16 @@ In your Arduino IDE, once you have uploaded the code, apart from opening the ser
 
 ## Beep Beep!
 
-We are now going to insert a piezo element into our circuit. Configure your circuit like this:
+Let us play some tones with the SSTuino! We are now going to insert a piezo element into our circuit. Configure your circuit like this:
+
+![arduinoPot8](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/6_Potentiometer/arduinoPot8.png)
+
+I am going to play 3 tones on the harmonic scale. Can you play up to 1 full scale? *(Do, Re, Mi, Fa, So, La, Ti Do!)*
+
+![arduinoPot9](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/6_Potentiometer/arduinoPot9.png)
+
+#Pieno
+
+We are now going to use the potentiometer to control the tone of the speaker. This means that as you turn the knob on the potentiometer, the pitch of the speaker will change.
+
+
