@@ -92,8 +92,38 @@ I am going to play 3 tones on the harmonic scale. Can you play up to 1 full scal
 
 ![arduinoPot9](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/6_Potentiometer/arduinoPot9.png)
 
-#Pieno
+## Pieno
 
-We are now going to use the potentiometer to control the tone of the speaker. This means that as you turn the knob on the potentiometer, the pitch of the speaker will change.
+We are now going to use the potentiometer to control the tone of the speaker. This means that as you turn the knob on the potentiometer, the pitch of the speaker will change. With the same circuit as the previous exercise, we are going to tweak the code for the Pieno.
 
+![arduinoPot9](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/6_Potentiometer/arduinoPot9.png)
 
+First, we will need to create a new variable called pot. In this exercise, we are going to introduce to you another function: *map to range*. What basically happens is that the input and output range will mostly be different. In this case, the potentiometer has a range `from 0 to 1023`, but the speaker has a output range `of 35 to 127`. By mapping the range, we can make sure that when the potentiometer is at one end of the input range, the speaker is definitely also at one end of its output range.
+
+![arduinoPot10](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/6_Potentiometer/arduinoPot10.png)
+
+After you have tried this out, run the simulation and create your own music!
+
+## Enhancing the Pieno
+
+Would it be possible to add more functions to the *pieno*? Sure thing! Let us add 2 more buttons to the circuit as shown:
+
+![arduinoPot11](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/6_Potentiometer/arduinoPot11.png)
+
+These will be the two functions that we will add:
+* A button to stop the music
+* A button to make the tone beep intermittently
+
+![arduinoPot12](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/6_Potentiometer/arduinoPot12.png)
+
+## A *slightly* smarter light sensor
+
+For this exercise, we will be going back to the Light Dependant Resistor (LDR)/photoresistor. Previously [in this tutorial](), we managed to try out the photoresistor. Now we are going to make use of it as an input for the SSTuino to trigger something! You may remember that the purpose of the photoresistor was not really significant or useful, as it made the LED brighter when the environment was bright. But with some programming, we can make it work properly!
+
+Let us move into TinkerCAD and create a new circuit, something that looks like this:
+
+![arduinoPot13](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/6_Potentiometer/arduinoPot13.png)
+
+We will read the photoresistor value from the analog pin and output it to the serial monitor.
+
+![arduinoPot14](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/6_Potentiometer/arduinoPot14.png)
