@@ -96,8 +96,6 @@ I am going to play 3 tones on the harmonic scale. Can you play up to 1 full scal
 
 We are now going to use the potentiometer to control the tone of the speaker. This means that as you turn the knob on the potentiometer, the pitch of the speaker will change. With the same circuit as the previous exercise, we are going to tweak the code for the Pieno.
 
-![arduinoPot9](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/6_Potentiometer/arduinoPot9.png)
-
 First, we will need to create a new variable called pot. In this exercise, we are going to introduce to you another function: *map to range*. What basically happens is that the input and output range will mostly be different. In this case, the potentiometer has a range `from 0 to 1023`, but the speaker has a output range `of 35 to 127`. By mapping the range, we can make sure that when the potentiometer is at one end of the input range, the speaker is definitely also at one end of its output range.
 
 ![arduinoPot10](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/6_Potentiometer/arduinoPot10.png)
