@@ -125,3 +125,15 @@ Let us move into TinkerCAD and create a new circuit, something that looks like t
 We will read the photoresistor value from the analog pin and output it to the serial monitor.
 
 ![arduinoPot14](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/6_Potentiometer/arduinoPot14.png)
+
+When running the simulation, open up the serial monitor. The result should look something like this:
+
+![arduinoPot15](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/6_Potentiometer/arduinoPot15.gif)
+
+While I change the light intensity of the LDR, the readings also change.
+
+Now let us make it useful. We would want to make it such that when the environment darkens, the LED will light up. To do so, we edit our code to something like this:
+
+![arduinoPot16](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/6_Potentiometer/arduinoPot16.png)
+
+In the `if` statement, the value where your LDR detects that the environment is dark varies. You may have a different value for your circuit and you will need to edit the value.
