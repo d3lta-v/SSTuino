@@ -137,3 +137,24 @@ Now let us make it useful. We would want to make it such that when the environme
 ![arduinoPot16](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/6_Potentiometer/arduinoPot16.png)
 
 In the `if` statement, the value where your LDR detects that the environment is dark varies. You may have a different value for your circuit and you will need to edit the value.
+
+## Ultrasonic Sensor
+
+The ultrasonic distance sensor uses ultrasonic waves - a very high pitched sound that we cannot hear to measure the distance it is from an object. It is in a **transducer** configuration, where the transmitter and reciever is on the same sensor.
+
+![arduinoPot17](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/6_Potentiometer/arduinoPot17.jpg)
+
+One of the most common uses of ultrasonic distance sensor is in the automotive industry. They are usually used as reverse warning sensors but are increasingly used in self-driving vehicles, like Tesla's Autopilot for example. The ultrsonic sensor we are going to use is the HC-SR04, which is commonly used in Arduino circuits:
+
+> Note that we need to use the 4 pin sensor instead of the 3 pin one, which can be found by typing *ultrasonic sensor* in the component search bar.
+
+![arduinoPot18](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/6_Potentiometer/arduinoPot18.png)
+
+Let us go into TinkerCAD and create a new circuit. We are going to assemble it like this:
+
+![arduinoPot19](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/6_Potentiometer/arduinoPot19.png)
+
+The coding part with blocks is rather simple, as the TinkerCAD team have simplified the code to just this line:
+
+![arduinoPot20](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/6_Potentiometer/arduinoPot20.png)
+
