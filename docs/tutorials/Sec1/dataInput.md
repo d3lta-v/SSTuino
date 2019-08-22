@@ -157,4 +157,3 @@ Let us go into TinkerCAD and create a new circuit. We are going to assemble it l
 The coding part with blocks is rather simple, as the TinkerCAD team have simplified the code to just this line:
 
 ![arduinoPot20](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/6_Potentiometer/arduinoPot20.png)
-
