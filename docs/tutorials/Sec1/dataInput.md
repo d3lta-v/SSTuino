@@ -6,7 +6,13 @@ author: Goh Qian Zhe
 
 # Data at my fingertips!
 
-In this tutorial, we are going to read from the analog pin of our Arduino, and then use it to do something fun!
+In this tutorial, we are going to read data from various sensors, and use it to trigger certain actions. We will learn the `analogRead`, `analogWrite` functions in this tutorial too.
+
+Sensors that will be covered
+* Potentiometer
+* Light Dependent Resistor/Photoresistor
+* Ultrasonic Distance Sensor
+* TMP36 Temperature Sensor
 
 ## Reading from potentiometer
 
@@ -144,7 +150,11 @@ The ultrasonic distance sensor uses ultrasonic waves - a very high pitched sound
 
 ![arduinoPot17](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/6_Potentiometer/arduinoPot17.jpg)
 
-One of the most common uses of ultrasonic distance sensor is in the automotive industry. They are usually used as reverse warning sensors but are increasingly used in self-driving vehicles, like Tesla's Autopilot for example. The ultrsonic sensor we are going to use is the HC-SR04, which is commonly used in Arduino circuits:
+One of the most common uses of ultrasonic distance sensor is in the automotive industry. They are usually used as reverse warning sensors but are increasingly used in self-driving vehicles, like Tesla's Autopilot for example. 
+
+![arduinoPot21](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/6_Potentiometer/arduinoPot21.jpg)
+
+The ultrsonic sensor we are going to use is the HC-SR04, which is commonly used in Arduino circuits:
 
 > Note that we need to use the 4 pin sensor instead of the 3 pin one, which can be found by typing *ultrasonic sensor* in the component search bar.
 
@@ -157,3 +167,20 @@ Let us go into TinkerCAD and create a new circuit. We are going to assemble it l
 The coding part with blocks is rather simple, as the TinkerCAD team have simplified the code to just this line:
 
 ![arduinoPot20](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/6_Potentiometer/arduinoPot20.png)
+
+## Temperature Sensor
+
+Temperature sensors are essential in electronics. Their uses are very broad, ranging from reading the temperature of the surrounding environment, to the temperature probes on your computer, to keep it from overheating! The temperature sensor that we are going to use in this exercise is the TMP36, an affordable yet accurate temperature sensor.
+
+![arduinoPot22](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/6_Potentiometer/arduinoPot22.png)
+
+Let us go into TinkerCAD and create a new circuit. We are going to assemble it like this:
+
+![arduinoPot23](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/6_Potentiometer/arduinoPot23.png)
+
+The code will look something like this:
+
+![arduinoPot24](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/6_Potentiometer/arduinoPot24.png)
+
+We declared a variable called `temp` and we let the reading of the temperature sensor be the variable. Next, we add a `+` sign to it to calibrate the sensor. In the event the sensor reading is lower than the actual reading, we add a few degrees to bring it up.
+
