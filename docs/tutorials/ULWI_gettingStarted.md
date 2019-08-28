@@ -32,7 +32,9 @@ First, install Homebrew by copying this into your Mac Terminal:
 Next, install and initiate mos tool using these commands in the Terminal:
 
 `brew tap cesanta/mos`
+
 `brew install mos`
+
 `mos`
 
 This should appear:
