@@ -37,7 +37,7 @@ Next, install and initiate mos tool using these commands in the Terminal:
 
 This should appear:
 
-[mos](https://mongoose-os.com/docs/mongoose-os/quickstart/images/qs1.png)
+![mos](https://mongoose-os.com/docs/mongoose-os/quickstart/images/qs1.png)
 
 ### Installing Coolterm
 
@@ -48,6 +48,8 @@ Install and open the app.
 ### Connecting the board
 
 With your Rev A SSTuino, connect the NEU to the ESP pins:
+
+![LMAO](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/ULWI/SSTuino_ULWI.png)
 
 For the DIP switches, set it to ON, ON, OFF, OFF
 
