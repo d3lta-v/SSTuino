@@ -17,21 +17,10 @@ Before you begin playing around with the SSTuino kit here are some things to do:
 
 ## Sec 1 Tutorials
 
-* [Welcome to a world of technology!](https://d3lta-v.github.io/SSTuino/tutorials/Sec1/lessonIntro.html)
-* [A brief history...and the future!](https://d3lta-v.github.io/SSTuino/tutorials/Sec1/briefHistory.html)
-* What is design & innovation?
+* [How to not *burn* your LEDs! - Explanation of components inside your SSTuino Innovator's Kit.](https://d3lta-v.github.io/SSTuino/tutorials/Sec1/electronicBasics.html)
+* [My first circuit! - Setting up TinkerCAD and creating a few basic circuits without programming.](https://d3lta-v.github.io/SSTuino/tutorials/Sec1/tinkercad.html)
+* [Introduction to Arduino Programming - Basic Arduino programming and some explanation.](https://d3lta-v.github.io/SSTuino/tutorials/Sec1/sstuinoProgram.html)
 
-* [My first mobile app!](https://d3lta-v.github.io/SSTuino/tutorials/Sec1/thunkableIntro.html)
-* Spicing it up...
-* Look ma, my own weather app!
-
-* [How to not *burn* your LEDs!](https://d3lta-v.github.io/SSTuino/tutorials/Sec1/electronicBasics.html)
-* [My first circuit!](https://d3lta-v.github.io/SSTuino/tutorials/Sec1/tinkercad.html)
-* [Introduction to Arduino Programming](https://d3lta-v.github.io/SSTuino/tutorials/Sec1/sstuinoProgram.html)
-
-* [My SSTuino can read!](https://d3lta-v.github.io/SSTuino/tutorials/Sec1/digitalRead.html)
-* [Data at my fingertips!](https://d3lta-v.github.io/SSTuino/tutorials/Sec1/dataInput.html)
+* [My SSTuino can read! - DigitalRead and DigitalWrite](https://d3lta-v.github.io/SSTuino/tutorials/Sec1/digitalRead.html)
+* [Data at my fingertips! - AnalogRead and AnalogWrite](https://d3lta-v.github.io/SSTuino/tutorials/Sec1/dataInput.html)
 * Actions at my fingertips!
-
-
-Tutorials used in Sec 1 ICT lessons.
