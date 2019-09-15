@@ -73,6 +73,34 @@ A form modal will launch, and you will be presented with two text inputs:
 
 ### Dashboard
 
-<iframe width="560" height="315" src="https://cdn-learn.adafruit.com/assets/assets/000/039/281/large1024mp4/adafruit_io_animation.mp4?1487025752" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="640" height="480" src="https://cdn-learn.adafruit.com/assets/assets/000/039/281/large1024mp4/adafruit_io_animation.mp4?1487025752" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Dashboards allow you to visualize data and control Adafruit IO connected projects from any modern web browser. Widgets such as charts, sliders, and buttons are available to help you quickly get your IoT project up and running without the need for any custom code.
+
+Your list of dashboards will only have the Welcome Dashboard when it is first loaded. You can start the dashboard creation process by clicking the Actions menu on the upper left hand side of the screen.
+
+![SSTuinoIoT10](https://cdn-learn.adafruit.com/assets/assets/000/039/234/medium800/adafruit_io_Screen_Shot_2017-02-13_at_3.12.57_PM.png?1487016941)
+
+Next, select **Create a New Dashboard** from the dropdown menu.
+
+![SSTuinoIoT11](https://cdn-learn.adafruit.com/assets/assets/000/039/236/medium800/adafruit_io_01_create_menu.png?1487017448)
+
+You can then enter the name and description of your new dashboard, and click the **Create button** once you are finished.
+
+![SSTuinoIoT12](https://cdn-learn.adafruit.com/assets/assets/000/039/237/medium800/adafruit_io_02_create_modal.png?1487017489)
+
+Once your dashboard has been created, click on the name of your new dashboard to load it.
+
+![SSTuinoIoT13](https://cdn-learn.adafruit.com/assets/assets/000/039/238/medium800/adafruit_io_03_new_select.png?1487017548)
+
+You should now see your new blank dashboard.
+
+![SSTuinoIoT14](https://cdn-learn.adafruit.com/assets/assets/000/039/239/medium800/adafruit_io_04_new_loaded.png?1487017632)
+
+Blocks are widgets that you can add to your dashboard. There are some blocks that can be used as outputs, and some that can be used as inputs. To add a new block, you can click the + (plus) button on the upper right hand side of the dashboard.
+
+![SSTuinoIoT15](https://cdn-learn.adafruit.com/assets/assets/000/039/240/medium800/adafruit_io_05_block_plus.png?1487018330)
+
+You will then be presented with a list of block types to choose from, like the one seen below.
+
+![SSTuinoIoT16](https://cdn-learn.adafruit.com/assets/assets/000/039/246/medium800/adafruit_io_Screen_Shot_2017-02-13_at_3.48.04_PM.png?1487019010)
