@@ -141,4 +141,4 @@ Now go to your Adafruit.io and get your API key and feed key.
 
 Fill in these information below:
 
-![[SSTuinoIoT20](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/adafruit_io/Annotation%202019-09-15%20202051.png)
+![SSTuinoIoT20](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/adafruit_io/Annotation%202019-09-15%20202051.png)
