@@ -19,3 +19,4 @@ You may have seen weird things like smart fridges and smart toasters appear in a
 The Internet of Things industry is starting to get very popular in a lot of industries, and is also very popular with DIY makers who use microcontrollers such as the Arduino or the Raspberry Pi to automate lots of everyday stuff.
 
 ## Connecting to Adafruit IoT
+
