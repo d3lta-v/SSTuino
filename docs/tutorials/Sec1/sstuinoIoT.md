@@ -73,6 +73,12 @@ A form modal will launch, and you will be presented with two text inputs:
 
 ### Dashboard
 
+<iframe class="img img-responsive" preload="auto" muted="muted" loop="loop" autoplay="autoplay" poster="https://cdn-learn.adafruit.com/assets/assets/000/039/281/medium800thumb/adafruit_io_animation.jpg?1487025752">
+<source src="https://cdn-learn.adafruit.com/assets/assets/000/039/281/large1024mp4/adafruit_io_animation.mp4?1487025752">
+<source src="https://cdn-learn.adafruit.com/assets/assets/000/039/281/large1024webm/adafruit_io_animation.webm?1487025752" type="video/webm; codecs=vp8,vorbis">
+<source src="https://cdn-learn.adafruit.com/assets/assets/000/039/281/large1024ogv/adafruit_io_animation.ogv?1487025752" type="video/ogg; codecs=theora,vorbis">
+</iframe>
+
 <iframe width="640" height="480" src="https://cdn-learn.adafruit.com/assets/assets/000/039/281/large1024mp4/adafruit_io_animation.mp4?1487025752" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Dashboards allow you to visualize data and control Adafruit IO connected projects from any modern web browser. Widgets such as charts, sliders, and buttons are available to help you quickly get your IoT project up and running without the need for any custom code.
