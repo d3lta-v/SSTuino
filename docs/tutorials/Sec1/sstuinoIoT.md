@@ -104,3 +104,25 @@ Blocks are widgets that you can add to your dashboard. There are some blocks tha
 You will then be presented with a list of block types to choose from, like the one seen below.
 
 ![SSTuinoIoT16](https://cdn-learn.adafruit.com/assets/assets/000/039/246/medium800/adafruit_io_Screen_Shot_2017-02-13_at_3.48.04_PM.png?1487019010)
+
+## Connecting SSTuino to Adafruit.io
+
+First, we need to install a library to your Arduino IDE. Go to this Github repo: [https://github.com/d3lta-v/SSTuino_Companion](https://github.com/d3lta-v/SSTuino_Companion)
+
+On the top right hand corner, click on Clone or Download, and click on **Download .zip**. **Please do not UNZIP the file after downloading**
+
+![SSTuinoIoT17](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/adafruit_io/Annotation%202019-09-15%20165436.png)
+
+Go to your Arduino IDE and click on:
+
+> Sketch > Include Library > Add .zip library > select the .zip file you have just downloaded.
+
+After which the library will be added.
+
+### Hold your horses...
+
+By having a fimware upgrade on the WiFi chip and having a new library for the SSTuino, we would like to bring something to light: MQTT. Watch this video to find out more!
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EIxdz-2rhLs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Ok, back to the main topic...
