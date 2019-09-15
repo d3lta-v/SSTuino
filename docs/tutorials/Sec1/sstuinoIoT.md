@@ -129,6 +129,8 @@ Ok, back to the main topic...
 
 ## MQTT example
 
+For our MQTT example, let us create a new feed:
+
 In your Arduino IDE, go to
 
 > File > Examples > SSTuino Companion > Adafruit_MQTT_Pub
