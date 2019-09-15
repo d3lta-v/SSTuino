@@ -126,3 +126,19 @@ By having a fimware upgrade on the WiFi chip and having a new library for the SS
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EIxdz-2rhLs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Ok, back to the main topic...
+
+## MQTT example
+
+In your Arduino IDE, go to
+
+> File > Examples > SSTuino Companion > Adafruit_MQTT_Pub
+
+![SSTuinoIoT19](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/adafruit_io/Annotation%202019-09-15%20170346.png)
+
+Now go to your Adafruit.io and get your API key and feed key.
+
+> **Important**: Please do not share API keys, they are super important.
+
+Fill in these information below:
+
+![[SSTuinoIoT20](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/adafruit_io/Annotation%202019-09-15%20202051.png)
