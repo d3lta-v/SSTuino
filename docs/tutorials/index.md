@@ -22,5 +22,11 @@ Before you begin playing around with the SSTuino kit here are some things to do:
 * [Introduction to Arduino Programming - Basic Arduino programming and some explanation.](https://d3lta-v.github.io/SSTuino/tutorials/Sec1/sstuinoProgram.html)
 
 * [My SSTuino can read! - DigitalRead and DigitalWrite](https://d3lta-v.github.io/SSTuino/tutorials/Sec1/digitalRead.html)
+    * 
 * [Data at my fingertips! - AnalogRead and AnalogWrite](https://d3lta-v.github.io/SSTuino/tutorials/Sec1/dataInput.html)
+    Sensors that will be covered
+    * Potentiometer
+    * Light Dependent Resistor/Photoresistor
+    * Ultrasonic Distance Sensor
+    * TMP36 Temperature Sensor
 * [Actions at my fingertips! - Moving into the Internet of Things platform](https://d3lta-v.github.io/SSTuino/tutorials/Sec1/sstuinoIoT.html)
