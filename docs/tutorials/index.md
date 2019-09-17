@@ -24,6 +24,7 @@ Before you begin playing around with the SSTuino kit here are some things to do:
 * [My SSTuino can read! - DigitalRead and DigitalWrite](https://d3lta-v.github.io/SSTuino/tutorials/Sec1/digitalRead.html)
     * 
 * [Data at my fingertips! - AnalogRead and AnalogWrite](https://d3lta-v.github.io/SSTuino/tutorials/Sec1/dataInput.html)
+    
     Sensors that will be covered
     * Potentiometer
     * Light Dependent Resistor/Photoresistor
