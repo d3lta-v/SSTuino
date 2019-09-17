@@ -22,9 +22,16 @@ Before you begin playing around with the SSTuino kit here are some things to do:
 * [Introduction to Arduino Programming - Basic Arduino programming and some explanation.](https://d3lta-v.github.io/SSTuino/tutorials/Sec1/sstuinoProgram.html)
 
 * [My SSTuino can read! - DigitalRead and DigitalWrite](https://d3lta-v.github.io/SSTuino/tutorials/Sec1/digitalRead.html)
-    * 
+    * This tutorial covers:
+        * Pull up resistors
+        * Push Buttons
+        * If/Else Statements
+        * Flashing Lights
+        * Variables
+        * Drag Race / AND and OR Operators
+        * Toggle Switch
 * [Data at my fingertips! - AnalogRead and AnalogWrite](https://d3lta-v.github.io/SSTuino/tutorials/Sec1/dataInput.html)
-    * Sensors that will be covered
+    * This tutorial covers:
         * Potentiometer
         * Light Dependent Resistor/Photoresistor
         * Ultrasonic Distance Sensor
