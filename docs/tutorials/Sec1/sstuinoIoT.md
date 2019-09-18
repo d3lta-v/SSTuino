@@ -77,12 +77,10 @@ A form modal will launch, and you will be presented with two text inputs:
 
 ### Dashboard
 
-<div class="embed-container">
-<video style="width: 715px; height: 439px" autoplay loop muted>
+<video style="width: 100%; height: auto" autoplay loop muted>
 <source src="https://cdn-learn.adafruit.com/assets/assets/000/039/281/large1024mp4/adafruit_io_animation.mp4?1487025752" type="video/mp4">
 Your browser does not support playing this video
 </video>
-</div>
 
 Dashboards allow you to visualize data and control Adafruit IO connected projects from any modern web browser. Widgets such as charts, sliders, and buttons are available to help you quickly get your IoT project up and running without the need for any custom code.
 
