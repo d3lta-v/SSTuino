@@ -138,11 +138,15 @@ Ok, back to the main topic...
 
 ## MQTT example
 
+We are going to make your previous **[TMP36 Temperature Sensor](https://d3lta-v.github.io/SSTuino/tutorials/Sec1/dataInput.html#temperature-sensor)** smart and connect to the internet!
+
+Go to that particular example and download the code into your Arduino IDE. We are going to do some mix-and-match to make it work with Adafruit.io.
+
 For our MQTT example, let us create a new feed:
 
 In your Arduino IDE, go to
 
-> File > Examples > SSTuino Companion > Adafruit_MQTT_Pub
+> File > Examples > SSTuino Companion > `Adafruit_MQTT_Pub`
 
 ![SSTuinoIoT19](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/adafruit_io/Annotation%202019-09-15%20170346.png)
 
