@@ -20,7 +20,6 @@ Before you begin playing around with the SSTuino kit here are some things to do:
 * [How to not *burn* your LEDs! - Explanation of components inside your SSTuino Innovator's Kit.](https://d3lta-v.github.io/SSTuino/tutorials/Sec1/electronicBasics.html)
 * [My first circuit! - Setting up TinkerCAD and creating a few basic circuits without programming.](https://d3lta-v.github.io/SSTuino/tutorials/Sec1/tinkercad.html)
 * [Introduction to Arduino Programming - Basic Arduino programming and some explanation.](https://d3lta-v.github.io/SSTuino/tutorials/Sec1/sstuinoProgram.html)
-
 * [My SSTuino can read! - DigitalRead and DigitalWrite](https://d3lta-v.github.io/SSTuino/tutorials/Sec1/digitalRead.html)
     * This tutorial covers:
         * Pull up resistors
