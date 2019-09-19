@@ -5,6 +5,5 @@ kramdown:
 # theme: jekyll-theme-cayman
 # Google Analytics
 google_analytics: UA-41542768-4
-title: SSTuino Offical Website and Reference Guide
 plugins:
   - jekyll-seo-tag
