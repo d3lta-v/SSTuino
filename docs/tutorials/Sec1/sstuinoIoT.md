@@ -140,6 +140,27 @@ Ok, back to the main topic...
 
 We are going to make your previous **[TMP36 Temperature Sensor](https://d3lta-v.github.io/SSTuino/tutorials/Sec1/dataInput.html#temperature-sensor)** smart and connect to the internet!
 
+For our MQTT example, let us create a new feed:
+
+![SSTUinoIoT23](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/adafruit_io/sstuinoiot_23.png)
+
+In your Arduino IDE, go to
+
+> File > Examples > SSTuino Companion > `Adafruit_MQTT_Pub`
+
+![SSTuinoIoT19](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/adafruit_io/Annotation%202019-09-15%20170346.png)
+
+The example should look something like this:
+![SSTuinoIoT22](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/adafruit_io/sstuinoiot_22.png)
+
+Now go to your Adafruit.io and get your API key and feed key.
+
+> **Important**: Please do not share API keys, they are super important.
+
+Fill in these information below:
+
+![SSTuinoIoT20](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/adafruit_io/Annotation%202019-09-15%20202051.png)
+
 Remember this?
 
 ![arduinoPot23](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/6_Potentiometer/arduinoPot23.png)
@@ -154,18 +175,14 @@ The code can be split into 3 parts. The red part is declaration, the green part 
 
 ![SSTuinoIoT21](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/adafruit_io/Code%20Sector.png)
 
-For our MQTT example, let us create a new feed:
+So the red declaration portion goes into this part of the MQTT example:
 
-In your Arduino IDE, go to
+![SSTUinoIoT24](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/adafruit_io/sstuinoiot_24.png)
 
-> File > Examples > SSTuino Companion > `Adafruit_MQTT_Pub`
+The green setup code goes into this part of the MQTT example:
 
-![SSTuinoIoT19](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/adafruit_io/Annotation%202019-09-15%20170346.png)
+![SSTUinoIoT25](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/adafruit_io/sstuinoiot_25.png)
 
-Now go to your Adafruit.io and get your API key and feed key.
+The blue loop code goes into this part of the MQTT Example:
 
-> **Important**: Please do not share API keys, they are super important.
-
-Fill in these information below:
-
-![SSTuinoIoT20](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/adafruit_io/Annotation%202019-09-15%20202051.png)
+![SSTUinoIoT26](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/adafruit_io/sstuinoiot_26.png)
