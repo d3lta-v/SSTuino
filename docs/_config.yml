@@ -7,8 +7,8 @@ kramdown:
 google_analytics: UA-41542768-4
 plugins:
   - jekyll-seo-tag
+plugins:
+  - jekyll-sitemap
 title: "SSTuino Official Webpage"
 description: "SSTuino is an easy to use Wi-Fi enabled microcontroller, designed and fabricated by SST Alumni. Users can write programs to connect or control things over the Internet."
 url: "https://d3lta-v.github.io/SSTuino/" # the base hostname & protocol for your site
-plugins:
-  - jekyll-sitemap
