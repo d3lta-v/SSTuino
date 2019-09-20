@@ -6,7 +6,7 @@ author: Goh Qian Zhe
 
 # Setting up Adafruit.io
 
-This tutorial will talk about what Internet of Things is all about, and get you started with Adafruit.io. 
+This tutorial will talk about what Internet of Things is all about, and get you started with Adafruit.io.
 
 ## What is the Internet of Things (IoT) all about?
 
@@ -16,7 +16,7 @@ This tutorial will talk about what Internet of Things is all about, and get you 
 
 You may have seen weird things like smart fridges and smart toasters appear in a electronics store, but what is it really about? The term *Internet of Things* covers everything that is connected to the internet, but it is also increasingly used to define objects that communicate with each other. By connecting these devices together to an automated system, the system gathers information, analyses the information and creates an action to help with a certain task - for example a smart thermostat to help optimise the air conditioner operation in your room, saving on the amount of electricity used.
 
-![SSTuinoIoT1](https://wi-images.condecdn.net/image/KVz1DOaga5R/crop/810/f/iStock-638771132.jpg)
+![SSTuinoIoT1](https://i.pinimg.com/originals/f2/4c/2c/f24c2cb4981c52651b26a43293e190f9.jpg)
 
 The Internet of Things industry is starting to get very popular in a lot of industries, and is also very popular with DIY makers who use microcontrollers such as the Arduino or the Raspberry Pi to automate lots of everyday stuff.
 
@@ -32,13 +32,14 @@ First, let us go to the website: [https://io.adafruit.com/](https://io.adafruit.
 
 On the top right hand corner, click on **Get started for free**
 
-![SSTuinoIoT2](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/adafruit_io/Annotation%202019-09-15%20092615.png)
+![SSTuinoIoT2](adafruitio_images/SSTuinoIoT2.png)
 
 Register an account for Adafruit.io. After you are done, your adafruit.io should look like this:
 
-![SSTuinoIoT3](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/adafruit_io/Annotation%202019-09-15%20155439.png)
+![SSTuinoIoT3](adafruitio_images/SSTuinoIoT3.png)
 
 On the top tab you should be able to see:
+
 * Feeds
 * Dashboards
 * Triggers
@@ -48,7 +49,7 @@ On the top tab you should be able to see:
 
 ![SSTuinoIoT4](https://cdn-learn.adafruit.com/assets/assets/000/039/229/medium800/adafruit_io_example_feed.png?1487015722)
 
-Feeds are the core of the Adafruit IoT system. It holds the data that you send to the system. One feed is used for one unique sensor data. For example, I have feed A for temperature and feed B for humidity. 
+Feeds are the core of the Adafruit IoT system. It holds the data that you send to the system. One feed is used for one unique sensor data. For example, I have feed A for temperature and feed B for humidity.
 
 Creating a Feed on Adafruit IO is a very simple process. When you login to your io.adafruit.com account, you will see a list of your current dashboards like the list shown below.
 
@@ -112,4 +113,4 @@ You will then be presented with a list of block types to choose from, like the o
 
 ## Connecting the SSTuino to Adafruit.io
 
-In the next tutorial, we will upload temperature data from our SSTuino to Adafruit.io. **[SSTuino Adafruit.io example](https://d3lta-v.github.io/SSTuino/tutorials/Sec1/sstuinoIoT.html)
+In the next tutorial, we will upload temperature data from our SSTuino to Adafruit.io. **[SSTuino Adafruit.io example](https://d3lta-v.github.io/SSTuino/tutorials/Sec1/sstuinoIoT.html)**
