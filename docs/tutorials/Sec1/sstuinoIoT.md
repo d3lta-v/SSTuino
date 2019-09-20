@@ -16,7 +16,7 @@ First, we need to install a library to your Arduino IDE. Go to this Github repo:
 
 On the top right hand corner, click on Clone or Download, and click on **Download .zip**. **Please do not UNZIP the file after downloading**
 
-![SSTuinoIoT17](adafruitio_images/SSTuinoIoT17.png)
+![SSTuinoIoT17](adafruitio_images/SSTuinoIoT17.webp)
 
 Go to your Arduino IDE and click on:
 
@@ -40,7 +40,7 @@ We are going to make your previous **[TMP36 Temperature Sensor](https://d3lta-v.
 
 For our MQTT example, let us create a new feed:
 
-![SSTuinoIoT23](adafruitio_images/SSTuinoIoT23.png)
+![SSTuinoIoT23](adafruitio_images/SSTuinoIoT23.webp)
 
 In your Arduino IDE, go to
 
@@ -49,7 +49,7 @@ In your Arduino IDE, go to
 ![SSTuinoIoT19](adafruitio_images/SSTuinoIoT19.png)
 
 The example should look something like this:
-![SSTuinoIoT22](adafruitio_images/sstuinoiot_22.png)
+![SSTuinoIoT22](adafruitio_images/sstuinoiot_22.webp)
 
 Now go to your Adafruit.io and get your API key and feed key.
 
@@ -57,7 +57,7 @@ Now go to your Adafruit.io and get your API key and feed key.
 
 Fill in these information below:
 
-![SSTuinoIoT20](adafruitio_images/SSTuinoIoT20.png)
+![SSTuinoIoT20](adafruitio_images/SSTuinoIoT20.webp)
 
 Remember this?
 
@@ -71,16 +71,16 @@ Go to that particular example and download the code into your Arduino IDE. We ar
 
 The code can be split into 3 parts. The red part is declaration, the green part is setup, and the blue part is the loop.
 
-![SSTuinoIoT21](adafruitio_images/SSTuinoIoT21.png)
+![SSTuinoIoT21](adafruitio_images/SSTuinoIoT21.webp)
 
 So the red declaration portion goes into this part of the MQTT example:
 
-![SSTUinoIoT24](adafruitio_images/sstuinoiot_24.png)
+![SSTUinoIoT24](adafruitio_images/sstuinoiot_24.webp)
 
 The green setup code goes into this part of the MQTT example:
 
-![SSTUinoIoT25](adafruitio_images/sstuinoiot_25.png)
+![SSTUinoIoT25](adafruitio_images/sstuinoiot_25.webp)
 
 The blue loop code goes into this part of the MQTT Example:
 
-![SSTUinoIoT26](adafruitio_images/sstuinoiot_26.png)
+![SSTUinoIoT26](adafruitio_images/sstuinoiot_26.webp)
