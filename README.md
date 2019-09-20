@@ -1,6 +1,6 @@
 ![SSTuino](https://github.com/sammy0025/SSTuino/raw/master/Image%20Assets/SSTuino.png)
 
-Designed by MakerFoundry LLP | Designed, assembled and tested in Singapore
+Designed by FourierIndustries LLP | Designed, assembled and tested in Singapore
 
 # SSTuino
 SSTuino is an easy to use Wi-Fi enabled microcontroller, designed and fabricated by SST Alumni. Users can write programs to connect or control things over the Internet. It is derived from the SPEEEduino 1.1 with some improvements.
