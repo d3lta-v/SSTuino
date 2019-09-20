@@ -76,7 +76,7 @@ A form modal will launch, and you will be presented with two text inputs:
 
 ### Dashboard
 
-<video style="width: 100%; height: auto" autoplay loop muted>
+<video style="width: 100%; height: auto" autoplay loop muted playsinline>
 <source src="https://cdn-learn.adafruit.com/assets/assets/000/039/281/large1024mp4/adafruit_io_animation.mp4?1487025752" type="video/mp4">
 Your browser does not support playing this video
 </video>
