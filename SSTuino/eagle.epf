@@ -1,5 +1,5 @@
 [Eagle]
-Version="09 02 01"
+Version="09 04 01"
 Platform="Mac OS X"
 Globals="Globals"
 Desktop="Desktop"
@@ -44,7 +44,7 @@ UsedLibraryUrn="urn:adsk.eagle:library:171"
 Type="Board Editor"
 Number=2
 File="SSTuino.brd"
-View="-2.7942 -3.10545 89.6724 54.7161"
+View="14.0397 -2.0111 41.8747 15.3948"
 WireWidths=" 0.0762 0.1016 0.127 0.15 0.2 0.2032 0.254 0.3048 0.4064 0.508 0.6096 0.8128 1.016 1.27 2.54 0.1524"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.2 0.25 0.3 0.35 0.4 0.45 0.5 0.55 0.65 0.7 0.75 0.8 0.85 0.9 1 0.6"
@@ -88,7 +88,7 @@ Layer=1
 Type="Schematic Editor"
 Number=1
 File="SSTuino.sch"
-View="9.96422 103.895 98.7464 163.013"
+View="83.5299 121.012 172.312 180.13"
 WireWidths=" 0.0762 0.1016 0.127 0.15 0.2 0.2032 0.254 0.3048 0.4064 0.508 0.6096 0.8128 1.016 1.27 2.54 0.1524"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.2 0.25 0.3 0.35 0.4 0.45 0.5 0.55 0.65 0.7 0.75 0.8 0.85 0.9 1 0.6"
@@ -127,7 +127,7 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=91
-Views=" 1: 9.96422 103.895 98.7464 163.013"
+Views=" 1: 83.5299 121.012 172.312 180.13"
 Sheet="1"
 
 [Win_3]
@@ -135,7 +135,7 @@ Type="Control Panel"
 Number=0
 
 [Desktop]
-Screen="1440 900"
+Screen="3360 1080"
 Window="Win_1"
 Window="Win_2"
 Window="Win_3"
