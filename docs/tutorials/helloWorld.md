@@ -33,7 +33,7 @@ We first check if the USB to serial converter can be detected. To do so, launch 
 
 and press *enter/return.*
 
-![Terminal detect CP2102](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Guide%20Image%20Assets/Terminal_Detect_CP2102.png)
+![Terminal detect CP2102](gettingStarted_images/Terminal_Detect_CP2102.png)
 
 You should see the device called `/dev/tty.SLAB_USBtoUART` appear.
 
@@ -41,7 +41,7 @@ You should see the device called `/dev/tty.SLAB_USBtoUART` appear.
 
 You are almost ready to launch! But first, open the Arduino app you downloaded from [this tutorial](https://d3lta-v.github.io/SSTuino/tutorials/gettingStarted.html).
 
-![SPEEEduino_Blink](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Guide%20Image%20Assets/SPEEEduino_Blink.jpg)
+![SPEEEduino_Blink](gettingStarted_images/SPEEEduino_Blink.jpg)
 
 Once the app is open, go to:
 
@@ -49,11 +49,11 @@ Once the app is open, go to:
 
 Blink is a very simple example code included in the Arduino IDE. Due to the resemblance of the SSTuino with the Arduino (especially the Uno), any code that can be used with the Arduino Uno can be used with the SSTuino, with the exception that the SSTuino has a WiFi module attached. It is normally also the example code I use to check if the device is working.
 
-![SPEEEduino_Blink2](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Guide%20Image%20Assets/SPEEEduino_Blink2.jpg)
+![SPEEEduino_Blink2](gettingStarted_images/SPEEEduino_Blink2.jpg)
 
 Before uploading the example code, make sure that you have selected the Arduino Uno as the device. 
 
-![SPEEEduino_Blink3](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Guide%20Image%20Assets/SPEEEduino_Blink3.jpg)
+![SPEEEduino_Blink3](gettingStarted_images/SPEEEduino_Blink3.jpg)
 
 Also, please make sure that you have the correct port as shown above. Since this board is designed for SST, and used in the MacOS environment, the port that appears should be the same as shown in the picture above.
 

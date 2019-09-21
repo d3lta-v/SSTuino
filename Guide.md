@@ -16,7 +16,7 @@ Here are a list of things you require to start using the SSTuino. **Installation
 
 ## Installation of the Arduino IDE
 
-![Arduino.cc Download Page](/Image%20Assets/Guide%20Image%20Assets/Arduino_Download.png)
+![Arduino.cc Download Page](docs/tutorials/gettingStarted_images/Arduino_Download.png)
 
 *  Go to the the downloads page [here](http://https://www.arduino.cc/en/Main/Software)
 *  Download the version of the application you require.
@@ -28,7 +28,7 @@ Here are a list of things you require to start using the SSTuino. **Installation
 ### Installation for MacOS
 After download of the zip file from the Arduino website, simply copy the .app file into your *Applications* folder. 
 
-![MacOS prompt](/Image%20Assets/Guide%20Image%20Assets/MacOS_Prompt_Arduino.png)
+![MacOS prompt](docs/tutorials/gettingStarted_images/MacOS_Prompt_Arduino.png)
 
 In any event the system asks you whether to open the app, just click open
 
@@ -37,30 +37,30 @@ We are using the CP2102 USB to serial converter for our SSTuino.
 
 ### Installation for MacOS
 
-![Silabs_Download_Main](/Image%20Assets/Guide%20Image%20Assets/Silabs_DownloadPage_Main.png)
+![Silabs_Download_Main](docs/tutorials/gettingStarted_images/Silabs_DownloadPage_Main.png)
 
 For MacOS users, the Silicon Labs driver has to be manually downloaded and installed. The driver can be downloaded [here.](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)
 After the page has loaded click the link circled in the picture. *Note - this procedure is not finalised. This method will be used for the time being due to incompatability with the new Macbooks.*
 
-![Silabs_Download_Mac_legacy](/Image%20Assets/Guide%20Image%20Assets/Silabs_DownloadPage_Legacy_Mac.png)
+![Silabs_Download_Mac_legacy](docs/tutorials/gettingStarted_images/Silabs_DownloadPage_Legacy_Mac.png)
 
 Navigate to this area and download the driver.
 
-![Silabs_Download_Folder](/Image%20Assets/Guide%20Image%20Assets/Silabs_Download_folder.png)
+![Silabs_Download_Folder](docs/tutorials/gettingStarted_images/Silabs_Download_folder.png)
 
 After the driver has been downloaded, *unzip* the file and launch the **disk image.** You will now see three files, as pictured below. Run the package (.pkg) file.
 
-![Silabs_Installation_App](/Image%20Assets/Guide%20Image%20Assets/Silabs_Install.png)
+![Silabs_Installation_App](docs/tutorials/gettingStarted_images/Silabs_Install.png)
 
 Install the drivers.  **This requires elevated admin rights (devices with parental controls will not be able to install unless an admin allows the installation.)**
 
 During installation, you may encounter a pop-up which would ask you to go to your system preferences. Click ok first. *This is still undergoing tests as we have issues with this part.* 
 
-![SiLabs Prompt](/Image%20Assets/Guide%20Image%20Assets/MacOS_SysPref_Prompt.png)
+![SiLabs Prompt](docs/tutorials/gettingStarted_images/MacOS_SysPref_Prompt.png)
 
 While the installer is running, go to System Preferences -> Security and Privacy and allow the Silicon Labs prompt. 
 
-![Restart Mac](/Image%20Assets/Guide%20Image%20Assets/Restart_Mac.png)
+![Restart Mac](docs/tutorials/gettingStarted_images/Restart_Mac.png)
 
 After the installation has finished, simply restart your mac.
 
@@ -70,21 +70,21 @@ To check if the USB to serial converter can be detected, go to Terminal and type
 
 and press *enter/return.*
 
-![Terminal detect CP2102](/Image%20Assets/Guide%20Image%20Assets/Terminal_Detect_CP2102.png)
+![Terminal detect CP2102](docs/tutorials/gettingStarted_images/Terminal_Detect_CP2102.png)
 
 You should see the device called `/dev/tty.SLAB_USBtoUART` appear.
 
-![SPEEEduino_Blink](/Image%20Assets/Guide%20Image%20Assets/SPEEEduino_Blink.jpg)
+![SPEEEduino_Blink](docs/tutorials/gettingStarted_images/SPEEEduino_Blink.jpg)
 
 After you see the device appear, now we can start doing something basic! Launch your Arduino IDE, go to
 `File -> Examples -> 01. Basics -> Blink`
 Blink is a very simple example code included in the Arduino IDE. Due to the resemblance of the SSTuino with the Arduino (especially the Uno), any code that can be used with the Arduino Uno can be used with the SSTuino, with the exception that the SSTuino has a WiFi module attached. It is normally also the example code I use to check if the device is working.
 
-![SPEEEduino_Blink2](/Image%20Assets/Guide%20Image%20Assets/SPEEEduino_Blink2.jpg)
+![SPEEEduino_Blink2](docs/tutorials/gettingStarted_images/SPEEEduino_Blink2.jpg)
 
 Before uploading the example code, make sure that you have selected the Arduino Uno as the device. Again, this is due to the resembalance of the SSTuino with the Arduino Uno, and most code that can be run on that platorm can also be run on the SSTuino.
 
-![SPEEEduino_Blink3](/Image%20Assets/Guide%20Image%20Assets/SPEEEduino_Blink3.jpg)
+![SPEEEduino_Blink3](docs/tutorials/gettingStarted_images/SPEEEduino_Blink3.jpg)
 
 Also, please make sure that you have the correct port as shown above. Since this board is designed for SST, and used in the MacOS environment, the port that appears should be the same as shown in the picture above.
 

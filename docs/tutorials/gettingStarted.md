@@ -25,7 +25,7 @@ Here are a list of things you require to go through this tutorial.
 
 ## Installation of the Arduino IDE
 
-![Arduino.cc Download Page](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Guide%20Image%20Assets/Arduino_Download.png)
+![Arduino.cc Download Page](gettingStarted_images/Arduino_Download.png)
 
 - Go to the the downloads page here: [https://www.arduino.cc/en/Main/Software](https://www.arduino.cc/en/Main/Software)
 - Download the version of the application you require.
@@ -38,7 +38,7 @@ Here are a list of things you require to go through this tutorial.
 
 After download of the zip file from the Arduino website, simply copy the .app file into your *Applications* folder. 
 
-![MacOS prompt](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Guide%20Image%20Assets/MacOS_Prompt_Arduino.png)
+![MacOS prompt](gettingStarted_images/MacOS_Prompt_Arduino.png)
 
 In any event the system asks you whether to open the app, just click open
 
@@ -48,28 +48,28 @@ We are using the CP2102 USB to serial converter for our SSTuino.
 
 ### Installation for MacOS
 
-![Silabs_DownloadPage_Updated](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Guide%20Image%20Assets/Silabs_DownloadPage_Updated.png)
+![Silabs_DownloadPage_Updated](gettingStarted_images/Silabs_DownloadPage_Updated.png)
 
 For MacOS users, the Silicon Labs driver has to be manually downloaded and installed. The driver can be downloaded here: [https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)
 
-![Silabs_MacDownloadUpdated](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Guide%20Image%20Assets/Silabs_MacDownloadUpdated.png)
+![Silabs_MacDownloadUpdated](gettingStarted_images/Silabs_MacDownloadUpdated.png)
 
 Navigate to this area and download the driver.
 
-![Silabs_Download_Folder](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Guide%20Image%20Assets/Silabs_Download_folder.png)
+![Silabs_Download_Folder](gettingStarted_images/Silabs_Download_folder.png)
 
 After the driver has been downloaded, *unzip* the file and launch the **disk image.** You will now see three files, as pictured below. Run the package (.pkg) file.
 
-![Silabs_Installation_App](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Guide%20Image%20Assets/Silabs_Install.png)
+![Silabs_Installation_App](gettingStarted_images/Silabs_Install.png)
 
 Install the drivers. **This requires elevated admin rights (devices with parental controls will not be able to install unless an admin allows the installation.)**
 
 During installation, you may encounter a pop-up which would ask you to go to your system preferences. Click ok first.
 
-![SiLabs Prompt](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Guide%20Image%20Assets/MacOS_SysPref_Prompt.png)
+![SiLabs Prompt](gettingStarted_images/MacOS_SysPref_Prompt.png)
 
 While the installer is running, go to System Preferences -> Security and Privacy and allow the Silicon Labs prompt. 
 
-![Restart Mac](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Guide%20Image%20Assets/Restart_Mac.png)
+![Restart Mac](gettingStarted_images/Restart_Mac.png)
 
 After the installation has finished, simply restart your mac.

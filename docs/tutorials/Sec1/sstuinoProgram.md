@@ -149,11 +149,11 @@ In your Arduino IDE, go to
 
 > Tools -> Port -> /dev/tty.SLAB_USBtoUART
 
-![port](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Guide%20Image%20Assets/SPEEEduino_Blink3.jpg)
+![port](/docs/tutorials/gettingStarted_images/SPEEEduino_Blink3.jpg)
 
 Make sure to select the correct board:
 
-![board](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Guide%20Image%20Assets/SPEEEduino_Blink2.jpg)
+![board](/docs/tutorials/gettingStarted_images/SPEEEduino_Blink2.jpg)
 
 And now you can upload with this button:
 
