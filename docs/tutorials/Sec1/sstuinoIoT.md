@@ -63,7 +63,8 @@ Your Feed key should look someting like this:
 
 > **Important**: Please do not share API keys. Other users can use your account or flood data to it if your API key is public
 
-Fill in these information below:
+Fill in your Wifi SSID (The name of the WiFi), password, Adafruit.io username, IO key and feed key in this section:
+> Note that Enterprise WiFi networks such as `SST_Student` will not work on the WiFi Chip due to insufficient memory to use the more complicated protocol. Instead you would have to use your mobile hotspot. Note that hotspots with a Apostrophe `'` like `Qian Zhe's iPhone` will not work. Please change the name of the network. A good example is `SINGTEL-2001`
 
 ![SSTuinoIoT5](sstuinoIoT_images/SSTuinoIoT5.png)
 
@@ -96,7 +97,6 @@ The blue loop code goes into this part of the MQTT Example:
 Your code should look something like this after the edit:
 
 ``` C++
-
 /*
   Adafruit IO with MQTT
   For the SSTuino boards.
@@ -196,3 +196,8 @@ void transmitData(const String& value)
   }
 }
 ```
+
+Let us now upload the code to the SSTuino. We will need the WiFi Chip (Flashed by Qian Zhe or Ziyue) to be installed on the SSTuino like this:
+
+
+After the code has successfully uploaded, open up the serial monitor to verify that a link to Adafruit.io has been established. Go to your Adafruit.io temperature feed and you should be able to see data points come up in the feed.
