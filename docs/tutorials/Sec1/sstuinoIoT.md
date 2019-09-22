@@ -16,7 +16,7 @@ First, we need to install a library to your Arduino IDE. Go to this Github repo:
 
 On the top right hand corner, click on Clone or Download, and click on **Download .zip**. **Please do not UNZIP the file after downloading**
 
-![SSTuinoIoT17](adafruitio_images/SSTuinoIoT17.png)
+![SSTuinoIoT1](sstuinoIoT_images/SSTuinoIoT1.png)
 
 Go to your Arduino IDE and click on:
 
@@ -40,24 +40,32 @@ We are going to make your previous **[TMP36 Temperature Sensor](https://d3lta-v.
 
 For our MQTT example, let us create a new feed:
 
-![SSTuinoIoT23](adafruitio_images/SSTuinoIoT23.png)
+![SSTuinoIoT2](sstuinoIoT_images/SSTuinoIoT2.png)
 
 In your Arduino IDE, go to
 
 > File > Examples > SSTuino Companion > `Adafruit_MQTT_Pub`
 
-![SSTuinoIoT19](adafruitio_images/SSTuinoIoT19.png)
+![SSTuinoIoT3](sstuinoIoT_images/SSTuinoIoT3.png)
 
 The example should look something like this:
-![SSTuinoIoT22](adafruitio_images/sstuinoiot_22.png)
+![SSTuinoIoT4](sstuinoIoT_images/SSTuinoIoT4.png)
 
 Now go to your Adafruit.io and get your API key and feed key.
 
-> **Important**: Please do not share API keys, they are super important.
+Your API Key should look something like this:
+
+![SSTuinoIoT6](sstuinoIoT_images/SSTuinoIoT6.png)
+
+Your Feed key should look someting like this: 
+
+![SSTuinoIoT7](sstuinoIoT_images/SSTuinoIoT7.png)
+
+> **Important**: Please do not share API keys. Other users can use your account or flood data to it if your API key is public
 
 Fill in these information below:
 
-![SSTuinoIoT20](adafruitio_images/SSTuinoIoT20.png)
+![SSTuinoIoT5](sstuinoIoT_images/SSTuinoIoT5.png)
 
 Remember this?
 
@@ -71,16 +79,16 @@ Go to that particular example and download the code into your Arduino IDE. We ar
 
 The code can be split into 3 parts. The red part is declaration, the green part is setup, and the blue part is the loop.
 
-![SSTuinoIoT21](adafruitio_images/SSTuinoIoT21.png)
+![SSTuinoIoT8](sstuinoIoT_images/SSTuinoIoT8.png)
 
 So the red declaration portion goes into this part of the MQTT example:
 
-![SSTUinoIoT24](adafruitio_images/sstuinoiot_24.png)
+![SSTUinoIoT24](sstuinoIoT_images/sstuinoiot_24.png)
 
 The green setup code goes into this part of the MQTT example:
 
-![SSTUinoIoT25](adafruitio_images/sstuinoiot_25.png)
+![SSTUinoIoT25](sstuinoIoT_images/sstuinoiot_25.png)
 
 The blue loop code goes into this part of the MQTT Example:
 
-![SSTUinoIoT26](adafruitio_images/sstuinoiot_26.png)
+![SSTUinoIoT26](sstuinoIoT_images/sstuinoiot_26.png)
