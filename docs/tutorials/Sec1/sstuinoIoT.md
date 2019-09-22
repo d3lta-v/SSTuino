@@ -83,12 +83,12 @@ The code can be split into 3 parts. The red part is declaration, the green part 
 
 So the red declaration portion goes into this part of the MQTT example:
 
-![SSTUinoIoT24](sstuinoIoT_images/sstuinoiot_24.png)
+![SSTUinoIoT24](sstuinoIoT_images/SSTuinoIoT9.png)
 
 The green setup code goes into this part of the MQTT example:
 
-![SSTUinoIoT25](sstuinoIoT_images/sstuinoiot_25.png)
+![SSTUinoIoT25](sstuinoIoT_images/SSTuinoIoT10.png)
 
 The blue loop code goes into this part of the MQTT Example:
 
-![SSTUinoIoT26](sstuinoIoT_images/sstuinoiot_26.png)
+![SSTUinoIoT26](sstuinoIoT_images/SSTuinoIoT11.png)
