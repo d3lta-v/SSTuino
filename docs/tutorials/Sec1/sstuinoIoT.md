@@ -221,3 +221,7 @@ Let us now create our new Adafruit.io dashboard. I'll name it `My Smart Home`, a
 ![SSTUinoIoT18](sstuinoIoT_images/SSTuinoIoT18.png)
 
 ![SSTUinoIoT19](sstuinoIoT_images/SSTuinoIoT19.png)
+
+After you have configured your dashboards, your guage will look like this!
+
+![SSTUinoIoT20](sstuinoIoT_images/SSTuinoIoT20.png)
