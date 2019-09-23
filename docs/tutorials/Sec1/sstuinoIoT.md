@@ -84,15 +84,15 @@ The code can be split into 3 parts. The red part is declaration, the green part 
 
 So the red declaration portion goes into this part of the MQTT example:
 
-![SSTUinoIoT24](sstuinoIoT_images/SSTuinoIoT9.png)
+![SSTUinoIoT9](sstuinoIoT_images/SSTuinoIoT9.png)
 
 The green setup code goes into this part of the MQTT example:
 
-![SSTUinoIoT25](sstuinoIoT_images/SSTuinoIoT10.png)
+![SSTUinoIoT10](sstuinoIoT_images/SSTuinoIoT10.png)
 
 The blue loop code goes into this part of the MQTT Example:
 
-![SSTUinoIoT26](sstuinoIoT_images/SSTuinoIoT11.png)
+![SSTUinoIoT11](sstuinoIoT_images/SSTuinoIoT11.png)
 
 Your code should look something like this after the edit:
 
@@ -198,6 +198,26 @@ void transmitData(const String& value)
 ```
 
 Let us now upload the code to the SSTuino. We will need the WiFi Chip (Flashed by Qian Zhe or Ziyue) to be installed on the SSTuino like this:
+> Make sure that the small white switches are all ON (push upwards)
 
+![SSTUinoIoT12](sstuinoIoT_images/SSTuinoIoT12.jpg)
 
-After the code has successfully uploaded, open up the serial monitor to verify that a link to Adafruit.io has been established. Go to your Adafruit.io temperature feed and you should be able to see data points come up in the feed.
+After the code has successfully uploaded, open up the serial monitor to verify that a link to Adafruit.io has been established. 
+
+![SSTUinoIoT13](sstuinoIoT_images/SSTuinoIoT13.png)
+
+Go to your Adafruit.io temperature feed and you should be able to see data points come up in the feed.
+
+![SSTUinoIoT14](sstuinoIoT_images/SSTuinoIoT14.png)
+
+Let us now create our new Adafruit.io dashboard. I'll name it `My Smart Home`, and place a gauge as follows:
+
+![SSTUinoIoT15](sstuinoIoT_images/SSTuinoIoT15.png)
+
+![SSTUinoIoT16](sstuinoIoT_images/SSTuinoIoT16.png)
+
+![SSTUinoIoT17](sstuinoIoT_images/SSTuinoIoT17.png)
+
+![SSTUinoIoT18](sstuinoIoT_images/SSTuinoIoT18.png)
+
+![SSTUinoIoT19](sstuinoIoT_images/SSTuinoIoT19.png)
