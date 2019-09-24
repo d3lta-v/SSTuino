@@ -225,3 +225,6 @@ Let us now create our new Adafruit.io dashboard. I'll name it `My Smart Home`, a
 After you have configured your dashboards, your guage will look like this!
 
 ![SSTUinoIoT20](sstuinoIoT_images/SSTuinoIoT20.png)
+
+## Connecting to Thunkable
+
