@@ -16,7 +16,7 @@ First, we need to install a library to your Arduino IDE. Go to this Github repo:
 
 On the top right hand corner, click on Clone or Download, and click on **Download .zip**. **Please do not UNZIP the file after downloading**
 
-![SSTuinoIoT17](adafruitio_images/SSTuinoIoT17.png)
+![SSTuinoIoT1](sstuinoIoT_images/SSTuinoIoT1.png)
 
 Go to your Arduino IDE and click on:
 
@@ -40,24 +40,33 @@ We are going to make your previous **[TMP36 Temperature Sensor](https://d3lta-v.
 
 For our MQTT example, let us create a new feed:
 
-![SSTuinoIoT23](adafruitio_images/SSTuinoIoT23.png)
+![SSTuinoIoT2](sstuinoIoT_images/SSTuinoIoT2.png)
 
 In your Arduino IDE, go to
 
 > File > Examples > SSTuino Companion > `Adafruit_MQTT_Pub`
 
-![SSTuinoIoT19](adafruitio_images/SSTuinoIoT19.png)
+![SSTuinoIoT3](sstuinoIoT_images/SSTuinoIoT3.png)
 
 The example should look something like this:
-![SSTuinoIoT22](adafruitio_images/sstuinoiot_22.png)
+![SSTuinoIoT4](sstuinoIoT_images/SSTuinoIoT4.png)
 
 Now go to your Adafruit.io and get your API key and feed key.
 
-> **Important**: Please do not share API keys, they are super important.
+Your API Key should look something like this:
 
-Fill in these information below:
+![SSTuinoIoT6](sstuinoIoT_images/SSTuinoIoT6.png)
 
-![SSTuinoIoT20](adafruitio_images/SSTuinoIoT20.png)
+Your Feed key should look someting like this: 
+
+![SSTuinoIoT7](sstuinoIoT_images/SSTuinoIoT7.png)
+
+> **Important**: Please do not share API keys. Other users can use your account or flood data to it if your API key is public
+
+Fill in your Wifi SSID (The name of the WiFi), password, Adafruit.io username, IO key and feed key in this section:
+> Note that Enterprise WiFi networks such as `SST_Student` will not work on the WiFi Chip due to insufficient memory to use the more complicated protocol. Instead you would have to use your mobile hotspot. Note that hotspots with a Apostrophe `'` like `Qian Zhe's iPhone` will not work. Please change the name of the network. A good example is `SINGTEL-2001`
+
+![SSTuinoIoT5](sstuinoIoT_images/SSTuinoIoT5.png)
 
 Remember this?
 
@@ -71,16 +80,148 @@ Go to that particular example and download the code into your Arduino IDE. We ar
 
 The code can be split into 3 parts. The red part is declaration, the green part is setup, and the blue part is the loop.
 
-![SSTuinoIoT21](adafruitio_images/SSTuinoIoT21.png)
+![SSTuinoIoT8](sstuinoIoT_images/SSTuinoIoT8.png)
 
 So the red declaration portion goes into this part of the MQTT example:
 
-![SSTUinoIoT24](adafruitio_images/sstuinoiot_24.png)
+![SSTUinoIoT9](sstuinoIoT_images/SSTuinoIoT9.png)
 
 The green setup code goes into this part of the MQTT example:
 
-![SSTUinoIoT25](adafruitio_images/sstuinoiot_25.png)
+![SSTUinoIoT10](sstuinoIoT_images/SSTuinoIoT10.png)
 
 The blue loop code goes into this part of the MQTT Example:
 
-![SSTUinoIoT26](adafruitio_images/sstuinoiot_26.png)
+![SSTUinoIoT11](sstuinoIoT_images/SSTuinoIoT11.png)
+
+Your code should look something like this after the edit:
+
+``` C++
+/*
+  Adafruit IO with MQTT
+  For the SSTuino boards.
+  This example sketch publishes to Adafruit IO every 7.5 seconds using MQTT.
+  This can be a foundation to use for uploading sensor data to the cloud for
+  an IoT sensor.
+  This example code is in the public domain.
+  https://d3lta-v.github.io/SSTuino/
+*/
+
+#include "SSTuino_Companion.h"
+
+#define SSID          "SSID GOES HERE"
+#define PASSWORD      "WIFI PASSWORD GOES HERE"
+#define IO_USERNAME   "AIO USERNAME GOES HERE"
+#define IO_KEY        "AIO KEY GOES HERE"
+#define FEED_KEY      "FEED KEY GOES HERE"
+
+SSTuino wifi = SSTuino();
+
+int temp = 0;
+
+void setup()
+{
+  Serial.begin(9600);
+
+  // Open the link between the two devices
+  wifi.openLink();
+
+  // Verify that the link is ok between the two devices
+  if (!wifi.smokeTest()) {
+    Serial.println(F("Unable to establish link with Wi-Fi chip. Halting.")); 
+    while (true){};
+  }
+
+  wifiConnect();
+
+  setupMQTT();
+
+  pinMode(A0, INPUT);
+  Serial.begin(9600);
+}
+
+void loop()
+{
+  temp = (-40 + 0.488155 * (analogRead(A0) - 20) + 0);
+  Serial.println(temp);
+
+  transmitData(String(temp));
+  delay(7500); // you can replace this delay with something longer or shorter,
+               // but 7.5s interval is preferred to prevent flooding Adafruit IO
+}
+
+void wifiConnect(void)
+{
+  // Connects to Wifi and displays connection state
+  wifi.connectToWifi(F(SSID), F(PASSWORD));
+  Serial.println(F("Connecting to Wi-Fi..."));
+
+  delay(10000); // 10 seconds optimal for wifi connection to fully establish
+
+  Status wifiStatus = wifi.getWifiStatus();
+  if (wifiStatus != SUCCESSFUL) {
+    Serial.println(F("Failed to connect to Wi-Fi"));
+    while (true){};
+  } else {
+    Serial.println(F("Wi-Fi connected"));
+  }
+}
+
+void setupMQTT(void)
+{
+  // Setup MQTT
+  Serial.println(F("Setting up MQTT..."));
+  bool mqttSuccess = wifi.enableMQTT(F("io.adafruit.com"), true, IO_USERNAME, IO_KEY);
+  if (!mqttSuccess) {
+    Serial.println(F("Failed to enable MQTT. Halting."));
+    while (true){};
+  }
+  delay(10000); // Wait for MQTT to fully connect
+
+  // Check if MQTT is connected
+  if (!wifi.isMQTTConnected()) {
+    Serial.println(F("MQTT did not connect successfully!"));
+    while (true){};
+  } else {
+    Serial.println(F("MQTT connected!"));
+  }
+}
+
+void transmitData(const String& value)
+{
+  if (wifi.mqttPublish(F(IO_USERNAME "/feeds/" FEED_KEY), value)) {
+    Serial.println(F("Successfully published data!"));
+  } else {
+    Serial.println(F("Failed to publish data!"));
+  }
+}
+```
+
+Let us now upload the code to the SSTuino. We will need the WiFi Chip (Flashed by Qian Zhe or Ziyue) to be installed on the SSTuino like this:
+> Make sure that the small white switches are all ON (push upwards)
+
+![SSTUinoIoT12](sstuinoIoT_images/SSTuinoIoT12.jpg)
+
+After the code has successfully uploaded, open up the serial monitor to verify that a link to Adafruit.io has been established. 
+
+![SSTUinoIoT13](sstuinoIoT_images/SSTuinoIoT13.png)
+
+Go to your Adafruit.io temperature feed and you should be able to see data points come up in the feed.
+
+![SSTUinoIoT14](sstuinoIoT_images/SSTuinoIoT14.png)
+
+Let us now create our new Adafruit.io dashboard. I'll name it `My Smart Home`, and place a gauge as follows:
+
+![SSTUinoIoT15](sstuinoIoT_images/SSTuinoIoT15.png)
+
+![SSTUinoIoT16](sstuinoIoT_images/SSTuinoIoT16.png)
+
+![SSTUinoIoT17](sstuinoIoT_images/SSTuinoIoT17.png)
+
+![SSTUinoIoT18](sstuinoIoT_images/SSTuinoIoT18.png)
+
+![SSTUinoIoT19](sstuinoIoT_images/SSTuinoIoT19.png)
+
+After you have configured your dashboards, your guage will look like this!
+
+![SSTUinoIoT20](sstuinoIoT_images/SSTuinoIoT20.png)
