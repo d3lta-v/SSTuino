@@ -232,11 +232,17 @@ Since we have managed to send temperature data from the SSTuino to Adafruit.io, 
 
 First, let us create a new circuit in TinkerCAD. We will connect our LED to `PIN6`, as shown:
 
+![SSTUinoIoT21](sstuinoIoT_images/SSTuinoIoT21.png)
+
 Our code will look something like this:
 
+![SSTUinoIoT22](sstuinoIoT_images/SSTuinoIoT22.png){: .small-image-left }
 
 Next, let us create a new feed in Adafruit.io. Name it `trigger`. We are going to use another example this time, the MQTT Subscribe example. In the example, the SSTuino will wait on commands from the Adafruit.io platform.
 
 After the creation of your new feed, open the example `Adafruit_IO_MQTT_Sub`
 
-Just like the TMP36 example, we will need to combine the code from TinkerCAD into our examples. 
+![SSTUinoIoT23](sstuinoIoT_images/SSTuinoIoT23.png)
+
+Just like the TMP36 example, we will need to combine the code from TinkerCAD into our examples, just that this time there will be a little twist...
+
