@@ -51,23 +51,6 @@ In your Arduino IDE, go to
 The example should look something like this:
 ![SSTuinoIoT4](sstuinoIoT_images/SSTuinoIoT4.png)
 
-Now go to your Adafruit.io and get your API key and feed key.
-
-Your API Key should look something like this:
-
-![SSTuinoIoT6](sstuinoIoT_images/SSTuinoIoT6.png)
-
-Your Feed key should look someting like this: 
-
-![SSTuinoIoT7](sstuinoIoT_images/SSTuinoIoT7.png)
-
-> **Important**: Please do not share API keys. Other users can use your account or flood data to it if your API key is public
-
-Fill in your Wifi SSID (The name of the WiFi), password, Adafruit.io username, IO key and feed key in this section:
-> Note that Enterprise WiFi networks such as `SST_Student` will not work on the WiFi Chip due to insufficient memory to use the more complicated protocol. Instead you would have to use your mobile hotspot. Note that hotspots with a Apostrophe `'` like `Qian Zhe's iPhone` will not work. Please change the name of the network. A good example is `SINGTEL-2001`
-
-![SSTuinoIoT5](sstuinoIoT_images/SSTuinoIoT5.png)
-
 Remember this?
 
 ![arduinoPot23](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/6_Potentiometer/arduinoPot23.png)
@@ -76,7 +59,7 @@ This is the code that we used:
 
 ![arduinoPot24](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/6_Potentiometer/arduinoPot24.png)
 
-Go to that particular example and download the code into your Arduino IDE. We are going to do some mix-and-match to make it work with Adafruit.io. Open your downloaded code in the Arduino IDE.
+Go to that particular example and open the code in TinkerCAD, in **Blocks + Text** mode. We are going to do some mix-and-match to make it work with Adafruit.io.
 
 The code can be split into 3 parts. The red part is declaration, the green part is setup, and the blue part is the loop.
 
@@ -196,6 +179,25 @@ void transmitData(const String& value)
   }
 }
 ```
+
+
+Now go to your Adafruit.io and get your API key and feed key.
+
+Your API Key should look something like this:
+
+![SSTuinoIoT6](sstuinoIoT_images/SSTuinoIoT6.png)
+
+Your Feed key should look someting like this: 
+
+![SSTuinoIoT7](sstuinoIoT_images/SSTuinoIoT7.png)
+
+> **Important**: Please do not share API keys. Other users can use your account or flood data to it if your API key is public
+
+Fill in your Wifi SSID (The name of the WiFi), password, Adafruit.io username, IO key and feed key in this section:
+> Note that Enterprise WiFi networks such as `SST_Student` will not work on the WiFi Chip due to insufficient memory to use the more complicated protocol. Instead you would have to use your mobile hotspot. Note that hotspots with a Apostrophe `'` like `Qian Zhe's iPhone` will not work. Please change the name of the network. A good example is `SINGTEL-2001`
+
+![SSTuinoIoT5](sstuinoIoT_images/SSTuinoIoT5.png)
+
 
 Let us now upload the code to the SSTuino. We will need the WiFi Chip (Flashed by Qian Zhe or Ziyue) to be installed on the SSTuino like this:
 > Make sure that the small white switches are all ON (push upwards)
