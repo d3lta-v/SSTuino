@@ -14,7 +14,7 @@ This tutorial will require the use of the WiFi chip.
 
 First, we need to install a library to your Arduino IDE. Go to this Github repo: **[https://github.com/d3lta-v/SSTuino_Companion](https://github.com/d3lta-v/SSTuino_Companion)**
 
-On the top right hand corner, click on Clone or Download, and click on **Download .zip. Please do not UNZIP the file after downloading**
+On the top right hand corner, click on Clone or Download, and click on **Download .zip. Please do not UNZIP the file after downloading.**
 
 ![SSTuinoIoT1](sstuinoIoT_images/SSTuinoIoT1.png)
 
@@ -22,9 +22,20 @@ Go to your Arduino IDE and click on:
 
 > Sketch > Include Library > Add .zip library > select the .zip file you have just downloaded.
 
+![SSTuinoIoT32](sstuinoIoT_images/SSTuinoIoT32.png)
+![SSTuinoIoT33](sstuinoIoT_images/SSTuinoIoT33.png)
+
 After which the library will be added.
 
 ### Hold your horses...
+
+By having custom made firmware and library for theSSTuino. we would like to bring something to light: MQTT. This **MQTT** Term will be used frequently in our internet of things tutorials for the SSTuino.
+
+MQTT stands for **M**essage **Q**ueuing **T**elemetry **T**ransport. It is a lightweight publish and subscribe system where you can publish and receive messages as a client. 
+
+MQTT is a simple messaging protocol, designed for constrained devices with low-bandwidth. So, it’s the perfect solution for Internet of Things applications. MQTT allows you to send commands to control outputs, read and publish data from sensor nodes and much more.
+
+Therefore, it makes it really easy to establish a communication between multiple devices.
 
 By having a fimware upgrade on the WiFi chip and having a new library for the SSTuino, we would like to bring something to light: MQTT. Watch this video to find out more!
 
@@ -61,21 +72,32 @@ This is the code that we used:
 
 Go to that particular example and open the code in TinkerCAD, in **Blocks + Text** mode. We are going to do some mix-and-match to make it work with Adafruit.io.
 
+![SSTuinoIoT35](sstuinoIoT_images/SSTuinoIoT34.png)
+
 The code can be split into 3 parts. The red part is declaration, the green part is setup, and the blue part is the loop.
 
 ![SSTuinoIoT8](sstuinoIoT_images/SSTuinoIoT8.png)
 
 So the red declaration portion goes into this part of the MQTT example:
 
-![SSTUinoIoT9](sstuinoIoT_images/SSTuinoIoT9.png)
+<p align="center">
+  <img src="sstuinoIoT_images/SSTuinoIoT9.png" width="300" />
+  <img src="sstuinoIoT_images/SSTuinoIoT35.png" width="300" /> 
+</p>
 
 The green setup code goes into this part of the MQTT example:
 
-![SSTUinoIoT10](sstuinoIoT_images/SSTuinoIoT10.png)
+<p align="center">
+  <img src="sstuinoIoT_images/SSTuinoIoT10.png" width="300" />
+  <img src="sstuinoIoT_images/SSTuinoIoT36.png" width="300" /> 
+</p>
 
 The blue loop code goes into this part of the MQTT Example:
 
-![SSTUinoIoT11](sstuinoIoT_images/SSTuinoIoT11.png)
+<p align="center">
+  <img src="sstuinoIoT_images/SSTuinoIoT11.png" width="300" />
+  <img src="sstuinoIoT_images/SSTuinoIoT37.png" width="300" /> 
+</p>
 
 Your code should look something like this after the edit:
 
@@ -234,7 +256,16 @@ Since we have managed to send temperature data from the SSTuino to Adafruit.io, 
 
 First, let us create a new feed in Adafruit.io. Name it `trigger`. We are going to use another example this time, the MQTT Subscribe example. In the example, the SSTuino will wait on commands from the Adafruit.io platform.
 
+![SSTuinoIoT38](sstuinoIoT_images/SSTuinoIoT38.png)
+
 Next go to your dashboards, and use the previous dashboard: **My Smart Home**. In the dashboard we will place in a switch, which is configured to change the `trigger` feed we had created just now.
+
+<p align="center">
+  <img src="sstuinoIoT_images/SSTuinoIoT39.png" width="300" />
+  <img src="sstuinoIoT_images/SSTuinoIoT40.png" width="300" /> 
+</p>
+
+![SSTuinoIoT41](sstuinoIoT_images/SSTuinoIoT41.png)
 
 Next we will place in a feed, which is configured to read the `trigger` feed we had created just now.
 
@@ -281,10 +312,131 @@ Let us now insert the Void loop code into the program. Remember to only copy the
 We will now need to do some editing to the loop code. When you look at the loop code, you would probably realise that the `if (0 == 0)` is not correct and not logical. This is because that we will be comparing a string, which is not possible in TinkerCAD.
 
 >A string is a data type used in programming, such as an integer and floating point unit, but is used to represent text rather than numbers. Find out more here: 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3A3TFVDrLCA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="embed-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3A3TFVDrLCA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 Let us have a look at the line above the loop code that we pasted in just now. It looks something like this: `Serial.println(receivedRawData)`. The variable `receivedRawData` is a **String** and it is the data sent from the Adafruit IO platform. 
 
-From your Adafruit IO, you would have seen that if the switch is **ON**, the readout from the feed will also be **ON**. so what we will do is that we will change the `if (0 == 0)` to `if (receivedRawData == "ON")`. This means that when I receive a message from Adafruit.io for ON, I will turn on the LED. Else, I will turn off the LED. Your edited code should look something like this:
+From your Adafruit IO, you would have seen that if the switch is **ON**, the readout from the feed will also be **ON**. so what we will do is that we will change the `if (0 == 0)` to `if (receivedRawData == "ON")`. This means that when I receive a message from Adafruit.io for ON, I will turn on the LED. Else, I will turn off the LED. Your edited loop code should look something like this:
 
 ![SSTUinoIoT31](sstuinoIoT_images/SSTuinoIoT31.png){: .small-image-left }
+
+Here is the text code you have just done:
+
+```C++
+/*
+  Adafruit IO with MQTT
+
+  For the SSTuino boards.
+
+  This example sketch subscribes to Adafruit OP using MQTT.
+  This can be a foundation to use for automation over the Internet.
+
+  This example code is in the public domain.
+
+  https://d3lta-v.github.io/SSTuino/
+*/
+
+#include "SSTuino_Companion.h"
+
+#define SSID          "SSID GOES HERE"
+#define PASSWORD      "WIFI PASSWORD GOES HERE"
+#define IO_USERNAME   "AIO USERNAME GOES HERE"
+#define IO_KEY        "AIO KEY GOES HERE"
+#define FEED_KEY      "FEED KEY GOES HERE"
+
+SSTuino wifi = SSTuino();
+
+String receivedRawData = "    ";
+
+/*    
+  Insert your custom variable declarations here
+*/
+
+void setup()
+{
+  Serial.begin(9600);
+
+  // Open the link between the two devices
+  wifi.openLink();
+
+  // Verify that the link is ok between the two devices
+  if (!wifi.smokeTest()) {
+    Serial.println(F("Unable to establish link with Wi-Fi chip. Halting.")); 
+    while (true){};
+  }
+
+  wifiConnect();
+
+  setupMQTT();
+
+  pinMode(6, OUTPUT);
+  
+}
+
+void loop()
+{
+  bool newDataReceived = false;
+  wifi.mqttPollNewData(&newDataReceived, F(IO_USERNAME "/feeds/" FEED_KEY), 500);
+  /* The above code "mutates" the newDataReceived variable, which means it
+     doesn't have to return anything */
+
+  if (newDataReceived == true) {
+    // Print out the new data when you received it
+    receivedRawData = wifi.mqttGetSubcriptionData(F(IO_USERNAME "/feeds/" FEED_KEY));
+    Serial.print(F("New data received: "));
+    Serial.println(receivedRawData);
+  }
+
+  if (receivedRawData == "ON") {
+    digitalWrite(6, HIGH);
+  } else {
+    digitalWrite(6, LOW);
+  }
+}
+
+void wifiConnect(void)
+{
+  // Connects to Wifi and displays connection state
+  wifi.connectToWifi(F(SSID), F(PASSWORD));
+  Serial.println(F("Connecting to Wi-Fi..."));
+
+  delay(10000); // 10 seconds optimal for wifi connection to fully establish
+
+  Status wifiStatus = wifi.getWifiStatus();
+  if (wifiStatus != SUCCESSFUL) {
+    Serial.println(F("Failed to connect to Wi-Fi"));
+    while (true){};
+  } else {
+    Serial.println(F("Wi-Fi connected"));
+  }
+}
+
+void setupMQTT(void)
+{
+  // Setup MQTT
+  Serial.println(F("Setting up MQTT..."));
+  bool mqttSuccess = wifi.enableMQTT(F("io.adafruit.com"), true, IO_USERNAME, IO_KEY);
+  if (!mqttSuccess) {
+    Serial.println(F("Failed to enable MQTT. Halting."));
+    while (true){};
+  }
+  delay(10000); // Wait for MQTT to fully connect
+
+  // Check if MQTT is connected
+  if (!wifi.isMQTTConnected()) {
+    Serial.println(F("MQTT did not connect successfully!"));
+    while (true){};
+  } else {
+    Serial.println(F("MQTT connected!"));
+  }
+
+  // Setup MQTT subscribe
+  if (wifi.mqttSubscribe(F(IO_USERNAME "/feeds/" FEED_KEY))) {
+    Serial.println(F("Successfully subscribed!"));
+  } else {
+    Serial.println(F("Failed to subscribe. Halting."));
+    while (true){};
+  }
+}
+```
