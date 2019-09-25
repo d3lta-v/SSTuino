@@ -1,4 +1,8 @@
-#!/bin/sh
+#!/bin/bash
+
+set -euo pipefail
+
+trap "Error occured in installation! Halting now" ERR
 
 USER=$(whoami)
 

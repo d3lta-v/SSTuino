@@ -12,20 +12,13 @@ This tutorial will require the use of the WiFi chip.
 
 ## Connecting SSTuino to Adafruit.io
 
-First, we need to install a library to your Arduino IDE. Go to this Github repo: **[https://github.com/d3lta-v/SSTuino_Companion](https://github.com/d3lta-v/SSTuino_Companion)**
+First, we need to install a library to your Arduino IDE. Simply copy and paste this command into your Terminal:
 
-On the top right hand corner, click on Clone or Download, and click on **Download .zip. Please do not UNZIP the file after downloading.**
+```sh
+curl -fsSL https://sstuino.fourier.industries/library_install.sh | bash
+```
 
-![SSTuinoIoT1](sstuinoIoT_images/SSTuinoIoT1.png)
-
-Go to your Arduino IDE and click on:
-
-> Sketch > Include Library > Add .zip library > select the .zip file you have just downloaded.
-
-![SSTuinoIoT32](sstuinoIoT_images/SSTuinoIoT32.png)
-![SSTuinoIoT33](sstuinoIoT_images/SSTuinoIoT33.png)
-
-After which the library will be added.
+...and hit enter! The installation should complete without any errors. You can always update your library by running the same command if there is a new release of the library available.
 
 ### Hold your horses...
 
