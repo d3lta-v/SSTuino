@@ -232,6 +232,12 @@ After you have configured your dashboards, your guage will look like this!
 
 Since we have managed to send temperature data from the SSTuino to Adafruit.io, now let us try controlling something on the SSTuino from Adafruit.io!
 
+First, let us create a new feed in Adafruit.io. Name it `trigger`. We are going to use another example this time, the MQTT Subscribe example. In the example, the SSTuino will wait on commands from the Adafruit.io platform.
+
+Next go to your dashboards, and use the previous dashboard: **My Smart Home**. In the dashboard we will place in a switch, which is configured to change the `trigger` feed we had created just now.
+
+Next we will place in a feed, which is configured to read the `trigger` feed we had created just now.
+
 First, let us create a new circuit in TinkerCAD. We will connect our LED to `PIN6`, as shown:
 
 ![SSTUinoIoT21](sstuinoIoT_images/SSTuinoIoT21.png)
@@ -240,11 +246,45 @@ Our code will look something like this:
 
 ![SSTUinoIoT22](sstuinoIoT_images/SSTuinoIoT22.png){: .small-image-left }
 
-Next, let us create a new feed in Adafruit.io. Name it `trigger`. We are going to use another example this time, the MQTT Subscribe example. In the example, the SSTuino will wait on commands from the Adafruit.io platform.
-
-After the creation of your new feed, open the example `Adafruit_IO_MQTT_Sub`
+After the creation of your new circuit, open the example `Adafruit_IO_MQTT_Sub`
 
 ![SSTUinoIoT23](sstuinoIoT_images/SSTuinoIoT23.png)
 
 Just like the TMP36 example, we will need to combine the code from TinkerCAD into our examples, just that this time there will be a little twist...
 
+Once the example is open, it will look something like this:
+
+![SSTUinoIoT24](sstuinoIoT_images/SSTuinoIoT24.png)
+
+From our TinkerCAD, open up **Blocks + Text**.
+
+![SSTUinoIoT25](sstuinoIoT_images/SSTuinoIoT25.png)
+
+We are now going to integrate this code from TinkerCAD to our MQTT Subscribe example. It is very simillar to our previous TMP 36 example. As there are no declarations in this code, just leave the comment alone.
+
+![SSTUinoIoT26](sstuinoIoT_images/SSTuinoIoT26.png){: .small-image-left }
+
+We will now copy the setup code into the program. Remember to only copy the contents inside the brackets.
+
+<p align="center">
+  <img src="sstuinoIoT_images/SSTuinoIoT27.png" width="300" />
+  <img src="sstuinoIoT_images/SSTuinoIoT28.png" width="300" /> 
+</p>
+
+Let us now insert the Void loop code into the program. Remember to only copy the contents inside the brackets.
+
+<p align="center">
+  <img src="sstuinoIoT_images/SSTuinoIoT29.png" width="300" />
+  <img src="sstuinoIoT_images/SSTuinoIoT30.png" width="300" /> 
+</p>
+
+We will now need to do some editing to the loop code. When you look at the loop code, you would probably realise that the `if (0 == 0)` is not correct and not logical. This is because that we will be comparing a string, which is not possible in TinkerCAD.
+
+>A string is a data type used in programming, such as an integer and floating point unit, but is used to represent text rather than numbers. Find out more here: 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3A3TFVDrLCA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Let us have a look at the line above the loop code that we pasted in just now. It looks something like this: `Serial.println(receivedRawData)`. The variable `receivedRawData` is a **String** and it is the data sent from the Adafruit IO platform. 
+
+From your Adafruit IO, you would have seen that if the switch is **ON**, the readout from the feed will also be **ON**. so what we will do is that we will change the `if (0 == 0)` to `if (receivedRawData == "ON")`. This means that when I receive a message from Adafruit.io for ON, I will turn on the LED. Else, I will turn off the LED. Your edited code should look something like this:
+
+![SSTUinoIoT31](sstuinoIoT_images/SSTuinoIoT31.png){: .small-image-left }
