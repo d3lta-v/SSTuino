@@ -262,7 +262,7 @@ From our TinkerCAD, open up **Blocks + Text**.
 
 We are now going to integrate this code from TinkerCAD to our MQTT Subscribe example. It is very simillar to our previous TMP 36 example. As there are no declarations in this code, just leave the comment alone.
 
-![SSTUinoIoT26](sstuinoIoT_images/SSTuinoIoT26.png){: .small-image-left }
+![SSTUinoIoT26](sstuinoIoT_images/SSTuinoIoT26.png){: .medium-image-left }
 
 We will now copy the setup code into the program. Remember to only copy the contents inside the brackets.
 
