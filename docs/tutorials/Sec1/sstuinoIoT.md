@@ -433,3 +433,23 @@ void setupMQTT(void)
   }
 }
 ```
+
+Now let us add a slider onto the dashboard. The values should range from 0 - 255.
+
+Let us remove this portion of code from the program
+
+```C++
+  if (receivedRawData == "ON") {
+    digitalWrite(6, HIGH);
+  } else {
+    digitalWrite(6, LOW);
+  }
+```
+
+Instead, replace it with this
+
+``` C++
+  analogWrite(6, receivedRawData.toInt())
+```
+
+You may have seen something unfamillar. The `toInt()` function converts the value of the string `recievedRawData` into an integer (Whole number) for the pwm to be able to output.
