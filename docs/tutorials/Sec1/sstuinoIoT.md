@@ -466,3 +466,12 @@ After you have edited the code, simply upload it to the SSTuino, wait for the MQ
 
 ## Connect SSTuino to Thunkable!
 
+Now we have managed to control your SSTuino from Adafruit.io, let us use our Thunkable to view our SSTuino statistics and to control our SSTuino!
+
+For this portion of the tutorial, we managed to do up a Thunkable template for you! Simply go to this link here:
+
+**[https://x.thunkable.com/copy/9c8f40e34526da0b3959272627c82752](https://x.thunkable.com/copy/9c8f40e34526da0b3959272627c82752)**
+
+You will just need your AIO username, AIO Key and feed key to get started!
+
+![SSTUinoIoT43](sstuinoIoT_images/SSTuinoIoT43.png)
