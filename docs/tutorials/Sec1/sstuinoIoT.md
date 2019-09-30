@@ -10,6 +10,12 @@ This tutorial will cover the use of the WiFi functionality on the SSTuino board.
 
 This tutorial will require the use of the WiFi chip.
 
+## Table of Contents
+* [Connecting SSTuino to Adafruit.io](#connecting-sstuino-to-adafruitio)
+* [MQTT Example](#mqtt-example)
+* [Controlling your SSTuino!](#controlling-your-sstuino)
+* [Connect SSTuino to Thunkable!](#connect-sstuino-to-thunkable)
+
 ## Connecting SSTuino to Adafruit.io
 
 First, we need to install a library to your Arduino IDE. Simply copy and paste this command into your Terminal:
@@ -94,7 +100,7 @@ The blue loop code goes into this part of the MQTT Example:
 
 Your code should look something like this after the edit:
 
-``` C++
+``` Cpp
 /*
   Adafruit IO with MQTT
   For the SSTuino boards.
@@ -316,7 +322,7 @@ From your Adafruit IO, you would have seen that if the switch is **ON**, the rea
 
 Here is the text code you have just done:
 
-```C++
+```Cpp
 /*
   Adafruit IO with MQTT
 
@@ -436,6 +442,8 @@ void setupMQTT(void)
 
 Now let us add a slider onto the dashboard. The values should range from 0 - 255.
 
+![SSTUinoIoT42](sstuinoIoT_images/SSTuinoIoT42.png)
+
 Let us remove this portion of code from the program
 
 ```C++
@@ -453,3 +461,8 @@ Instead, replace it with this
 ```
 
 You may have seen something unfamillar. The `toInt()` function converts the value of the string `recievedRawData` into an integer (Whole number) for the pwm to be able to output.
+
+After you have edited the code, simply upload it to the SSTuino, wait for the MQTT to subscribe and there you go!
+
+## Connect SSTuino to Thunkable!
+
