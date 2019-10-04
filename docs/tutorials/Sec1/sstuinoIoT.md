@@ -11,6 +11,7 @@ This tutorial will cover the use of the WiFi functionality on the SSTuino board.
 This tutorial will require the use of the WiFi chip.
 
 ## Table of Contents
+* [Creating your Adafruit.io account](#creating-your-adafruitio-account)
 * [Connecting SSTuino to Adafruit.io](#connecting-sstuino-to-adafruitio)
 * [MQTT Example](#mqtt-example)
 * [Controlling your SSTuino!](#controlling-your-sstuino)
