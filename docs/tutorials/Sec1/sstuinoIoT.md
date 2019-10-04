@@ -32,6 +32,12 @@ The Internet of Things industry is starting to get very popular in a lot of indu
 
 ## Creating your Adafruit.io account
 
+Welcome to Adafruit IoT:
+
+<div class="embed-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SiDYTLzV0yU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 To create your adafruit.io account go to this tutorial by Adafruit here:
 
 **[https://learn.adafruit.com/welcome-to-adafruit-io/getting-started-with-adafruit-io](https://learn.adafruit.com/welcome-to-adafruit-io/getting-started-with-adafruit-io){:target="_blank"}**
