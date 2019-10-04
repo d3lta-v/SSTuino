@@ -36,9 +36,9 @@ Before you begin playing around with the SSTuino kit here are some things to do:
         * Light Dependent Resistor/Photoresistor
         * Ultrasonic Distance Sensor
         * TMP36 Temperature Sensor
-* [Setting up your Adafruit.io Account](Sec1/adafruitio.md)
 * [The SSTuino can connect to the internet?! - Interfacing the SSTuino with Adafruit.io](Sec1/sstuinoIoT.md)
     * This tutorial covers:
+        * [Creating your Adafruit.io account](Sec1/sstuinoIoT.md/#creating-your-adafruitio-account)
         * [Connecting SSTuino to Adafruit.io](Sec1/sstuinoIoT.md/#connecting-sstuino-to-adafruitio)
         * [MQTT Example](Sec1/sstuinoIoT.md/#mqtt-example)
         * [Controlling your SSTuino!](Sec1/sstuinoIoT.md/#controlling-your-sstuino)

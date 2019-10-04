@@ -16,6 +16,12 @@ This tutorial will require the use of the WiFi chip.
 * [Controlling your SSTuino!](#controlling-your-sstuino)
 * [Connect SSTuino to Thunkable!](#connect-sstuino-to-thunkable)
 
+## Creating your Adafruit.io account
+
+To create your adafruit.io account go to this tutorial by Adafruit here:
+
+**[https://learn.adafruit.com/welcome-to-adafruit-io/getting-started-with-adafruit-io](https://learn.adafruit.com/welcome-to-adafruit-io/getting-started-with-adafruit-io){:target="_blank"}**
+
 ## Connecting SSTuino to Adafruit.io
 
 First, we need to install a library to your Arduino IDE. Simply copy and paste this command into your Terminal:
