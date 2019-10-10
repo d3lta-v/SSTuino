@@ -18,8 +18,6 @@ This tutorial will cover the details of the components that are included in the 
 
 ## Table of Contents
 
-As this tutorial is rather long, a table of contents is included for you to easily find the section that you need.
-
 * [SSTuino Board](#sstuino-board)
 * [USB C to Micro USB Cable](#usb-c-to-micro-usb-cable)
 * [CP2102 MicroUSB Serial Converter](#cp2102-microusb-serial-converter)

@@ -8,6 +8,14 @@ author: Goh Qian Zhe
 
 So, let us move on into the programming stage of the SSTuino Innovator's Kit!
 
+## Table of Contents
+
+* [Virtual Programming](#virtual-programming)
+* [Pin 13](#pin-13)
+* [Blink!](#blink)
+* [How does the code work?](#how-does-the-code-work)
+* [It WORKS!!!](#it-works)
+
 ## Virtual Programming
 
 Before we go into programming with the Arduino app, let us take things slow with the coding functionality on TinkerCAD!

@@ -8,6 +8,16 @@ author: Goh Qian Zhe
 
 In this tutorial, we will attempt a few simple circuits with a simple to use online simulator, TinkerCAD. After which, we will apply the circuits that we have created into real circuits with components in our SSTuino Kit.
 
+## Table of Contents
+* [Hello TinkerCAD](#hello-tinkercad)
+* [Sign in to TinkerCAD](#sign-in-to-tinkercad)
+* [Our First Circuit!](#our-first-circuit)
+* [Your first circuit with the SSTuino Kit!](#your-first-circuit-with-the-sstuino-kit)
+* [Add a button!](#add-a-button)
+* [The photoresistor](#the-photoresistor)
+* [Time to turn it up!](#time-to-turn-it-up)
+
+
 ## Hello TinkerCAD!
 
 Say you have an amazing idea at hand and would like to realise it, to which you are thinking: "Hmm, how can I evolve my idea into a real product?"
