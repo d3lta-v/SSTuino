@@ -31,4 +31,4 @@ This parts list applies to the kits for the 2020 batch.
 | 17     | 330Ohm and 10KOhm resistor reel      | approx 25 |
 | 18     | Dupont cables (wires)                |         1 |
 
-The explanation of the components included in the kit is in this particular tutorial: [*How not to **Burn** your LEDs*](https://d3lta-v.github.io/SSTuino/tutorials/Sec1/electronicBasics.html)
+The explanation of the components included in the kit is in this particular tutorial: [*How to not **Burn** your LEDs*](https://d3lta-v.github.io/SSTuino/tutorials/Sec1/electronicBasics.html)
