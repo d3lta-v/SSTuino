@@ -27,7 +27,8 @@ This parts list applies to the kits for the 2020 batch.
 | 13     | PIR Proximity Sensor                 |         1 |
 | 14     | DHT11 Temperature and Humidity Sensor|         1 |
 | 15     | Servo                                |         1 |
-| 16     | 330Ohm and 10KOhm resistor reel      | approx 25 |
-| 17     | Dupont cables (wires)                |         1 |
+| 16     | RGB LEDs                             |         5 |
+| 17     | 330Ohm and 10KOhm resistor reel      | approx 25 |
+| 18     | Dupont cables (wires)                |         1 |
 
 The explanation of the components included in the kit is in this particular tutorial: [*How not to **Burn** your LEDs*](https://d3lta-v.github.io/SSTuino/tutorials/Sec1/electronicBasics.html)
