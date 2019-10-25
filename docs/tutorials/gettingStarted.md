@@ -22,7 +22,7 @@ Here are a list of things you require to go through this tutorial.
 1. Firstly, and most importantly, yourself.
 2. Your learning device or computer.
 3. An active internet connection.
-4. The SSTuino Innovator's Kit
+4. The SSTuino Innovator's Kit.
 
 ## Installation of the Arduino IDE
 
