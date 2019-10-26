@@ -41,7 +41,7 @@ This tutorial will cover the details of the components that are included in the 
 ## SSTuino Board
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/d3lta-v/SSTuino/master/docs/tutorials/partsList_images/a000066_front_1_1_1.jpg" width="300" />
+  <img src="https://raw.githubusercontent.com/d3lta-v/SSTuino/master/docs/tutorials/Sec1/partsList_images/a000066_front_1_1_1.jpg" width="300" />
   <img src="https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/SSTuino.png" width="300" /> 
 </p>
 
@@ -57,13 +57,13 @@ The major design difference with this board is that it has a extended board foot
 
 ## USB C to Micro USB Cable
 
-![USBC to MicroUSB](docs/tutorials/partsList_images/usb-type-c-2-0-to-micro-usb-cable-also-known-as-usb-type-c-1159-800x800.jpg){: .small-image-left }
+![USBC to MicroUSB](partsList_images/usb-type-c-2-0-to-micro-usb-cable-also-known-as-usb-type-c-1159-800x800.jpg){: .small-image-left }
 
 The USB C to Micro USB Cable is a unique cable that helps you connect your USB C Mac to the CP2102 MicroUSB Serial Converter. As this type of cable is less commonly seen in the market, please take good care of this wire as it is not easy to obtain one.
 
 ## NEU (New Enhanced UART) CP2102
 
-![MicroUSB CP2102](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/PartsList/CP2102_NEU.jpeg){: .small-image-left }
+![MicroUSB CP2102](partsList_images/CP2102_NEU.jpeg){: .small-image-left }
 
 The CP2102 MicroUSB Serial Converter is a very important device to have as it is the communication tool between the computer and the microcontroller (SSTuino). We designed SSTuino to have a external Serial Converter as not only is it modular, where you could change the chip in the event it is spoilt, you could also use the CP2102 to communicate with other serial devices such as the ATTiny85 or the Raspberry Pi.
 
@@ -73,7 +73,7 @@ The NEU (New Enhanced UART) is a custom designed serial converter designed by Pa
 
 ## ESP01S WiFi Chip
 
-![ESP-01S](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/PartsList/esp-8266-01.jpg){: .small-image-left }
+![ESP-01S](partsList_images/esp-8266-01.jpg){: .small-image-left }
 
 The ESP01S WiFi Chip is what sets the SSTuino different from the Arduino UNO. It allows the SSTuino to be able to connect to the internet, allowing the SSTuino to have smart home, automation and internet connected sensor abilities.
 
@@ -102,31 +102,31 @@ Resistors are essential in every circuit. They limit the flow of current in your
 For generic resistors, there is generally two types of resistors: Carbon Composite Resistor or Film Type Resistor. Carbon resistors are popular due to their extremely low cost and good accurancy with low enough tolerance (usually about +- 5%). Flim Type Resistor, while being slightly costlier, provide closer tolerances (up to +-1%) from the rated resistance.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/PartsList/CarbonR.jpg" width="300" />
-  <img src="https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/PartsList/MetalR.jpg" width="300" /> 
+  <img src="https://raw.githubusercontent.com/d3lta-v/SSTuino/master/docs/tutorials/Sec1/partsList_images/CarbonR.jpg" width="300" />
+  <img src="https://raw.githubusercontent.com/d3lta-v/SSTuino/master/docs/tutorials/Sec1/partsList_images/MetalR.jpg" width="300" /> 
 </p>
 
 *Carbon Film Resistors (left) and metal oxide resistors (right).*
 
 The resistors provided in the kit is metal oxide resistors and have values of 330 Ohm and 10K Ohm. You can read the values of the resistor from the colour band on the component.
 
-![330Ohm](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/PartsList/330-ohm.jpg){: .small-image-left }
+![330Ohm](partsList_images/330-ohm.jpg){: .small-image-left }
 
 This is a **330 Ohm** resistor.
 
-![10KOhm](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/PartsList/10KOhm.jpg){: .small-image-left }
+![10KOhm](partsList_images/10KOhm.jpg){: .small-image-left }
 
 This is a **10K Ohm** resistor.
 
 If you are wondering how to read the values of resistors, refer to the infograpic below:
 
-![resistorChart](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/PartsList/Resistors.png)
+![resistorChart](partsList_images/Resistors.png)
 
 ## Light Emitting Diode (LED)
 
 Somehow or another, you would realise that you would need something to light up! Say hello to the LED! LEDs are small, efficient lightbulbs (that are rather bright). They are found in a large variety of devices like mobile phones, computer screens, the headlamps of the car and even spotlights!
 
-![RGB LED](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/PartsList/LED.jpeg)
+![RGB LED](partsList_images/LED.jpeg)
 
 So, you might be wondering how should you place an LED in a circuit? Here are the 3 most important things to take note:
 
@@ -162,30 +162,30 @@ Moreover, a good resistor value for LEDs is 330Ohms (can be more or less), so we
 
 ## Breadboard
 
-![Breadboard](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/PartsList/21025-dscn3816.jpeg){: .medium-image-left }
+![Breadboard](partsList_images/21025-dscn3816.jpeg){: .medium-image-left }
 
 So you happened to see a retangular shaped block with holes in it and wondered what it was? This block is called a **breadboard** or **prototyping board**. The breadboard is a very important part of your prototype when you develop new things!
 
-![Breadboard with circuit](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/PartsList/Breadboard-Circuit-Example.jpg)
+![Breadboard with circuit](partsList_images/Breadboard-Circuit-Example.jpg)
 
 In your ICT lessons, your teacher would go through with you on how to connect up your circuit. Moreover, you would be using TinkerCAD to simulate and view your *virtual* circuit before actually building it, preventing any (touch wood) *magic smoke*.
 
 The layout of the breadboard is done such that you can assemble your circuits easily.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/PartsList/horizontal-rows.png" width="300" />
-  <img src="https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/PartsList/verticalpower.png" width="300" /> 
+  <img src="https://raw.githubusercontent.com/d3lta-v/SSTuino/master/docs/tutorials/Sec1/partsList_images/horizontal-rows.png" width="300" />
+  <img src="https://raw.githubusercontent.com/d3lta-v/SSTuino/master/docs/tutorials/Sec1/partsList_images/verticalpower.png" width="300" /> 
 </p>
 
 ## Wires
 
-![Wires](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/PartsList/Dupont%20Wires.jpg){: .medium-image-left }
+![Wires](partsList_images/Dupont%20Wires.jpg){: .medium-image-left }
 
 Wires are the most important part of your circuit. Without them, you would not be able to have electricity flowing through your circuit as there is simply nothing connecting them together! The wires provided in the kit are Male - Male Dupont wires (*I dont think I have to explain why the ends of the wire is male, right?* *wink*), and are the right size for you to be able to connect from your SSTuino to the breadboard or the component.
 
 ## Push Button
 
-![Push Buton](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/PartsList/PushButton.jpg){: .small-image-left }
+![Push Buton](partsList_images/PushButton.jpg){: .small-image-left }
 
 This push button is a very simple example of a switch. But before you connect this push button into your house's mains, please do not do so :). The push button is meant for the breadboard instead.
 
@@ -193,7 +193,7 @@ When the push button is pressed down, the circuit is closed and current would fl
 
 ## Light Dependant Resistor
 
-![LDR](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/PartsList/LDR.jpeg)
+![LDR](partsList_images/LDR.jpeg)
 
 As the name suggests, the Light Depedant Resistor (or Photoresistor) is a component that changes resistance when the light intensity changes. For the LDR that is provided in the kit, the resistance of the LDR **decreases** when the light intensity **increases**.
 
@@ -201,7 +201,7 @@ Like a normal resistor, there is no polarity for the LDR and can be connected in
 
 ## Buzzer
 
-![Buzzer](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/PartsList/146-2.jpg){: .small-image-left }
+![Buzzer](partsList_images/146-2.jpg){: .small-image-left }
 
 This buzzer is a Piezo Buzzer. If you try to open up the buzzer, you would see that there are a few embedded components inside the buzzer. What happens when you connect it to power is that it is converted to an oscilating signal, which is amplified and applied to the piezo disc. This causes the material to expand and contract rapidly, which results in sound waves being produced. 
 
@@ -209,27 +209,27 @@ This buzzer is a Piezo Buzzer. If you try to open up the buzzer, you would see t
 
 ## Potentiometer
 
-![10K pot](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/PartsList/10KPot.jpg){: .small-image-left }
+![10K pot](partsList_images/10KPot.jpg){: .small-image-left }
 
-![Pot Sch](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/PartsList/resistor-pot3.gif)
+![Pot Sch](partsList_images/resistor-pot3.gif)
 
 The potentiometer is a variable resistor, with a adjustable knob. As the knob is turned from one side to another, the resistance changes. Potentiometers are used for controlling devices, such as the brightness of the LED, and with the appropriate circuit, the speed of a motor.
 
 ## Ultrasonic Sensor
 
-![Ultrasonic](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/PartsList/Ultrasonic.jpg){: .small-image-left }
+![Ultrasonic](partsList_images/Ultrasonic.jpg){: .small-image-left }
 
 The ultrasonic sensor is a device that measures distance by emitting ultrasonic waves, waits for the wave the bounce back and then measure the time taken.
 
 ## TMP36 Temperature Sensor
 
-![TMP36Pinout](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/PartsList/TMP36GZ_PinOut.png){: .small-image-left }
+![TMP36Pinout](partsList_images/TMP36GZ_PinOut.png){: .small-image-left }
 
 The TMP36 temperature sensor is a rather accurate sensor despite is low price. For more information, visit the [Adafruit Website](https://learn.adafruit.com/tmp36-temperature-sensor/overview).
 
 **Note:** You may notice that this package may resemble that of other components such as transistors. **Please do not mix them up and read the respective manuals carefully.** The component model would be marked out on the **flat** side of the component for this package. Use the model number to search for the pinouts for you to make sure you are connecting the component the right way.
 
-![TransistorPinout](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/PartsList/TO92%20Pinout%20Transistor.jpeg)
+![TransistorPinout](partsList_images/TO92%20Pinout%20Transistor.jpeg)
 
 This shape and pinouts is called the TO-92 Package and is a very cheap and easy to manufacture method for transistors.
 
