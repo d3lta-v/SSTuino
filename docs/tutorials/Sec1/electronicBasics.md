@@ -41,7 +41,7 @@ This tutorial will cover the details of the components that are included in the 
 ## SSTuino Board
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/PartsList/a000066_front_1_1_1.jpg" width="300" />
+  <img src="https://raw.githubusercontent.com/d3lta-v/SSTuino/master/docs/tutorials/partsList_images/a000066_front_1_1_1.jpg" width="300" />
   <img src="https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/SSTuino.png" width="300" /> 
 </p>
 
@@ -50,14 +50,14 @@ This tutorial will cover the details of the components that are included in the 
 For students who are familliar with the Arduino UNO, you would realise that it looks pretty simillar to the SSTuino. This is because that the SSTuino is an adapted design from the Arduino UNO. This device shares a lot of similarities as the UNO such as:
 
 - Coding compatability
-- Shield compatability due to its simillar pinouts
-- Sharing the same components
+- Shield compatability as the SSTuino shares the same I/O Pins as the Arduino Uno
+- Sharing the most of the same components
 
 The major design difference with this board is that it has a extended board footprint to accept a WiFi chip, resulting the SSTuino to be an Internet-Of-Things (IoT) enabled product. This means that the SSTuino can connect to the internet to send/recieve data!
 
 ## USB C to Micro USB Cable
 
-![USBC to MicroUSB](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/PartsList/usb-type-c-2-0-to-micro-usb-cable-also-known-as-usb-type-c-1159-800x800.jpg){: .small-image-left }
+![USBC to MicroUSB](docs/tutorials/partsList_images/usb-type-c-2-0-to-micro-usb-cable-also-known-as-usb-type-c-1159-800x800.jpg){: .small-image-left }
 
 The USB C to Micro USB Cable is a unique cable that helps you connect your USB C Mac to the CP2102 MicroUSB Serial Converter. As this type of cable is less commonly seen in the market, please take good care of this wire as it is not easy to obtain one.
 
