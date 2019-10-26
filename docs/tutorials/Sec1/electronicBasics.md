@@ -32,7 +32,7 @@ This tutorial will cover the details of the components that are included in the 
 * [Potentiometer](#potentiometer)
 * [Ultrasonic Sensor](#ultrasonic-sensor)
 * [TMP36 Temperature Sensor](#tmp36-temperature-sensor)
-* [PIR Proximity Sensor](#pir-proximity-infra-red-sensor)
+* [PIR Proximity Sensor](#pir-passive-infra-red-sensor)
 * [DHT11 Temperature and Humidity Sensor](#dht11-temperature-and-humidity-sensor)
 * [Servo](#9g-micro-servo)
 * [RGB LEDs](#rgb-led-common-cathode)
@@ -233,13 +233,31 @@ The TMP36 temperature sensor is a rather accurate sensor despite is low price. F
 
 This shape and pinouts is called the TO-92 Package and is a very cheap and easy to manufacture method for transistors.
 
-## PIR - Proximity Infra-Red Sensor
+## PIR - Passive Infra-Red Sensor
+
+![PIR](partsList_images/PIR.jpg){: .small-image-left }
+
+PIR sensors allow you to sense motion, almost always used to detect whether a human has moved in or out of the sensors range. They are small, inexpensive, low-power, easy to use and don't wear out. 
+
+To find out more about how it works, check out this detailed explanation from Adafruit: [https://learn.adafruit.com/pir-passive-infrared-proximity-motion-sensor/how-pirs-work](https://learn.adafruit.com/pir-passive-infrared-proximity-motion-sensor/how-pirs-work)
 
 ## DHT11 Temperature and Humidity Sensor
 
+![DHT11](partsList_images/DHT11.jpg){: .small-image-left }
+
+The DHT11 Temperaure and Humidity sensor is an excellent hobbyist sensor, albeit with low refresh rates. It is also cheap to accuire and has relatively good accuracy for basic data logging. The data from the sensor can also be easily red from any microcontroller.
+
 ## 9g Micro Servo
 
+![servo](partsList_images/servo.jpg){: .small-image-left }
+
+This Micro Servo has a lot of cool uses! Being a servo, it has precise control from 0 to 180º and is a very good component for prototyping.
+
 ## RGB LED (Common Cathode)
+
+![RGB LED](partsList_images/RGB.jpg)
+
+Add more colour to your life!
 
 ## Last but not least
 
