@@ -63,7 +63,7 @@ The USB C to Micro USB Cable is a unique cable that helps you connect your USB C
 
 ## NEU (New Enhanced UART) CP2102
 
-![MicroUSB CP2102](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/PartsList/CP2102%20MicroB.jpg){: .small-image-left }
+![MicroUSB CP2102](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/PartsList/CP2102_NEU.jpeg){: .small-image-left }
 
 The CP2102 MicroUSB Serial Converter is a very important device to have as it is the communication tool between the computer and the microcontroller (SSTuino). We designed SSTuino to have a external Serial Converter as not only is it modular, where you could change the chip in the event it is spoilt, you could also use the CP2102 to communicate with other serial devices such as the ATTiny85 or the Raspberry Pi.
 
@@ -232,6 +232,14 @@ The TMP36 temperature sensor is a rather accurate sensor despite is low price. F
 ![TransistorPinout](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/PartsList/TO92%20Pinout%20Transistor.jpeg)
 
 This shape and pinouts is called the TO-92 Package and is a very cheap and easy to manufacture method for transistors.
+
+## PIR - Proximity Infra-Red Sensor
+
+## DHT11 Temperature and Humidity Sensor
+
+## 9g Micro Servo
+
+## RGB LED (Common Cathode)
 
 ## Last but not least
 
