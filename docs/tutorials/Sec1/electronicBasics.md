@@ -32,10 +32,10 @@ This tutorial will cover the details of the components that are included in the 
 * [Potentiometer](#potentiometer)
 * [Ultrasonic Sensor](#ultrasonic-sensor)
 * [TMP36 Temperature Sensor](#tmp36-temperature-sensor)
-* [PIR Proximity Sensor]()
-* [DHT11 Temperature and Humidity Sensor]()
-* [Servo]()
-* [RGB LEDs]()
+* [PIR Proximity Sensor](#pir-proximity-infra-red-sensor)
+* [DHT11 Temperature and Humidity Sensor](#dht11-temperature-and-humidity-sensor)
+* [Servo](#9g-micro-servo)
+* [RGB LEDs](#rgb-led-common-cathode)
 * [Last but not least](#last-but-not-least)
 
 ## SSTuino Board
