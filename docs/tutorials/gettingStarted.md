@@ -19,32 +19,13 @@ This tutorial is a simple guide on how to get started with the SSTuino.
 
 Here are a list of things you require to go through this tutorial.
 
-1. Firstly, and most importantly, yourself.
-2. Your learning device or computer.
-3. An active internet connection.
-4. The SSTuino Innovator's Kit.
-
-## Installation of the Arduino IDE
-
-![Arduino.cc Download Page](gettingStarted_images/Arduino_Download.png)
-
-- Go to the the downloads page here: [https://www.arduino.cc/en/Main/Software](https://www.arduino.cc/en/Main/Software)
-- Download the version of the application you require.
-    - For MacOS users download the Mac OS X version 10.8 Mountain Lion and newer. For MacOS Catalina users, please download the newest version available, as versions before 1.8.10 will not work with MacOS Catalina.
-
-### Installation for MacOS
-
-After download of the zip file from the Arduino website, simply copy the .app file into your **Applications** folder. 
-
->Note: Make sure you copy the app to your **Applications** folder for elevated admistrative rights. Those learning devices with parental controls will have a password prompt for administrative access.
-
-![MacOS prompt](gettingStarted_images/MacOS_Prompt_Arduino.png)
-
-In any event the system asks you whether to open the app, just click open
+1. Your learning device
+2. An active internet connection
+3. The SSTuino Innovator's Kit
 
 ## Installation of the CP2102 Driver
 
-We are using the CP2102 USB to serial converter for our SSTuino.
+We are using the NEU (New Enhanced UART) for our SSTuino. It is our custom made CP2102 USB to serial converter for the computer to "talk" to the SSTuino. To use the NEU with the MacOS, a firmware is reqruied to be installed.
 
 ### Installation for MacOS
 
@@ -61,6 +42,34 @@ Navigate to this area and download the driver. After the driver has been downloa
 Follow the instructions from the installation app. Note that you will be prompted to enter your password.
 
 ![Silabs_Install](gettingStarted_images/Silabs_Install.png)
+
+## Installation of the Arduino IDE
+
+![Arduino.cc Download Page](gettingStarted_images/Arduino_Download.png)
+
+- Go to the the downloads page here: [https://www.arduino.cc/en/Main/Software](https://www.arduino.cc/en/Main/Software)
+- Download the version of the application you require.
+    - For MacOS users download the Mac OS X version 10.8 Mountain Lion and newer. For MacOS Catalina users, please download the newest version available, as versions before 1.8.10 will not work with MacOS Catalina.
+
+After download of the zip file from the Arduino website, simply copy the .app file into your **Applications** folder. 
+
+>Note: Make sure you copy the app to your **Applications** folder for elevated admistrative rights. Those learning devices with parental controls will have a password prompt for administrative access.
+
+![MacOS prompt](gettingStarted_images/MacOS_Prompt_Arduino.png)
+
+In any event the system asks you whether to open the app, just click open.
+
+### Installation of the SSTuino Companion Library
+
+We have some additional examples that are specially catered for the SSTuino. 
+
+First, we need to install a library to your Arduino IDE. Simply copy and paste this command into your Terminal:
+
+```sh
+curl -fsSL https://sstuino.fourier.industries/library_install.sh | bash
+```
+
+...and hit enter! The installation should complete without any errors. You can always update your library by running the same command if there is a new release of the library available.
 
 ## Ready to roll?
 
