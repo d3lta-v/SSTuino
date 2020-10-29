@@ -8,14 +8,14 @@ author: Goh Qian Zhe
 
 This parts list applies to the kits for the 2020 batch.
 
-![Parts List](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/PartsList/Slide1.PNG)
+![Parts List](https://raw.githubusercontent.com/d3lta-v/SSTuino/master/Image%20Assets/Tutorial%20Image%20Assets/PartsList/PartsList.PNG)
 
 | No.    | Component Name                       | Quantity  |
 |------- |:------------------------------------:| ---------:|
 | 1      | SSTuino Board                        |         1 |
 | 2      | Breadboard                           |         1 |
 | 3      | USB C to MicroUSB Cable              |         1 |
-| 4      | CP2102 MicroUSB Serial Converter     |         1 |
+| 4      | NEU (New Enhanced UART)              |         1 |
 | 5      | ESP01S WiFi Chip                     |         1 |
 | 6      | Assortment of LEDs                   |     1 bag |
 | 7      | Buzzer                               |         1 |
