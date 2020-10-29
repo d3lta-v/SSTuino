@@ -237,7 +237,7 @@ This shape and pinouts is called the TO-92 Package and is a very cheap and easy 
 
 ![PIR](partsList_images/PIR.jpg){: .small-image-left }
 
-PIR sensors allow you to sense motion, almost always used to detect whether a human has moved in or out of the sensors range. They are small, inexpensive, low-power, easy to use and don't wear out. 
+PIR sensors are low-power, inexpensive and easy to deploy devices that detect if a person is in range of the sensor. A common use would be the light sensor installed in toilets that automatically turns on the lights when someone steps into the toilet.
 
 To find out more about how it works, check out this detailed explanation from Adafruit: [https://learn.adafruit.com/pir-passive-infrared-proximity-motion-sensor/how-pirs-work](https://learn.adafruit.com/pir-passive-infrared-proximity-motion-sensor/how-pirs-work)
 
@@ -245,7 +245,7 @@ To find out more about how it works, check out this detailed explanation from Ad
 
 ![DHT11](partsList_images/DHT11.jpg){: .small-image-left }
 
-The DHT11 Temperaure and Humidity sensor is an excellent hobbyist sensor, albeit with low refresh rates. It is also cheap to accuire and has relatively good accuracy for basic data logging. The data from the sensor can also be easily red from any microcontroller.
+The DHT11 Temperaure and Humidity sensor is an excellent hobbyist sensor, albeit with low refresh rates. It is also cheap to purchase and has relatively good accuracy for basic data logging. The data from the sensor can also be easily read from any microcontroller.
 
 ## 9g Micro Servo
 
@@ -257,7 +257,7 @@ This Micro Servo has a lot of cool uses! Being a servo, it has precise control f
 
 ![RGB LED](partsList_images/RGB.jpg)
 
-Add more colour to your life!
+The RGB LED is a more complex version of the conventional coloured LED. It combines 3 LEDs (Red, Green and Blue) into one package. By configuring the intensity of the various LEDs, you can create lots of different colours from this LED.
 
 ## Last but not least
 
@@ -268,7 +268,7 @@ One thing that is great when you explore the Arduino ecosystem is the immense am
 Therefore, before giving up on your design, maybe consider:
 
 * Refering to your component manual. They will include essential infomation about the properties of the component
-* Google the issue. Usually people would have posted this issue online in places like forums (StackOverflow, Arduino forum etc.)
+* Google the issue. Usually people would have posted this issue online in places like forums (StackOverflow, Arduino forum, Reddit etc.)
 * Ask around about that issue. You can also post your questions in the appropriate channels, and if the question is good, others can learn from the issues that you faced!
 
 If you would like to know more about:
