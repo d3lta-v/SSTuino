@@ -255,7 +255,7 @@ This Micro Servo has a lot of cool uses! Being a servo, it has precise control f
 
 ## RGB LED (Common Cathode)
 
-![RGB LED](partsList_images/RGB.jpg)
+![RGB LED](partsList_images/RGB.jpg){: .small-image-left }
 
 The RGB LED is a more complex version of the conventional coloured LED. It combines 3 LEDs (Red, Green and Blue) into one package. By configuring the intensity of the various LEDs, you can create lots of different colours from this LED.
 
